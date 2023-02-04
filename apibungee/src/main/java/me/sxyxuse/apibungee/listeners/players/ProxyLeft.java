@@ -8,6 +8,6 @@ import net.md_5.bungee.event.EventHandler;
 public class ProxyLeft implements Listener {
     @EventHandler
     public void onProxyLeft(PlayerDisconnectEvent event) {
-        RedisAccount.dellAccountFromRedis(event.getPlayer().getUniqueId().toString());
+        RedisAccount.expireAccountFromRedis(event.getPlayer().getUniqueId().toString());
     }
 }

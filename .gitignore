@@ -1,0 +1,4 @@
+# Project exclude paths
+/apibungee/.gradle/
+/apibungee/build/
+/apibungee/build/classes/java/main/

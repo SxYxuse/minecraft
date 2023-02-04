@@ -14,9 +14,14 @@ public class AccountProvider {
     }
 
     public void initAccount() {
+        String uuid = this.proxiedPlayer.getUniqueId().toString();
+
         this.account.setup();
         this.account.updateLastLogin();
-        if (!RedisAccount.isAccountInRedis(this.proxiedPlayer.getUniqueId().toString()))
+
+        if (!RedisAccount.isAccountInRedis(uuid))
             RedisAccount.addAccountToRedis(this.account);
+        else
+            RedisAccount.persistAccountFromRedis(uuid);
     }
 }

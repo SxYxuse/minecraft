@@ -1,14 +1,15 @@
 package me.sxyxuse.apibungee.redis;
 
 import me.sxyxuse.apibungee.ApiBungee;
-import redis.clients.jedis.Jedis;
-import redis.clients.jedis.JedisPool;
-import redis.clients.jedis.JedisPoolConfig;
+import redis.clients.jedis.HostAndPort;
+import redis.clients.jedis.Protocol;
+import redis.clients.jedis.UnifiedJedis;
+import redis.clients.jedis.providers.PooledConnectionProvider;
 
 import java.util.logging.Level;
 
 public class RedisManager {
-    private static Jedis jedis;
+    private static UnifiedJedis jedis;
     private final String host;
     private final int port;
 
@@ -17,16 +18,20 @@ public class RedisManager {
         this.port = port;
     }
 
-    public static Jedis getJedis() {
+    public static UnifiedJedis getJedis() {
         return jedis;
     }
 
     public void start() {
         if (!IsRunning()) {
-            JedisPoolConfig jedisPoolConfig = new JedisPoolConfig();
-            jedisPoolConfig.setMaxTotal(10);
+//            JedisPoolConfig jedisPoolConfig = new JedisPoolConfig();
+//            jedisPoolConfig.setMaxTotal(10);
+//
+//            jedis = new JedisPool(jedisPoolConfig, this.host, this.port).getResource();
+            HostAndPort config = new HostAndPort(Protocol.DEFAULT_HOST, 6379);
+            PooledConnectionProvider provider = new PooledConnectionProvider(config);
 
-            jedis = new JedisPool(jedisPoolConfig, this.host, this.port).getResource();
+            jedis = new UnifiedJedis(provider);
         }
 
         ApiBungee.getInstance().log(Level.WARNING, "La connexion à REDIS à été établie.");
@@ -34,13 +39,12 @@ public class RedisManager {
 
     public void stop() {
         if (IsRunning())
-            jedis.disconnect();
+//            jedis.disconnect();
 
-        ApiBungee.getInstance().log(Level.WARNING, "La connexion à REDIS à été interrompue.");
+            ApiBungee.getInstance().log(Level.WARNING, "La connexion à REDIS à été interrompue.");
     }
 
     public boolean IsRunning() {
         return jedis != null;
     }
-    
 }

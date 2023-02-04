@@ -2,6 +2,7 @@ package me.sxyxuse.commons.users;
 
 import me.sxyxuse.apibungee.ApiBungee;
 import net.md_5.bungee.api.connection.ProxiedPlayer;
+import org.json.JSONObject;
 
 import java.sql.SQLException;
 import java.time.LocalDateTime;
@@ -104,5 +105,15 @@ public class Account {
 
     public byte getPropsPermissions() {
         return permissions;
+    }
+
+    public JSONObject getJson() {
+        JSONObject jsonObject = new JSONObject();
+        jsonObject.put("uuid", this.getUuid().toString());
+        jsonObject.put("pseudo", this.getPropsPseudo());
+        jsonObject.put("money", this.getPropsMoney());
+        jsonObject.put("permissions", this.getPropsPermissions());
+
+        return jsonObject;
     }
 }
