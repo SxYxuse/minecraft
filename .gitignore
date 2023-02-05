@@ -2,3 +2,6 @@
 /apibungee/.gradle/
 /apibungee/build/
 /apibungee/build/classes/java/main/
+/manager/.gradle/
+/manager/build/
+/manager/build/classes/java/main/

@@ -1,5 +1,5 @@
 name: apibungee
-version: 1.0
+version: "1.0"
 api-version: 1.19
 main: me.sxyxuse.apibungee.ApiBungee
-author: [SxYxuse]
+author: SxYxuse
