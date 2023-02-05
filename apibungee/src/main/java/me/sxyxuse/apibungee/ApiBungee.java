@@ -26,7 +26,7 @@ public class ApiBungee extends Plugin {
         this.databaseManager = new DatabaseManager(this);
         this.redisManager = new RedisManager("127.0.0.1", 6379);
         this.redisManager.start();
-
+        
         this.registerListeners();
 
         this.log(Level.INFO, "Plugin démarré avec succès !");
