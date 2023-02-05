@@ -1,6 +1,8 @@
 package me.sxyxuse.manager.listeners.players;
 
 import me.sxyxuse.manager.Manager;
+import me.sxyxuse.manager.permissions.Permissions;
+import me.sxyxuse.manager.redis.RedisAccount;
 import net.md_5.bungee.api.chat.ClickEvent;
 import net.md_5.bungee.api.chat.TextComponent;
 import org.bukkit.Bukkit;
@@ -19,12 +21,15 @@ public class ChatEvent implements Listener {
     @EventHandler
     public void onChatEvent(AsyncPlayerChatEvent event) {
         final Player player = event.getPlayer();
-        TextComponent chatContent = new TextComponent();
+        final Permissions perms = Permissions.getByPower(RedisAccount.getPermissions(player.getUniqueId().toString()));
+        final String prefix = perms.getPrefix();
+        final String messageColor = perms.getMessageColor();
+        final TextComponent chatContent = new TextComponent();
 
         chatContent.setClickEvent(new ClickEvent(ClickEvent.Action.SUGGEST_COMMAND, "/test"));
-        chatContent.addExtra(player.getName() + " §7» §r" + event.getMessage());
+        chatContent.addExtra(prefix + " " + player.getName() + " §7» " + messageColor + event.getMessage());
 
-        event.setFormat("%1$s §7» %2$s");
+        event.setFormat(perms.getPrefix() + " %1$s §7» %2$s");
 
         if (checkPlayerCooldown(player)) {
             event.setCancelled(true);

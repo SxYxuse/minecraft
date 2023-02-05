@@ -7,6 +7,7 @@ import me.sxyxuse.manager.listeners.players.JoinEvent;
 import me.sxyxuse.manager.listeners.players.QuitEvent;
 import me.sxyxuse.manager.redis.RedisManager;
 import org.bukkit.Bukkit;
+import org.bukkit.World;
 import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
 
@@ -36,6 +37,12 @@ public class Manager extends JavaPlugin {
         this.command.createCommand("test", "", new Test(), "");
 
         this.registerListeners();
+
+        World world = Bukkit.getWorld("world");
+        world.setStorm(false);
+        world.setThundering(false);
+        world.setTime(1000L);
+
 
         this.log(Level.INFO, "Plugin démarré avec succès !");
     }

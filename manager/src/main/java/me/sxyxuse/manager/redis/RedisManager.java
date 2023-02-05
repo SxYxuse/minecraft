@@ -12,7 +12,7 @@ public class RedisManager {
     private static UnifiedJedis jedis;
     private final String host;
     private final int port;
-    
+
     public RedisManager(String host, int port) {
         this.host = host;
         this.port = port;
@@ -35,9 +35,7 @@ public class RedisManager {
 
     public void stop() {
         if (IsRunning())
-            jedis.close();
-
-        Manager.getInstance().log(Level.WARNING, "La connexion à REDIS à été interrompue.");
+            Manager.getInstance().log(Level.WARNING, "La connexion à REDIS à été interrompue.");
     }
 
     public boolean IsRunning() {

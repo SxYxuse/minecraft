@@ -62,4 +62,14 @@ public class RedisAccount {
         return null;
     }
 
+    public static int getPermissions(String uuid) {
+        try {
+            return ((Double) jedis.jsonGet(_KEY + uuid, new Path(".permissions"))).intValue();
+        } catch (JedisConnectionException e) {
+            e.printStackTrace();
+        }
+
+        return 0;
+    }
+
 }
