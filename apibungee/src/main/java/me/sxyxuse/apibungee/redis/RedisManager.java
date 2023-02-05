@@ -39,12 +39,20 @@ public class RedisManager {
 
     public void stop() {
         if (IsRunning())
-//            jedis.disconnect();
+            jedis.close();
 
-            ApiBungee.getInstance().log(Level.WARNING, "La connexion à REDIS à été interrompue.");
+        ApiBungee.getInstance().log(Level.WARNING, "La connexion à REDIS à été interrompue.");
     }
 
     public boolean IsRunning() {
         return jedis != null;
+    }
+
+    public String getHost() {
+        return host;
+    }
+
+    public int getPort() {
+        return port;
     }
 }
