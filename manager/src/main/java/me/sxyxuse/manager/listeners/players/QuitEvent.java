@@ -9,7 +9,7 @@ import org.bukkit.event.player.PlayerQuitEvent;
 public class QuitEvent implements Listener {
     @EventHandler
     public void onQuitEvent(PlayerQuitEvent event) {
-        Player player = event.getPlayer();
+        final Player player = event.getPlayer();
 
         event.setQuitMessage(ChatColor.GRAY + "[" + ChatColor.RED + "-" + ChatColor.GRAY + "] " + ChatColor.GOLD + player.getName());
 

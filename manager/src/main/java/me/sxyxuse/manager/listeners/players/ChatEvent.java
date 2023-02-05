@@ -13,16 +13,16 @@ import org.bukkit.event.player.AsyncPlayerChatEvent;
 import java.util.ArrayList;
 
 public class ChatEvent implements Listener {
-    protected final String ERROR_SPAM = "Merci de patienter deux secondes avant de renvoyer un message !";
+    protected final String ERROR_SPAM = "Merci de patienter une seconde avant de renvoyer un message !";
     private final ArrayList<Player> cooldown = new ArrayList<>();
 
     @EventHandler
     public void onChatEvent(AsyncPlayerChatEvent event) {
-        Player player = event.getPlayer();
-        TextComponent textComponent = new TextComponent("");
+        final Player player = event.getPlayer();
+        TextComponent chatContent = new TextComponent();
 
-        textComponent.setClickEvent(new ClickEvent(ClickEvent.Action.SUGGEST_COMMAND, "/test"));
-        textComponent.addExtra(player.getName() + " §7» §r" + event.getMessage());
+        chatContent.setClickEvent(new ClickEvent(ClickEvent.Action.SUGGEST_COMMAND, "/test"));
+        chatContent.addExtra(player.getName() + " §7» §r" + event.getMessage());
 
         event.setFormat("%1$s §7» %2$s");
 
@@ -33,12 +33,12 @@ public class ChatEvent implements Listener {
         }
 
         for (Player playerOnline : Bukkit.getOnlinePlayers())
-            playerOnline.spigot().sendMessage(textComponent);
+            playerOnline.spigot().sendMessage(chatContent);
 
         event.setCancelled(true);
 
         cooldown.add(player);
-        Bukkit.getScheduler().runTaskLater(Manager.getInstance(), () -> cooldown.remove(player), 2 * 20L);
+        Bukkit.getScheduler().runTaskLater(Manager.getInstance(), () -> cooldown.remove(player), 20L);
     }
 
     private boolean checkPlayerCooldown(Player player) {
