@@ -1,0 +1,30 @@
+plugins {
+    id 'java'
+    id "com.github.johnrengelman.shadow" version "6.1.0"
+    id("com.google.osdetector") version "1.7.1"
+}
+
+group 'me.sxyxuse'
+version '1.0'
+
+repositories {
+    mavenCentral()
+    mavenLocal()
+}
+
+dependencies {
+    implementation 'redis.clients:jedis:4.4.0-m1'
+    compileOnly 'org.spigotmc:spigot:1.19.2-R0.1-SNAPSHOT'
+}
+
+shadowJar {
+    archiveClassifier.set('')
+    archiveVersion.set('')
+
+    project.configurations.implementation.canBeResolved(true)
+    configurations = [project.configurations.implementation]
+}
+
+sourceCompatibility = targetCompatibility = '17'
+compileJava.options.encoding = 'UTF-8'
+setLibsDirName('../../lobby/plugins')
