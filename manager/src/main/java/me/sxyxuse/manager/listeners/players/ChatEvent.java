@@ -2,7 +2,6 @@ package me.sxyxuse.manager.listeners.players;
 
 import me.sxyxuse.manager.Manager;
 import me.sxyxuse.manager.permissions.Permissions;
-import me.sxyxuse.manager.redis.RedisAccount;
 import net.md_5.bungee.api.chat.ClickEvent;
 import net.md_5.bungee.api.chat.TextComponent;
 import org.bukkit.Bukkit;
@@ -21,7 +20,7 @@ public class ChatEvent implements Listener {
     @EventHandler
     public void onChatEvent(AsyncPlayerChatEvent event) {
         final Player player = event.getPlayer();
-        final Permissions perms = Permissions.getByPower(RedisAccount.getPermissions(player.getUniqueId().toString()));
+        final Permissions perms = Permissions.getByPower(Manager.accountsPerms.get(player.getUniqueId()));
         final String prefix = perms.getPrefix();
         final String messageColor = perms.getMessageColor();
         final TextComponent chatContent = new TextComponent();

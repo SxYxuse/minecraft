@@ -11,10 +11,13 @@ import org.bukkit.World;
 import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
 
+import java.util.HashMap;
+import java.util.UUID;
 import java.util.logging.Level;
 
 public class Manager extends JavaPlugin {
     public static Manager MANAGER;
+    public static HashMap<UUID, Integer> accountsPerms = new HashMap<>();
     public RedisManager redisManager;
     public Command command;
 
@@ -42,7 +45,6 @@ public class Manager extends JavaPlugin {
         world.setStorm(false);
         world.setThundering(false);
         world.setTime(1000L);
-
 
         this.log(Level.INFO, "Plugin démarré avec succès !");
     }
