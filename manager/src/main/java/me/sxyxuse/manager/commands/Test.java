@@ -13,7 +13,7 @@ public class Test implements CommandExecutor {
             player.sendMessage("Bonjour : " + RedisAccount.getPseudo(player.getUniqueId().toString()));
             return true;
         }
-        
+
         return false;
     }
 }
