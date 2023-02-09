@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <bytecodeTargetLevel>
+      <module name="_sxAuth" target="18" />
+      <module name="_sxAuth2.main" target="18" />
+      <module name="_sxAuth2.test" target="18" />
+      <module name="sxApi" target="17" />
+      <module name="sxApi.main" target="17" />
+      <module name="sxApi.test" target="17" />
+      <module name="sxApiBungee" target="17" />
+      <module name="sxApiBungee.main" target="17" />
+      <module name="sxApiBungee.test" target="17" />
+      <module name="sxApiBungee_main" target="17" />
+      <module name="sxApiBungee_test" target="17" />
+      <module name="sxAuth" target="17" />
+      <module name="sxAuth.main" target="17" />
+      <module name="sxAuth.test" target="17" />
+      <module name="sxBungee" target="17" />
+      <module name="sxBungee.main" target="17" />
+      <module name="sxBungee.test" target="17" />
+      <module name="sxBungeeProxy" target="17" />
+      <module name="sxBungeeProxy_main" target="17" />
+      <module name="sxBungeeProxy_test" target="17" />
+      <module name="sxLobby" target="17" />
+      <module name="sxLobby.main" target="17" />
+      <module name="sxLobby.test" target="17" />
+      <module name="sxLobby_main" target="17" />
+      <module name="sxLobby_test" target="17" />
+      <module name="sxStaff" target="17" />
+      <module name="sxStaff.main" target="17" />
+      <module name="sxStaff.test" target="17" />
+      <module name="sxWarp" target="17" />
+      <module name="sxWarp.main" target="17" />
+      <module name="sxWarp.test" target="17" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

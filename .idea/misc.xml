@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="EntryPointsManager">
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="org.bukkit.event.EventHandler" />
+      <item index="1" class="java.lang.String" itemvalue="net.md_5.bungee.event.EventHandler" />
+    </list>
+  </component>
+  <component name="ExternalStorageConfigurationManager" enabled="true" />
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/apibungee" />
+    <file type="web" url="file://$PROJECT_DIR$/manager" />
+    <file type="web" url="file://$PROJECT_DIR$/sxApi" />
+    <file type="web" url="file://$PROJECT_DIR$/sxApiBungee" />
+    <file type="web" url="file://$PROJECT_DIR$/sxBungee" />
+    <file type="web" url="file://$PROJECT_DIR$/sxBungeeProxy" />
+    <file type="web" url="file://$PROJECT_DIR$/sxLobby" />
+    <file type="web" url="file://$PROJECT_DIR$/sxStaff" />
+    <file type="web" url="file://$PROJECT_DIR$/sxWarp" />
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="17" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

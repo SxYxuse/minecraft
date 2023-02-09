@@ -1,10 +1,15 @@
 package me.sxyxuse.commons.users;
 
+import com.google.gson.JsonObject;
 import me.sxyxuse.apibungee.ApiBungee;
+import me.sxyxuse.apibungee.api.Request;
 import net.md_5.bungee.api.connection.ProxiedPlayer;
 import org.json.JSONObject;
 
+import java.io.IOException;
 import java.sql.SQLException;
+import java.time.LocalDateTime;
+import java.time.format.DateTimeFormatter;
 import java.util.UUID;
 
 public class Account {
@@ -27,19 +32,21 @@ public class Account {
     }
 
     public void setup() {
-//        JsonObject x = null;
-//        try {
-//            x = new Request("/player").getWithHeader("uuid", this.proxiedPlayer.getUniqueId().toString());
-//            System.out.println(x);
-//        } catch (IOException e) {
-//            throw new RuntimeException(e);
-//        }
-//        if (x == null)
-//            try {
-//                JsonObject obj = new Request("/aplayer").post(this.getInitJson());
-//            } catch (IOException e) {
-//                throw new RuntimeException(e);
-//            }
+        JsonObject json;
+        try {
+            json = new Request("/player").getWithHeader("uuid", this.proxiedPlayer.getUniqueId().toString());
+            System.out.println(json);
+        } catch (IOException e) {
+            throw new RuntimeException(e);
+        }
+        if (json == null)
+            try {
+                JsonObject obj = new Request("/aplayer").addPlayer(this.getInitJson());
+                System.out.println(obj);
+            } catch (IOException e) {
+                throw new RuntimeException(e);
+            }
+
 //        ApiBungee.getInstance().databaseManager.query("SELECT * FROM players WHERE uuid ='" + uuid + "'", rs -> {
 //            try {
 //                if (!rs.next()) {
@@ -55,7 +62,7 @@ public class Account {
         ApiBungee.getInstance().databaseManager.query("SELECT * FROM players WHERE uuid ='" + uuid + "'", rs -> {
             try {
                 if (rs.next()) {
-                    ApiBungee.getInstance().databaseManager.update("UPDATE players SET last_login ='" + System.currentTimeMillis() + "' WHERE uuid ='" + uuid + "'");
+                    ApiBungee.getInstance().databaseManager.update("UPDATE players SET last_login ='" + LocalDateTime.now().format(DateTimeFormatter.ofPattern("dd/MM/yyyy hh:mm:ss")) + "' WHERE uuid ='" + uuid + "'");
                 }
             } catch (SQLException e) {
                 throw new RuntimeException(e);
@@ -177,8 +184,8 @@ public class Account {
         jsonObject.put("permissions", 0);
         jsonObject.put("grade", 0);
         jsonObject.put("grade_time_left", 0);
-        jsonObject.put("first_login", System.currentTimeMillis());
-        jsonObject.put("last_login", System.currentTimeMillis());
+        jsonObject.put("first_login", LocalDateTime.now().format(DateTimeFormatter.ofPattern("dd/MM/yyyy hh:mm:ss")));
+        jsonObject.put("last_login", LocalDateTime.now().format(DateTimeFormatter.ofPattern("dd/MM/yyyy hh:mm:ss")));
 
         return jsonObject;
     }
