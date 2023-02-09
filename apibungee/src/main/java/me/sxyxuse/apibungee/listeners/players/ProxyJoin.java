@@ -11,11 +11,17 @@ import java.io.IOException;
 
 public class ProxyJoin implements Listener {
     @EventHandler
-    public void onProxyJoin(PostLoginEvent event) throws IOException, InterruptedException {
+    public void onProxyJoin(PostLoginEvent event) throws IOException {
         final AccountProvider accountProvider = new AccountProvider(event.getPlayer());
         accountProvider.initAccount();
-
         JsonObject json = new Request("/player").getWithHeader("uuid", event.getPlayer().getUniqueId().toString());
         System.out.println(json);
+//        Account account = new Account(event.getPlayer());
+//        JSONObject obj = account.getJson();
+//        obj.put("first_login", System.currentTimeMillis());
+//        obj.put("last_login", System.currentTimeMillis());
+//
+//        JsonObject json = new Request("/aplayer").post(obj);
+//        System.out.println(json);
     }
 }

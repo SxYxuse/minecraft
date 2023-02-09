@@ -2,10 +2,13 @@ package me.sxyxuse.apibungee.api;
 
 import com.google.gson.Gson;
 import com.google.gson.JsonObject;
+import org.json.JSONObject;
 
 import java.io.IOException;
+import java.io.OutputStream;
 import java.net.HttpURLConnection;
 import java.net.URL;
+import java.nio.charset.StandardCharsets;
 import java.util.Scanner;
 
 public class Request {
@@ -19,50 +22,52 @@ public class Request {
         this.httpURLConnection.setConnectTimeout(100);
     }
 
-//    public JSONObject getWithHeader(String header, String value) {
-//        try {
-//            this.httpURLConnection.setRequestMethod("GET");
-//            this.httpURLConnection.setRequestProperty(header, value);
-//            this.httpURLConnection.setRequestProperty("Content-Type", "application/json");
-//            int status = this.httpURLConnection.getResponseCode();
-//            BufferedReader input = new BufferedReader(new InputStreamReader(this.httpURLConnection.getInputStream()));
-//            String inputLine;
-//            StringBuilder content = new StringBuilder();
-//            while ((inputLine = input.readLine()) != null)
-//                content.append(inputLine);
-//            input.close();
-//            this.httpURLConnection.disconnect();
-//            return new JSONObject(content.toString());
-//        } catch (IOException e) {
-//            e.printStackTrace();
-//        }
-//
-//        return null;
-//    }
-
     public JsonObject getWithHeader(String header, String value) {
+        JsonObject json = null;
         try {
-            JsonObject json = null;
             this.httpURLConnection.setRequestMethod("GET");
             this.httpURLConnection.setRequestProperty(header, value);
             this.httpURLConnection.setRequestProperty("Content-Type", "application/json");
             int responseCode = this.httpURLConnection.getResponseCode();
 
             if (responseCode == 200) {
-                Scanner scanner = new Scanner(this.httpURLConnection.getInputStream());
-
-                while (scanner.hasNext())
-                    json = new Gson().fromJson(scanner.nextLine(), JsonObject.class);
-
-                scanner.close();
-                
+                try (Scanner scanner = new Scanner(this.httpURLConnection.getInputStream())) {
+                    while (scanner.hasNext())
+                        json = new Gson().fromJson(scanner.nextLine(), JsonObject.class);
+                }
                 return json;
             } else
                 throw new RuntimeException("HttpResponseCode: " + responseCode);
         } catch (IOException e) {
-            e.printStackTrace();
+            throw new RuntimeException("Error while processing GET request", e);
         }
+    }
 
-        return null;
+    public JsonObject post(JSONObject jsonObject) {
+        JsonObject json = null;
+        try {
+            this.httpURLConnection.setRequestMethod("POST");
+            this.httpURLConnection.setRequestProperty("Content-Type", "application/json");
+            this.httpURLConnection.setReadTimeout(100);
+            this.httpURLConnection.setDoInput(true);
+            this.httpURLConnection.setDoOutput(true);
+            String jsonInputString = jsonObject.toString();
+            try (OutputStream os = this.httpURLConnection.getOutputStream()) {
+                byte[] input = jsonInputString.getBytes(StandardCharsets.UTF_8);
+                os.write(input, 0, input.length);
+            }
+            int responseCode = this.httpURLConnection.getResponseCode();
+
+            if (responseCode == 200) {
+                try (Scanner scanner = new Scanner(this.httpURLConnection.getInputStream())) {
+                    while (scanner.hasNext())
+                        json = new Gson().fromJson(scanner.nextLine(), JsonObject.class);
+                }
+                return json;
+            } else
+                throw new RuntimeException("HttpResponseCode: " + responseCode);
+        } catch (IOException e) {
+            throw new RuntimeException("Error while processing POST request", e);
+        }
     }
 }

@@ -5,7 +5,6 @@ import net.md_5.bungee.api.connection.ProxiedPlayer;
 import org.json.JSONObject;
 
 import java.sql.SQLException;
-import java.time.LocalDateTime;
 import java.util.UUID;
 
 public class Account {
@@ -14,6 +13,8 @@ public class Account {
     private final String pseudo;
     private final long money;
     private final byte permissions;
+    private final byte grade;
+    private final int grade_time_left;
 
     public Account(ProxiedPlayer proxiedPlayer) {
         this.proxiedPlayer = proxiedPlayer;
@@ -21,25 +22,40 @@ public class Account {
         this.pseudo = this.getPseudo();
         this.money = this.getMoney();
         this.permissions = this.getPermissions();
+        this.grade = this.getGrade();
+        this.grade_time_left = this.getGradeTimeLeft();
     }
 
     public void setup() {
-        ApiBungee.getInstance().databaseManager.query("SELECT * FROM players WHERE uuid ='" + uuid + "'", rs -> {
-            try {
-                if (!rs.next()) {
-                    ApiBungee.getInstance().databaseManager.update("INSERT INTO players (uuid, pseudo, money, permissions, grade, grade_time_left, first_login, last_login) VALUES ('" + uuid + "', '" + proxiedPlayer.getName() + "', '" + 0 + "', '" + 0 + "', '" + 0 + "', '" + 0 + "', '" + LocalDateTime.now() + "', '" + LocalDateTime.now() + "')");
-                }
-            } catch (SQLException e) {
-                throw new RuntimeException(e);
-            }
-        });
+//        JsonObject x = null;
+//        try {
+//            x = new Request("/player").getWithHeader("uuid", this.proxiedPlayer.getUniqueId().toString());
+//            System.out.println(x);
+//        } catch (IOException e) {
+//            throw new RuntimeException(e);
+//        }
+//        if (x == null)
+//            try {
+//                JsonObject obj = new Request("/aplayer").post(this.getInitJson());
+//            } catch (IOException e) {
+//                throw new RuntimeException(e);
+//            }
+//        ApiBungee.getInstance().databaseManager.query("SELECT * FROM players WHERE uuid ='" + uuid + "'", rs -> {
+//            try {
+//                if (!rs.next()) {
+//                    ApiBungee.getInstance().databaseManager.update("INSERT INTO players (uuid, pseudo, money, permissions, grade, grade_time_left, first_login, last_login) VALUES ('" + uuid + "', '" + proxiedPlayer.getName() + "', '" + 0 + "', '" + 0 + "', '" + 0 + "', '" + 0 + "', '" + System.currentTimeMillis() + "', '" + System.currentTimeMillis() + "')");
+//                }
+//            } catch (SQLException e) {
+//                throw new RuntimeException(e);
+//            }
+//        });
     }
 
     public void updateLastLogin() {
         ApiBungee.getInstance().databaseManager.query("SELECT * FROM players WHERE uuid ='" + uuid + "'", rs -> {
             try {
                 if (rs.next()) {
-                    ApiBungee.getInstance().databaseManager.update("UPDATE players SET last_login ='" + LocalDateTime.now() + "' WHERE uuid ='" + uuid + "'");
+                    ApiBungee.getInstance().databaseManager.update("UPDATE players SET last_login ='" + System.currentTimeMillis() + "' WHERE uuid ='" + uuid + "'");
                 }
             } catch (SQLException e) {
                 throw new RuntimeException(e);
@@ -87,6 +103,32 @@ public class Account {
         });
     }
 
+    private byte getGrade() {
+        return (byte) ApiBungee.getInstance().databaseManager.query("SELECT * FROM players WHERE uuid ='" + uuid + "'", rs -> {
+            try {
+                if (rs.next()) {
+                    return (byte) rs.getInt("grade");
+                }
+            } catch (SQLException e) {
+                throw new RuntimeException(e);
+            }
+            return (byte) 0;
+        });
+    }
+
+    private int getGradeTimeLeft() {
+        return (int) ApiBungee.getInstance().databaseManager.query("SELECT * FROM players WHERE uuid ='" + uuid + "'", rs -> {
+            try {
+                if (rs.next()) {
+                    return rs.getInt("grade_time_left");
+                }
+            } catch (SQLException e) {
+                throw new RuntimeException(e);
+            }
+            return 0;
+        });
+    }
+
     public ProxiedPlayer getProxiedPlayer() {
         return proxiedPlayer;
     }
@@ -107,12 +149,36 @@ public class Account {
         return permissions;
     }
 
+    public byte getPropsGrade() {
+        return grade;
+    }
+
+    public int getPropsGradeTimeLeft() {
+        return grade_time_left;
+    }
+
     public JSONObject getJson() {
         JSONObject jsonObject = new JSONObject();
         jsonObject.put("uuid", this.getUuid().toString());
         jsonObject.put("pseudo", this.getPropsPseudo());
         jsonObject.put("money", this.getPropsMoney());
         jsonObject.put("permissions", this.getPropsPermissions());
+        jsonObject.put("grade", this.getPropsGrade());
+        jsonObject.put("grade_time_left", this.getPropsGradeTimeLeft());
+
+        return jsonObject;
+    }
+
+    public JSONObject getInitJson() {
+        JSONObject jsonObject = new JSONObject();
+        jsonObject.put("uuid", this.getUuid().toString());
+        jsonObject.put("pseudo", this.proxiedPlayer.getName());
+        jsonObject.put("money", 0);
+        jsonObject.put("permissions", 0);
+        jsonObject.put("grade", 0);
+        jsonObject.put("grade_time_left", 0);
+        jsonObject.put("first_login", System.currentTimeMillis());
+        jsonObject.put("last_login", System.currentTimeMillis());
 
         return jsonObject;
     }
