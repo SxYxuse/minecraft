@@ -1097,3 +1097,602 @@ Caused by: redis.clients.jedis.exceptions.JedisDataException: ERR Path '$.pseudo
 [21:29:55] [Server thread/INFO]: __sx[/127.0.0.1:59568] logged in with entity id 14258 at ([world]-13.971967273921546, 128.0, -177.06245518978128)
 [21:30:01] [Server thread/INFO]: __sx lost connection: Disconnected
 [21:30:01] [Server thread/INFO]: [-] __sx
+[21:46:35] [User Authenticator #61/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
+[21:46:35] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to manager v1.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:589) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:576) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.players.PlayerList.a(PlayerList.java:283) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.network.LoginListener.a(LoginListener.java:202) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.network.LoginListener.d(LoginListener.java:188) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.network.LoginListener.c(LoginListener.java:80) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.network.NetworkManager.a(NetworkManager.java:272) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.network.ServerConnection.c(ServerConnection.java:174) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1312) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.dedicated.DedicatedServer.b(DedicatedServer.java:394) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1197) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.MinecraftServer.v(MinecraftServer.java:1013) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:293) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+Caused by: redis.clients.jedis.exceptions.JedisDataException: ERR Path '$.pseudo' does not exist
+	at redis.clients.jedis.Protocol.processError(Protocol.java:96) ~[?:?]
+	at redis.clients.jedis.Protocol.process(Protocol.java:137) ~[?:?]
+	at redis.clients.jedis.Protocol.read(Protocol.java:192) ~[?:?]
+	at redis.clients.jedis.Connection.readProtocolWithCheckingBroken(Connection.java:316) ~[?:?]
+	at redis.clients.jedis.Connection.getOne(Connection.java:298) ~[?:?]
+	at redis.clients.jedis.Connection.executeCommand(Connection.java:123) ~[?:?]
+	at redis.clients.jedis.executors.DefaultCommandExecutor.executeCommand(DefaultCommandExecutor.java:24) ~[?:?]
+	at redis.clients.jedis.UnifiedJedis.executeCommand(UnifiedJedis.java:167) ~[?:?]
+	at redis.clients.jedis.UnifiedJedis.jsonGet(UnifiedJedis.java:3736) ~[?:?]
+	at me.sxyxuse.manager.redis.RedisAccount.getPseudo(RedisAccount.java:57) ~[?:?]
+	at me.sxyxuse.manager.listeners.players.JoinEvent.onJointEvent(JoinEvent.java:37) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	... 15 more
+[21:46:35] [Server thread/INFO]: [+] __sx
+[21:46:35] [Server thread/INFO]: __sx[/127.0.0.1:59668] logged in with entity id 14351 at ([world]-13.971967273921546, 128.0, -177.06245518978128)
+[21:47:49] [Server thread/INFO]: __sx lost connection: Disconnected
+[21:47:49] [Server thread/INFO]: [-] __sx
+[21:47:54] [User Authenticator #62/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
+[21:47:54] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to manager v1.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:589) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:576) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.players.PlayerList.a(PlayerList.java:283) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.network.LoginListener.a(LoginListener.java:202) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.network.LoginListener.d(LoginListener.java:188) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.network.LoginListener.c(LoginListener.java:80) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.network.NetworkManager.a(NetworkManager.java:272) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.network.ServerConnection.c(ServerConnection.java:174) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1312) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.dedicated.DedicatedServer.b(DedicatedServer.java:394) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1197) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.MinecraftServer.v(MinecraftServer.java:1013) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:293) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+Caused by: redis.clients.jedis.exceptions.JedisDataException: ERR Path '$.pseudo' does not exist
+	at redis.clients.jedis.Protocol.processError(Protocol.java:96) ~[?:?]
+	at redis.clients.jedis.Protocol.process(Protocol.java:137) ~[?:?]
+	at redis.clients.jedis.Protocol.read(Protocol.java:192) ~[?:?]
+	at redis.clients.jedis.Connection.readProtocolWithCheckingBroken(Connection.java:316) ~[?:?]
+	at redis.clients.jedis.Connection.getOne(Connection.java:298) ~[?:?]
+	at redis.clients.jedis.Connection.executeCommand(Connection.java:123) ~[?:?]
+	at redis.clients.jedis.executors.DefaultCommandExecutor.executeCommand(DefaultCommandExecutor.java:24) ~[?:?]
+	at redis.clients.jedis.UnifiedJedis.executeCommand(UnifiedJedis.java:167) ~[?:?]
+	at redis.clients.jedis.UnifiedJedis.jsonGet(UnifiedJedis.java:3736) ~[?:?]
+	at me.sxyxuse.manager.redis.RedisAccount.getPseudo(RedisAccount.java:57) ~[?:?]
+	at me.sxyxuse.manager.listeners.players.JoinEvent.onJointEvent(JoinEvent.java:37) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	... 15 more
+[21:47:54] [Server thread/INFO]: [+] __sx
+[21:47:54] [Server thread/INFO]: __sx[/127.0.0.1:59685] logged in with entity id 14518 at ([world]-13.971967273921546, 128.0, -177.06245518978128)
+[21:47:59] [Server thread/INFO]: __sx lost connection: Disconnected
+[21:47:59] [Server thread/INFO]: [-] __sx
+[21:48:03] [User Authenticator #63/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
+[21:48:03] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to manager v1.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:589) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:576) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.players.PlayerList.a(PlayerList.java:283) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.network.LoginListener.a(LoginListener.java:202) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.network.LoginListener.d(LoginListener.java:188) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.network.LoginListener.c(LoginListener.java:80) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.network.NetworkManager.a(NetworkManager.java:272) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.network.ServerConnection.c(ServerConnection.java:174) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1312) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.dedicated.DedicatedServer.b(DedicatedServer.java:394) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1197) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.MinecraftServer.v(MinecraftServer.java:1013) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:293) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+Caused by: redis.clients.jedis.exceptions.JedisDataException: ERR Path '$.pseudo' does not exist
+	at redis.clients.jedis.Protocol.processError(Protocol.java:96) ~[?:?]
+	at redis.clients.jedis.Protocol.process(Protocol.java:137) ~[?:?]
+	at redis.clients.jedis.Protocol.read(Protocol.java:192) ~[?:?]
+	at redis.clients.jedis.Connection.readProtocolWithCheckingBroken(Connection.java:316) ~[?:?]
+	at redis.clients.jedis.Connection.getOne(Connection.java:298) ~[?:?]
+	at redis.clients.jedis.Connection.executeCommand(Connection.java:123) ~[?:?]
+	at redis.clients.jedis.executors.DefaultCommandExecutor.executeCommand(DefaultCommandExecutor.java:24) ~[?:?]
+	at redis.clients.jedis.UnifiedJedis.executeCommand(UnifiedJedis.java:167) ~[?:?]
+	at redis.clients.jedis.UnifiedJedis.jsonGet(UnifiedJedis.java:3736) ~[?:?]
+	at me.sxyxuse.manager.redis.RedisAccount.getPseudo(RedisAccount.java:57) ~[?:?]
+	at me.sxyxuse.manager.listeners.players.JoinEvent.onJointEvent(JoinEvent.java:37) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	... 15 more
+[21:48:03] [Server thread/INFO]: [+] __sx
+[21:48:03] [Server thread/INFO]: __sx[/127.0.0.1:59699] logged in with entity id 14600 at ([world]-13.971967273921546, 128.0, -177.06245518978128)
+[21:48:08] [Server thread/INFO]: __sx lost connection: Disconnected
+[21:48:08] [Server thread/INFO]: [-] __sx
+[21:57:55] [User Authenticator #64/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
+[21:57:55] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to manager v1.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:589) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:576) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.players.PlayerList.a(PlayerList.java:283) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.network.LoginListener.a(LoginListener.java:202) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.network.LoginListener.d(LoginListener.java:188) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.network.LoginListener.c(LoginListener.java:80) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.network.NetworkManager.a(NetworkManager.java:272) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.network.ServerConnection.c(ServerConnection.java:174) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1312) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.dedicated.DedicatedServer.b(DedicatedServer.java:394) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1197) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.MinecraftServer.v(MinecraftServer.java:1013) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:293) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+Caused by: redis.clients.jedis.exceptions.JedisDataException: ERR Path '$.pseudo' does not exist
+	at redis.clients.jedis.Protocol.processError(Protocol.java:96) ~[?:?]
+	at redis.clients.jedis.Protocol.process(Protocol.java:137) ~[?:?]
+	at redis.clients.jedis.Protocol.read(Protocol.java:192) ~[?:?]
+	at redis.clients.jedis.Connection.readProtocolWithCheckingBroken(Connection.java:316) ~[?:?]
+	at redis.clients.jedis.Connection.getOne(Connection.java:298) ~[?:?]
+	at redis.clients.jedis.Connection.executeCommand(Connection.java:123) ~[?:?]
+	at redis.clients.jedis.executors.DefaultCommandExecutor.executeCommand(DefaultCommandExecutor.java:24) ~[?:?]
+	at redis.clients.jedis.UnifiedJedis.executeCommand(UnifiedJedis.java:167) ~[?:?]
+	at redis.clients.jedis.UnifiedJedis.jsonGet(UnifiedJedis.java:3736) ~[?:?]
+	at me.sxyxuse.manager.redis.RedisAccount.getPseudo(RedisAccount.java:57) ~[?:?]
+	at me.sxyxuse.manager.listeners.players.JoinEvent.onJointEvent(JoinEvent.java:37) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	... 15 more
+[21:57:55] [Server thread/INFO]: [+] __sx
+[21:57:55] [Server thread/INFO]: __sx[/127.0.0.1:59776] logged in with entity id 14684 at ([world]-13.971967273921546, 128.0, -177.06245518978128)
+[21:58:30] [Server thread/INFO]: __sx lost connection: Disconnected
+[21:58:30] [Server thread/INFO]: [-] __sx
+[21:58:37] [User Authenticator #65/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
+[21:58:37] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to manager v1.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:589) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:576) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.players.PlayerList.a(PlayerList.java:283) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.network.LoginListener.a(LoginListener.java:202) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.network.LoginListener.d(LoginListener.java:188) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.network.LoginListener.c(LoginListener.java:80) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.network.NetworkManager.a(NetworkManager.java:272) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.network.ServerConnection.c(ServerConnection.java:174) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1312) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.dedicated.DedicatedServer.b(DedicatedServer.java:394) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1197) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.MinecraftServer.v(MinecraftServer.java:1013) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:293) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+Caused by: redis.clients.jedis.exceptions.JedisDataException: ERR Path '$.pseudo' does not exist
+	at redis.clients.jedis.Protocol.processError(Protocol.java:96) ~[?:?]
+	at redis.clients.jedis.Protocol.process(Protocol.java:137) ~[?:?]
+	at redis.clients.jedis.Protocol.read(Protocol.java:192) ~[?:?]
+	at redis.clients.jedis.Connection.readProtocolWithCheckingBroken(Connection.java:316) ~[?:?]
+	at redis.clients.jedis.Connection.getOne(Connection.java:298) ~[?:?]
+	at redis.clients.jedis.Connection.executeCommand(Connection.java:123) ~[?:?]
+	at redis.clients.jedis.executors.DefaultCommandExecutor.executeCommand(DefaultCommandExecutor.java:24) ~[?:?]
+	at redis.clients.jedis.UnifiedJedis.executeCommand(UnifiedJedis.java:167) ~[?:?]
+	at redis.clients.jedis.UnifiedJedis.jsonGet(UnifiedJedis.java:3736) ~[?:?]
+	at me.sxyxuse.manager.redis.RedisAccount.getPseudo(RedisAccount.java:57) ~[?:?]
+	at me.sxyxuse.manager.listeners.players.JoinEvent.onJointEvent(JoinEvent.java:37) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	... 15 more
+[21:58:37] [Server thread/INFO]: [+] __sx
+[21:58:37] [Server thread/INFO]: __sx[/127.0.0.1:59797] logged in with entity id 14796 at ([world]-13.971967273921546, 128.0, -177.06245518978128)
+[22:01:23] [Server thread/INFO]: __sx lost connection: Disconnected
+[22:01:23] [Server thread/INFO]: [-] __sx
+[22:01:29] [User Authenticator #66/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
+[22:01:29] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to manager v1.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:589) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:576) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.players.PlayerList.a(PlayerList.java:283) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.network.LoginListener.a(LoginListener.java:202) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.network.LoginListener.d(LoginListener.java:188) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.network.LoginListener.c(LoginListener.java:80) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.network.NetworkManager.a(NetworkManager.java:272) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.network.ServerConnection.c(ServerConnection.java:174) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1312) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.dedicated.DedicatedServer.b(DedicatedServer.java:394) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1197) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.MinecraftServer.v(MinecraftServer.java:1013) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:293) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+Caused by: redis.clients.jedis.exceptions.JedisDataException: ERR Path '$.pseudo' does not exist
+	at redis.clients.jedis.Protocol.processError(Protocol.java:96) ~[?:?]
+	at redis.clients.jedis.Protocol.process(Protocol.java:137) ~[?:?]
+	at redis.clients.jedis.Protocol.read(Protocol.java:192) ~[?:?]
+	at redis.clients.jedis.Connection.readProtocolWithCheckingBroken(Connection.java:316) ~[?:?]
+	at redis.clients.jedis.Connection.getOne(Connection.java:298) ~[?:?]
+	at redis.clients.jedis.Connection.executeCommand(Connection.java:123) ~[?:?]
+	at redis.clients.jedis.executors.DefaultCommandExecutor.executeCommand(DefaultCommandExecutor.java:24) ~[?:?]
+	at redis.clients.jedis.UnifiedJedis.executeCommand(UnifiedJedis.java:167) ~[?:?]
+	at redis.clients.jedis.UnifiedJedis.jsonGet(UnifiedJedis.java:3736) ~[?:?]
+	at me.sxyxuse.manager.redis.RedisAccount.getPseudo(RedisAccount.java:57) ~[?:?]
+	at me.sxyxuse.manager.listeners.players.JoinEvent.onJointEvent(JoinEvent.java:37) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	... 15 more
+[22:01:29] [Server thread/INFO]: [+] __sx
+[22:01:29] [Server thread/INFO]: __sx[/127.0.0.1:59852] logged in with entity id 15096 at ([world]-13.971967273921546, 128.0, -177.06245518978128)
+[22:05:11] [Server thread/INFO]: __sx lost connection: Disconnected
+[22:05:11] [Server thread/INFO]: [-] __sx
+[22:05:49] [User Authenticator #67/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
+[22:05:49] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to manager v1.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:589) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:576) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.players.PlayerList.a(PlayerList.java:283) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.network.LoginListener.a(LoginListener.java:202) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.network.LoginListener.d(LoginListener.java:188) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.network.LoginListener.c(LoginListener.java:80) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.network.NetworkManager.a(NetworkManager.java:272) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.network.ServerConnection.c(ServerConnection.java:174) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1312) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.dedicated.DedicatedServer.b(DedicatedServer.java:394) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1197) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.MinecraftServer.v(MinecraftServer.java:1013) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:293) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+Caused by: redis.clients.jedis.exceptions.JedisDataException: ERR Path '$.pseudo' does not exist
+	at redis.clients.jedis.Protocol.processError(Protocol.java:96) ~[?:?]
+	at redis.clients.jedis.Protocol.process(Protocol.java:137) ~[?:?]
+	at redis.clients.jedis.Protocol.read(Protocol.java:192) ~[?:?]
+	at redis.clients.jedis.Connection.readProtocolWithCheckingBroken(Connection.java:316) ~[?:?]
+	at redis.clients.jedis.Connection.getOne(Connection.java:298) ~[?:?]
+	at redis.clients.jedis.Connection.executeCommand(Connection.java:123) ~[?:?]
+	at redis.clients.jedis.executors.DefaultCommandExecutor.executeCommand(DefaultCommandExecutor.java:24) ~[?:?]
+	at redis.clients.jedis.UnifiedJedis.executeCommand(UnifiedJedis.java:167) ~[?:?]
+	at redis.clients.jedis.UnifiedJedis.jsonGet(UnifiedJedis.java:3736) ~[?:?]
+	at me.sxyxuse.manager.redis.RedisAccount.getPseudo(RedisAccount.java:57) ~[?:?]
+	at me.sxyxuse.manager.listeners.players.JoinEvent.onJointEvent(JoinEvent.java:37) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	... 15 more
+[22:05:49] [Server thread/INFO]: [+] __sx
+[22:05:49] [Server thread/INFO]: __sx[/127.0.0.1:59957] logged in with entity id 15458 at ([world]-13.971967273921546, 128.0, -177.06245518978128)
+[22:05:53] [Server thread/INFO]: __sx lost connection: Disconnected
+[22:05:53] [Server thread/INFO]: [-] __sx
+[22:06:19] [User Authenticator #68/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
+[22:06:19] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to manager v1.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:589) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:576) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.players.PlayerList.a(PlayerList.java:283) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.network.LoginListener.a(LoginListener.java:202) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.network.LoginListener.d(LoginListener.java:188) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.network.LoginListener.c(LoginListener.java:80) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.network.NetworkManager.a(NetworkManager.java:272) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.network.ServerConnection.c(ServerConnection.java:174) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1312) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.dedicated.DedicatedServer.b(DedicatedServer.java:394) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1197) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.MinecraftServer.v(MinecraftServer.java:1013) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:293) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+Caused by: redis.clients.jedis.exceptions.JedisDataException: ERR Path '$.pseudo' does not exist
+	at redis.clients.jedis.Protocol.processError(Protocol.java:96) ~[?:?]
+	at redis.clients.jedis.Protocol.process(Protocol.java:137) ~[?:?]
+	at redis.clients.jedis.Protocol.read(Protocol.java:192) ~[?:?]
+	at redis.clients.jedis.Connection.readProtocolWithCheckingBroken(Connection.java:316) ~[?:?]
+	at redis.clients.jedis.Connection.getOne(Connection.java:298) ~[?:?]
+	at redis.clients.jedis.Connection.executeCommand(Connection.java:123) ~[?:?]
+	at redis.clients.jedis.executors.DefaultCommandExecutor.executeCommand(DefaultCommandExecutor.java:24) ~[?:?]
+	at redis.clients.jedis.UnifiedJedis.executeCommand(UnifiedJedis.java:167) ~[?:?]
+	at redis.clients.jedis.UnifiedJedis.jsonGet(UnifiedJedis.java:3736) ~[?:?]
+	at me.sxyxuse.manager.redis.RedisAccount.getPseudo(RedisAccount.java:57) ~[?:?]
+	at me.sxyxuse.manager.listeners.players.JoinEvent.onJointEvent(JoinEvent.java:37) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	... 15 more
+[22:06:19] [Server thread/INFO]: [+] __sx
+[22:06:19] [Server thread/INFO]: __sx[/127.0.0.1:59989] logged in with entity id 15558 at ([world]-13.971967273921546, 128.0, -177.06245518978128)
+[22:06:52] [Server thread/INFO]: __sx lost connection: Disconnected
+[22:06:52] [Server thread/INFO]: [-] __sx
+[22:06:56] [User Authenticator #69/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
+[22:06:56] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to manager v1.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:589) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:576) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.players.PlayerList.a(PlayerList.java:283) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.network.LoginListener.a(LoginListener.java:202) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.network.LoginListener.d(LoginListener.java:188) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.network.LoginListener.c(LoginListener.java:80) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.network.NetworkManager.a(NetworkManager.java:272) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.network.ServerConnection.c(ServerConnection.java:174) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1312) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.dedicated.DedicatedServer.b(DedicatedServer.java:394) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1197) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.MinecraftServer.v(MinecraftServer.java:1013) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:293) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+Caused by: redis.clients.jedis.exceptions.JedisDataException: ERR Path '$.pseudo' does not exist
+	at redis.clients.jedis.Protocol.processError(Protocol.java:96) ~[?:?]
+	at redis.clients.jedis.Protocol.process(Protocol.java:137) ~[?:?]
+	at redis.clients.jedis.Protocol.read(Protocol.java:192) ~[?:?]
+	at redis.clients.jedis.Connection.readProtocolWithCheckingBroken(Connection.java:316) ~[?:?]
+	at redis.clients.jedis.Connection.getOne(Connection.java:298) ~[?:?]
+	at redis.clients.jedis.Connection.executeCommand(Connection.java:123) ~[?:?]
+	at redis.clients.jedis.executors.DefaultCommandExecutor.executeCommand(DefaultCommandExecutor.java:24) ~[?:?]
+	at redis.clients.jedis.UnifiedJedis.executeCommand(UnifiedJedis.java:167) ~[?:?]
+	at redis.clients.jedis.UnifiedJedis.jsonGet(UnifiedJedis.java:3736) ~[?:?]
+	at me.sxyxuse.manager.redis.RedisAccount.getPseudo(RedisAccount.java:57) ~[?:?]
+	at me.sxyxuse.manager.listeners.players.JoinEvent.onJointEvent(JoinEvent.java:37) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	... 15 more
+[22:06:56] [Server thread/INFO]: [+] __sx
+[22:06:56] [Server thread/INFO]: __sx[/127.0.0.1:60006] logged in with entity id 15670 at ([world]-13.971967273921546, 128.0, -177.06245518978128)
+[22:07:40] [Server thread/INFO]: __sx lost connection: Disconnected
+[22:07:40] [Server thread/INFO]: [-] __sx
+[22:07:48] [User Authenticator #70/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
+[22:07:48] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to manager v1.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:589) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:576) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.players.PlayerList.a(PlayerList.java:283) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.network.LoginListener.a(LoginListener.java:202) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.network.LoginListener.d(LoginListener.java:188) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.network.LoginListener.c(LoginListener.java:80) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.network.NetworkManager.a(NetworkManager.java:272) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.network.ServerConnection.c(ServerConnection.java:174) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1312) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.dedicated.DedicatedServer.b(DedicatedServer.java:394) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1197) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.MinecraftServer.v(MinecraftServer.java:1013) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:293) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+Caused by: redis.clients.jedis.exceptions.JedisDataException: ERR Path '$.pseudo' does not exist
+	at redis.clients.jedis.Protocol.processError(Protocol.java:96) ~[?:?]
+	at redis.clients.jedis.Protocol.process(Protocol.java:137) ~[?:?]
+	at redis.clients.jedis.Protocol.read(Protocol.java:192) ~[?:?]
+	at redis.clients.jedis.Connection.readProtocolWithCheckingBroken(Connection.java:316) ~[?:?]
+	at redis.clients.jedis.Connection.getOne(Connection.java:298) ~[?:?]
+	at redis.clients.jedis.Connection.executeCommand(Connection.java:123) ~[?:?]
+	at redis.clients.jedis.executors.DefaultCommandExecutor.executeCommand(DefaultCommandExecutor.java:24) ~[?:?]
+	at redis.clients.jedis.UnifiedJedis.executeCommand(UnifiedJedis.java:167) ~[?:?]
+	at redis.clients.jedis.UnifiedJedis.jsonGet(UnifiedJedis.java:3736) ~[?:?]
+	at me.sxyxuse.manager.redis.RedisAccount.getPseudo(RedisAccount.java:57) ~[?:?]
+	at me.sxyxuse.manager.listeners.players.JoinEvent.onJointEvent(JoinEvent.java:37) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	... 15 more
+[22:07:48] [Server thread/INFO]: [+] __sx
+[22:07:48] [Server thread/INFO]: __sx[/127.0.0.1:60026] logged in with entity id 15804 at ([world]-13.971967273921546, 128.0, -177.06245518978128)
+[22:08:25] [Server thread/INFO]: __sx lost connection: Disconnected
+[22:08:25] [Server thread/INFO]: [-] __sx
+[22:08:51] [User Authenticator #71/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
+[22:08:51] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to manager v1.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:589) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:576) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.players.PlayerList.a(PlayerList.java:283) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.network.LoginListener.a(LoginListener.java:202) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.network.LoginListener.d(LoginListener.java:188) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.network.LoginListener.c(LoginListener.java:80) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.network.NetworkManager.a(NetworkManager.java:272) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.network.ServerConnection.c(ServerConnection.java:174) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1312) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.dedicated.DedicatedServer.b(DedicatedServer.java:394) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1197) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.MinecraftServer.v(MinecraftServer.java:1013) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:293) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+Caused by: redis.clients.jedis.exceptions.JedisDataException: ERR Path '$.pseudo' does not exist
+	at redis.clients.jedis.Protocol.processError(Protocol.java:96) ~[?:?]
+	at redis.clients.jedis.Protocol.process(Protocol.java:137) ~[?:?]
+	at redis.clients.jedis.Protocol.read(Protocol.java:192) ~[?:?]
+	at redis.clients.jedis.Connection.readProtocolWithCheckingBroken(Connection.java:316) ~[?:?]
+	at redis.clients.jedis.Connection.getOne(Connection.java:298) ~[?:?]
+	at redis.clients.jedis.Connection.executeCommand(Connection.java:123) ~[?:?]
+	at redis.clients.jedis.executors.DefaultCommandExecutor.executeCommand(DefaultCommandExecutor.java:24) ~[?:?]
+	at redis.clients.jedis.UnifiedJedis.executeCommand(UnifiedJedis.java:167) ~[?:?]
+	at redis.clients.jedis.UnifiedJedis.jsonGet(UnifiedJedis.java:3736) ~[?:?]
+	at me.sxyxuse.manager.redis.RedisAccount.getPseudo(RedisAccount.java:57) ~[?:?]
+	at me.sxyxuse.manager.listeners.players.JoinEvent.onJointEvent(JoinEvent.java:37) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	... 15 more
+[22:08:51] [Server thread/INFO]: [+] __sx
+[22:08:51] [Server thread/INFO]: __sx[/127.0.0.1:60074] logged in with entity id 15929 at ([world]-13.971967273921546, 128.0, -177.06245518978128)
+[22:09:20] [Server thread/INFO]: __sx lost connection: Disconnected
+[22:09:20] [Server thread/INFO]: [-] __sx
+[22:09:27] [User Authenticator #72/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
+[22:09:27] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to manager v1.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:589) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:576) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.players.PlayerList.a(PlayerList.java:283) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.network.LoginListener.a(LoginListener.java:202) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.network.LoginListener.d(LoginListener.java:188) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.network.LoginListener.c(LoginListener.java:80) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.network.NetworkManager.a(NetworkManager.java:272) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.network.ServerConnection.c(ServerConnection.java:174) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1312) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.dedicated.DedicatedServer.b(DedicatedServer.java:394) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1197) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.MinecraftServer.v(MinecraftServer.java:1013) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:293) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+Caused by: redis.clients.jedis.exceptions.JedisDataException: ERR Path '$.pseudo' does not exist
+	at redis.clients.jedis.Protocol.processError(Protocol.java:96) ~[?:?]
+	at redis.clients.jedis.Protocol.process(Protocol.java:137) ~[?:?]
+	at redis.clients.jedis.Protocol.read(Protocol.java:192) ~[?:?]
+	at redis.clients.jedis.Connection.readProtocolWithCheckingBroken(Connection.java:316) ~[?:?]
+	at redis.clients.jedis.Connection.getOne(Connection.java:298) ~[?:?]
+	at redis.clients.jedis.Connection.executeCommand(Connection.java:123) ~[?:?]
+	at redis.clients.jedis.executors.DefaultCommandExecutor.executeCommand(DefaultCommandExecutor.java:24) ~[?:?]
+	at redis.clients.jedis.UnifiedJedis.executeCommand(UnifiedJedis.java:167) ~[?:?]
+	at redis.clients.jedis.UnifiedJedis.jsonGet(UnifiedJedis.java:3736) ~[?:?]
+	at me.sxyxuse.manager.redis.RedisAccount.getPseudo(RedisAccount.java:57) ~[?:?]
+	at me.sxyxuse.manager.listeners.players.JoinEvent.onJointEvent(JoinEvent.java:37) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	... 15 more
+[22:09:27] [Server thread/INFO]: [+] __sx
+[22:09:27] [Server thread/INFO]: __sx[/127.0.0.1:60096] logged in with entity id 16031 at ([world]-13.971967273921546, 128.0, -177.06245518978128)
+[22:10:40] [Server thread/INFO]: __sx lost connection: Disconnected
+[22:10:40] [Server thread/INFO]: [-] __sx
+[22:10:47] [User Authenticator #73/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
+[22:10:47] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to manager v1.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:589) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:576) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.players.PlayerList.a(PlayerList.java:283) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.network.LoginListener.a(LoginListener.java:202) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.network.LoginListener.d(LoginListener.java:188) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.network.LoginListener.c(LoginListener.java:80) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.network.NetworkManager.a(NetworkManager.java:272) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.network.ServerConnection.c(ServerConnection.java:174) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1312) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.dedicated.DedicatedServer.b(DedicatedServer.java:394) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1197) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.MinecraftServer.v(MinecraftServer.java:1013) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:293) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+Caused by: redis.clients.jedis.exceptions.JedisDataException: ERR Path '$.pseudo' does not exist
+	at redis.clients.jedis.Protocol.processError(Protocol.java:96) ~[?:?]
+	at redis.clients.jedis.Protocol.process(Protocol.java:137) ~[?:?]
+	at redis.clients.jedis.Protocol.read(Protocol.java:192) ~[?:?]
+	at redis.clients.jedis.Connection.readProtocolWithCheckingBroken(Connection.java:316) ~[?:?]
+	at redis.clients.jedis.Connection.getOne(Connection.java:298) ~[?:?]
+	at redis.clients.jedis.Connection.executeCommand(Connection.java:123) ~[?:?]
+	at redis.clients.jedis.executors.DefaultCommandExecutor.executeCommand(DefaultCommandExecutor.java:24) ~[?:?]
+	at redis.clients.jedis.UnifiedJedis.executeCommand(UnifiedJedis.java:167) ~[?:?]
+	at redis.clients.jedis.UnifiedJedis.jsonGet(UnifiedJedis.java:3736) ~[?:?]
+	at me.sxyxuse.manager.redis.RedisAccount.getPseudo(RedisAccount.java:57) ~[?:?]
+	at me.sxyxuse.manager.listeners.players.JoinEvent.onJointEvent(JoinEvent.java:37) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	... 15 more
+[22:10:47] [Server thread/INFO]: [+] __sx
+[22:10:48] [Server thread/INFO]: __sx[/127.0.0.1:60121] logged in with entity id 16206 at ([world]-13.971967273921546, 128.0, -177.06245518978128)
+[22:13:34] [Server thread/INFO]: __sx lost connection: Disconnected
+[22:13:34] [Server thread/INFO]: [-] __sx
+[22:13:44] [User Authenticator #74/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
+[22:13:44] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to manager v1.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:589) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:576) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.players.PlayerList.a(PlayerList.java:283) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.network.LoginListener.a(LoginListener.java:202) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.network.LoginListener.d(LoginListener.java:188) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.network.LoginListener.c(LoginListener.java:80) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.network.NetworkManager.a(NetworkManager.java:272) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.network.ServerConnection.c(ServerConnection.java:174) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1312) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.dedicated.DedicatedServer.b(DedicatedServer.java:394) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1197) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.MinecraftServer.v(MinecraftServer.java:1013) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:293) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+Caused by: redis.clients.jedis.exceptions.JedisDataException: ERR Path '$.pseudo' does not exist
+	at redis.clients.jedis.Protocol.processError(Protocol.java:96) ~[?:?]
+	at redis.clients.jedis.Protocol.process(Protocol.java:137) ~[?:?]
+	at redis.clients.jedis.Protocol.read(Protocol.java:192) ~[?:?]
+	at redis.clients.jedis.Connection.readProtocolWithCheckingBroken(Connection.java:316) ~[?:?]
+	at redis.clients.jedis.Connection.getOne(Connection.java:298) ~[?:?]
+	at redis.clients.jedis.Connection.executeCommand(Connection.java:123) ~[?:?]
+	at redis.clients.jedis.executors.DefaultCommandExecutor.executeCommand(DefaultCommandExecutor.java:24) ~[?:?]
+	at redis.clients.jedis.UnifiedJedis.executeCommand(UnifiedJedis.java:167) ~[?:?]
+	at redis.clients.jedis.UnifiedJedis.jsonGet(UnifiedJedis.java:3736) ~[?:?]
+	at me.sxyxuse.manager.redis.RedisAccount.getPseudo(RedisAccount.java:57) ~[?:?]
+	at me.sxyxuse.manager.listeners.players.JoinEvent.onJointEvent(JoinEvent.java:37) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	... 15 more
+[22:13:44] [Server thread/INFO]: [+] __sx
+[22:13:44] [Server thread/INFO]: __sx[/127.0.0.1:60149] logged in with entity id 16481 at ([world]-13.971967273921546, 128.0, -177.06245518978128)
+[22:14:08] [Server thread/INFO]: __sx lost connection: Disconnected
+[22:14:08] [Server thread/INFO]: [-] __sx
+[22:14:17] [User Authenticator #75/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
+[22:14:17] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to manager v1.0
+org.bukkit.event.EventException: null
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:589) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:576) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	at net.minecraft.server.players.PlayerList.a(PlayerList.java:283) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.network.LoginListener.a(LoginListener.java:202) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.network.LoginListener.d(LoginListener.java:188) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.network.LoginListener.c(LoginListener.java:80) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.network.NetworkManager.a(NetworkManager.java:272) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.network.ServerConnection.c(ServerConnection.java:174) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1312) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.dedicated.DedicatedServer.b(DedicatedServer.java:394) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1197) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.MinecraftServer.v(MinecraftServer.java:1013) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:293) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
+	at java.lang.Thread.run(Thread.java:833) [?:?]
+Caused by: redis.clients.jedis.exceptions.JedisDataException: ERR Path '$.pseudo' does not exist
+	at redis.clients.jedis.Protocol.processError(Protocol.java:96) ~[?:?]
+	at redis.clients.jedis.Protocol.process(Protocol.java:137) ~[?:?]
+	at redis.clients.jedis.Protocol.read(Protocol.java:192) ~[?:?]
+	at redis.clients.jedis.Connection.readProtocolWithCheckingBroken(Connection.java:316) ~[?:?]
+	at redis.clients.jedis.Connection.getOne(Connection.java:298) ~[?:?]
+	at redis.clients.jedis.Connection.executeCommand(Connection.java:123) ~[?:?]
+	at redis.clients.jedis.executors.DefaultCommandExecutor.executeCommand(DefaultCommandExecutor.java:24) ~[?:?]
+	at redis.clients.jedis.UnifiedJedis.executeCommand(UnifiedJedis.java:167) ~[?:?]
+	at redis.clients.jedis.UnifiedJedis.jsonGet(UnifiedJedis.java:3736) ~[?:?]
+	at me.sxyxuse.manager.redis.RedisAccount.getPseudo(RedisAccount.java:57) ~[?:?]
+	at me.sxyxuse.manager.listeners.players.JoinEvent.onJointEvent(JoinEvent.java:37) ~[?:?]
+	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
+	at java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
+	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
+	... 15 more
+[22:14:17] [Server thread/INFO]: [+] __sx
+[22:14:18] [Server thread/INFO]: __sx[/127.0.0.1:60171] logged in with entity id 16583 at ([world]-13.971967273921546, 128.0, -177.06245518978128)
+[22:14:23] [Server thread/INFO]: __sx lost connection: Disconnected
+[22:14:23] [Server thread/INFO]: [-] __sx
+[22:14:30] [Server thread/INFO]: Stopping the server
+[22:14:30] [Server thread/INFO]: Stopping server
+[22:14:30] [Server thread/INFO]: [manager] Disabling manager v1.0
+[22:14:30] [Server thread/WARN]: [manager] La connexion à REDIS à été interrompue.
+[22:14:30] [Server thread/INFO]: [manager] Plugin arrêté avec succès !
+[22:14:30] [Server thread/INFO]: Saving players
+[22:14:30] [Server thread/INFO]: Saving worlds
+[22:14:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[22:14:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[22:14:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[22:14:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[22:14:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[22:14:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[22:14:31] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved

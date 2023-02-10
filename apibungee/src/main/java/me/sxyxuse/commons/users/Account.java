@@ -2,6 +2,7 @@ package me.sxyxuse.commons.users;
 
 import com.google.gson.JsonObject;
 import me.sxyxuse.apibungee.ApiBungee;
+import me.sxyxuse.apibungee.api.Player;
 import me.sxyxuse.apibungee.api.Request;
 import net.md_5.bungee.api.connection.ProxiedPlayer;
 import org.json.JSONObject;
@@ -32,17 +33,15 @@ public class Account {
     }
 
     public void setup() {
-        JsonObject json;
-        try {
-            json = new Request("/player").getWithHeader("uuid", this.proxiedPlayer.getUniqueId().toString());
-            System.out.println(json);
-        } catch (IOException e) {
-            throw new RuntimeException(e);
-        }
-        if (json == null)
+//        JsonObject json;
+//        try {
+//            json = new Request("/player").getWithHeader("uuid", this.proxiedPlayer.getUniqueId().toString());
+//        } catch (IOException e) {
+//            throw new RuntimeException(e);
+//        }
+        if (Player.getSpecificPlayer("uuid", this.proxiedPlayer.getUniqueId().toString()) == null)
             try {
                 JsonObject obj = new Request("/aplayer").addPlayer(this.getInitJson());
-                System.out.println(obj);
             } catch (IOException e) {
                 throw new RuntimeException(e);
             }
