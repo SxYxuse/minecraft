@@ -22,7 +22,7 @@ public class RedisAccount {
 
     public static void addAccountToRedis(Account account) {
         try {
-            jedis.jsonSet(_KEY + account.getUuid().toString(), account.getJson());
+            jedis.jsonSet(_KEY + account.getUuid().toString(), account.getJsonAccount());
         } catch (JedisConnectionException e) {
             e.printStackTrace();
         }

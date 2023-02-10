@@ -1,19 +1,19 @@
 package me.sxyxuse.apibungee.api;
 
 import com.google.gson.Gson;
+import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
-import org.json.JSONObject;
 
 import java.io.IOException;
-import java.io.OutputStream;
+import java.io.OutputStreamWriter;
 import java.net.HttpURLConnection;
 import java.net.URL;
-import java.nio.charset.StandardCharsets;
 import java.util.Scanner;
 
 public class Request {
-    String context;
-    HttpURLConnection httpURLConnection;
+    private static final Gson gson = new Gson();
+    private final String context;
+    private final HttpURLConnection httpURLConnection;
 
     public Request(String context) throws IOException {
         this.context = context;
@@ -22,47 +22,84 @@ public class Request {
         this.httpURLConnection.setConnectTimeout(100);
     }
 
-    public JsonObject getWithHeader(String header, String value) {
+//    public JsonObject getWithHeader(String header, String value) {
+//        try {
+//            this.httpURLConnection.setRequestMethod("GET");
+//            this.httpURLConnection.setRequestProperty(header, value);
+//            this.httpURLConnection.setRequestProperty("Content-Type", "application/json");
+//            int responseCode = this.httpURLConnection.getResponseCode();
+//            if (responseCode == 200) {
+//                try (Scanner scanner = new Scanner(this.httpURLConnection.getInputStream())) {
+//                    return gson.fromJson(scanner.useDelimiter("\\A").next(), JsonObject.class);
+//                }
+//            } else if (responseCode == 404)
+//                return null;
+//            else
+//                throw new IOException("HttpResponseCode: " + responseCode);
+//        } catch (IOException e) {
+//            throw new RuntimeException("Error while processing GET request", e);
+//        }
+//    }
+
+    public JsonObject getWithHeader(String header, String value) throws IOException {
         try {
             this.httpURLConnection.setRequestMethod("GET");
             this.httpURLConnection.setRequestProperty(header, value);
             this.httpURLConnection.setRequestProperty("Content-Type", "application/json");
             int responseCode = this.httpURLConnection.getResponseCode();
-            if (responseCode == 200) {
-                try (Scanner scanner = new Scanner(this.httpURLConnection.getInputStream())) {
-                    return new Gson().fromJson(scanner.useDelimiter("\\A").next(), JsonObject.class);
-                }
-            } else if (responseCode == 404)
+            if (responseCode == 200)
+                return gson.fromJson(new Scanner(this.httpURLConnection.getInputStream()).useDelimiter("\\A").next(), JsonObject.class);
+            else if (responseCode == 404)
                 return null;
             else
                 throw new IOException("HttpResponseCode: " + responseCode);
-        } catch (IOException e) {
-            throw new RuntimeException("Error while processing GET request", e);
+        } finally {
+            this.httpURLConnection.disconnect();
         }
     }
 
-    public JsonObject addPlayer(JSONObject jsonObject) {
+    public JsonElement addPlayer(JsonObject jsonObject) throws IOException {
         try {
             this.httpURLConnection.setRequestMethod("POST");
             this.httpURLConnection.setRequestProperty("Content-Type", "application/json");
             this.httpURLConnection.setReadTimeout(100);
-            this.httpURLConnection.setDoInput(true);
             this.httpURLConnection.setDoOutput(true);
-            String jsonInputString = jsonObject.toString();
-            try (OutputStream os = this.httpURLConnection.getOutputStream()) {
-                byte[] input = jsonInputString.getBytes(StandardCharsets.UTF_8);
-                os.write(input, 0, input.length);
+            try (OutputStreamWriter writer = new OutputStreamWriter(this.httpURLConnection.getOutputStream())) {
+                writer.write(jsonObject.toString());
+            }
+            int responseCode = httpURLConnection.getResponseCode();
+            if (responseCode == 200)
+                return gson.fromJson(new Scanner(this.httpURLConnection.getInputStream()).nextLine(), JsonElement.class);
+            else
+                throw new IOException("HttpResponseCode: " + responseCode);
+        } finally {
+            this.httpURLConnection.disconnect();
+        }
+    }
+
+    public JsonElement updateWithHeader(JsonObject jsonObject, String header, String value) throws IOException {
+        try {
+            this.httpURLConnection.setRequestMethod("POST");
+            this.httpURLConnection.setRequestProperty(header, value);
+            this.httpURLConnection.setRequestProperty("Content-Type", "application/json");
+            this.httpURLConnection.setReadTimeout(100);
+            this.httpURLConnection.setDoOutput(true);
+            try (OutputStreamWriter writer = new OutputStreamWriter(this.httpURLConnection.getOutputStream())) {
+                writer.write(jsonObject.toString());
             }
             int responseCode = this.httpURLConnection.getResponseCode();
-
-            if (responseCode == 200) {
-                try (Scanner scanner = new Scanner(this.httpURLConnection.getInputStream())) {
-                    return new Gson().fromJson(scanner.nextLine(), JsonObject.class);
-                }
-            } else
+            if (responseCode == 200)
+                return gson.fromJson(new Scanner(this.httpURLConnection.getInputStream()).useDelimiter("\\A").next(), JsonObject.class);
+            else if (responseCode == 404)
+                return null;
+            else
                 throw new IOException("HttpResponseCode: " + responseCode);
-        } catch (IOException e) {
-            throw new RuntimeException("Error while processing POST request", e);
+        } finally {
+            this.httpURLConnection.disconnect();
         }
+    }
+
+    public String getContext() {
+        return context;
     }
 }

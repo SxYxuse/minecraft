@@ -28985,3 +28985,1074 @@ Caused by: java.lang.ClassNotFoundException: redis.clients.jedis.CommandObject
 22:14:23 [INFO] HikariPool-1 - Shutdown completed.
 22:14:23 [INFO] [apibungee] Plugin arrêté avec succès !
 22:14:23 [INFO] Closing IO threads
+09:04:34 [INFO] Using standard Java JCE cipher.
+09:04:34 [INFO] Using standard Java compressor.
+09:04:34 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.19-R0.1-SNAPSHOT:f8e0bcc:1675
+09:04:34 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+09:04:34 [WARNING] Epoll is not working, falling back to NIO: ExceptionInInitializerError : null @ io.netty.channel.epoll.Epoll:40
+09:04:34 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+
+09:04:34 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+
+09:04:34 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+
+09:04:34 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+
+09:04:34 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+
+09:04:34 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+
+09:04:34 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+09:04:34 [INFO] Loaded plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+09:04:34 [INFO] Loaded plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+09:04:34 [INFO] Loaded plugin apibungee version 1.0 by SxYxuse
+09:04:34 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+09:04:34 [INFO] Loaded plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+09:04:34 [INFO] Loaded plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+09:04:34 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+09:04:34 [INFO] Enabled plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+09:04:34 [INFO] Enabled plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+09:04:34 [INFO] HikariPool-1 - Starting...
+09:04:35 [SEVERE] HikariPool-1 - Exception during pool initialization.
+com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:359)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:201)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:470)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:100)
+	at com.zaxxer.hikari.HikariDataSource.<init>(HikariDataSource.java:81)
+	at me.sxyxuse.apibungee.database.DatabaseManager.setupHikari(DatabaseManager.java:40)
+	at me.sxyxuse.apibungee.database.DatabaseManager.initPool(DatabaseManager.java:44)
+	at me.sxyxuse.apibungee.database.DatabaseManager.<init>(DatabaseManager.java:27)
+	at me.sxyxuse.apibungee.ApiBungee.onEnable(ApiBungee.java:26)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugins(PluginManager.java:265)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:295)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:67)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:89)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:120)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:948)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:818)
+	... 18 more
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:546)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:594)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:153)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:63)
+	... 21 more
+09:04:35 [WARNING] Exception encountered when loading plugin: apibungee
+com.zaxxer.hikari.pool.HikariPool$PoolInitializationException: Failed to initialize pool: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.zaxxer.hikari.pool.HikariPool.throwPoolInitializationException(HikariPool.java:596)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:582)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:100)
+	at com.zaxxer.hikari.HikariDataSource.<init>(HikariDataSource.java:81)
+	at me.sxyxuse.apibungee.database.DatabaseManager.setupHikari(DatabaseManager.java:40)
+	at me.sxyxuse.apibungee.database.DatabaseManager.initPool(DatabaseManager.java:44)
+	at me.sxyxuse.apibungee.database.DatabaseManager.<init>(DatabaseManager.java:27)
+	at me.sxyxuse.apibungee.ApiBungee.onEnable(ApiBungee.java:26)
+	at net.md_5.bungee.api.plugin.PluginManager.enablePlugins(PluginManager.java:265)
+	at net.md_5.bungee.BungeeCord.start(BungeeCord.java:295)
+	at net.md_5.bungee.BungeeCordLauncher.main(BungeeCordLauncher.java:67)
+	at net.md_5.bungee.Bootstrap.main(Bootstrap.java:15)
+Caused by: com.mysql.cj.jdbc.exceptions.CommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at com.mysql.cj.jdbc.exceptions.SQLError.createCommunicationsException(SQLError.java:174)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:64)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:828)
+	at com.mysql.cj.jdbc.ConnectionImpl.<init>(ConnectionImpl.java:448)
+	at com.mysql.cj.jdbc.ConnectionImpl.getInstance(ConnectionImpl.java:241)
+	at com.mysql.cj.jdbc.NonRegisteringDriver.connect(NonRegisteringDriver.java:198)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:359)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:201)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:470)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561)
+	... 10 more
+Caused by: com.mysql.cj.exceptions.CJCommunicationsException: Communications link failure
+
+The last packet sent successfully to the server was 0 milliseconds ago. The driver has not received any packets from the server.
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:67)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:499)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:483)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:61)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:105)
+	at com.mysql.cj.exceptions.ExceptionFactory.createException(ExceptionFactory.java:151)
+	at com.mysql.cj.exceptions.ExceptionFactory.createCommunicationsException(ExceptionFactory.java:167)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:89)
+	at com.mysql.cj.NativeSession.connect(NativeSession.java:120)
+	at com.mysql.cj.jdbc.ConnectionImpl.connectOneTryOnly(ConnectionImpl.java:948)
+	at com.mysql.cj.jdbc.ConnectionImpl.createNewIO(ConnectionImpl.java:818)
+	... 18 more
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:546)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:594)
+	at java.base/java.net.SocksSocketImpl.connect(SocksSocketImpl.java:327)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at com.mysql.cj.protocol.StandardSocketFactory.connect(StandardSocketFactory.java:153)
+	at com.mysql.cj.protocol.a.NativeSocketConnection.connect(NativeSocketConnection.java:63)
+	... 21 more
+09:04:35 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+09:04:35 [INFO] Enabled plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+09:04:35 [INFO] Enabled plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+09:04:35 [INFO] Listening on /0.0.0.0:25565
+09:04:58 [INFO] Closing listener [id: 0x7c0c0adf, L:/[0:0:0:0:0:0:0:0]:25565]
+09:04:58 [INFO] Closing pending connections
+09:04:58 [INFO] Disconnecting 0 connections
+09:04:59 [INFO] Disabling plugins
+09:04:59 [SEVERE] Exception disabling plugin apibungee
+java.lang.NullPointerException: Cannot invoke "me.sxyxuse.apibungee.redis.RedisManager.stop()" because "this.redisManager" is null
+	at me.sxyxuse.apibungee.ApiBungee.onDisable(ApiBungee.java:37)
+	at net.md_5.bungee.BungeeCord.independentThreadStop(BungeeCord.java:479)
+	at net.md_5.bungee.BungeeCord.access$000(BungeeCord.java:106)
+	at net.md_5.bungee.BungeeCord$5.run(BungeeCord.java:419)
+09:04:59 [INFO] Closing IO threads
+09:05:46 [INFO] Using standard Java JCE cipher.
+09:05:46 [INFO] Using standard Java compressor.
+09:05:46 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.19-R0.1-SNAPSHOT:f8e0bcc:1675
+09:05:46 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+09:05:46 [WARNING] Epoll is not working, falling back to NIO: ExceptionInInitializerError : null @ io.netty.channel.epoll.Epoll:40
+09:05:46 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+
+09:05:46 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+
+09:05:46 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+
+09:05:46 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+
+09:05:46 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+
+09:05:46 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+
+09:05:46 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+09:05:46 [INFO] Loaded plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+09:05:46 [INFO] Loaded plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+09:05:46 [INFO] Loaded plugin apibungee version 1.0 by SxYxuse
+09:05:46 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+09:05:46 [INFO] Loaded plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+09:05:46 [INFO] Loaded plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+09:05:46 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+09:05:46 [INFO] Enabled plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+09:05:46 [INFO] Enabled plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+09:05:46 [INFO] HikariPool-1 - Starting...
+09:05:46 [INFO] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3b65e559
+09:05:46 [INFO] HikariPool-1 - Start completed.
+09:05:46 [WARNING] [apibungee] Connexion à la base de données établie.
+09:05:46 [WARNING] [apibungee] La connexion à REDIS à été établie.
+09:05:46 [INFO] [apibungee] Plugin démarré avec succès !
+09:05:46 [INFO] Enabled plugin apibungee version 1.0 by SxYxuse
+09:05:46 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+09:05:46 [INFO] Enabled plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+09:05:46 [INFO] Enabled plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+09:05:46 [INFO] Listening on /0.0.0.0:25565
+09:08:04 [INFO] [/127.0.0.1:49619] <-> InitialHandler has pinged
+09:08:04 [WARNING] [/127.0.0.1:49619] <-> InitialHandler - SocketException: Connection reset
+09:08:04 [INFO] [/127.0.0.1:49623] <-> InitialHandler has pinged
+09:08:06 [INFO] [/127.0.0.1:49627] <-> InitialHandler has connected
+09:08:08 [WARNING] Error dispatching event PostLoginEvent(player=__sx) to listener me.sxyxuse.apibungee.listeners.players.ProxyJoin@25c5e994
+java.lang.RuntimeException: java.net.ConnectException: Connection refused
+	at me.sxyxuse.apibungee.api.Player.getSpecificPlayer(Player.java:12)
+	at me.sxyxuse.commons.users.Account.getAccountFromDb(Account.java:61)
+	at me.sxyxuse.commons.users.Account.<init>(Account.java:26)
+	at me.sxyxuse.apibungee.core.AccountProvider.<init>(AccountProvider.java:13)
+	at me.sxyxuse.apibungee.listeners.players.ProxyJoin.onProxyJoin(ProxyJoin.java:13)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at net.md_5.bungee.event.EventHandlerMethod.invoke(EventHandlerMethod.java:19)
+	at net.md_5.bungee.event.EventBus.post(EventBus.java:49)
+	at net.md_5.bungee.api.plugin.PluginManager.callEvent(PluginManager.java:412)
+	at net.md_5.bungee.connection.InitialHandler$6$1.run(InitialHandler.java:604)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:566)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.net.ConnectException: Connection refused
+	at java.base/sun.nio.ch.Net.pollConnect(Native Method)
+	at java.base/sun.nio.ch.Net.pollConnectNow(Net.java:672)
+	at java.base/sun.nio.ch.NioSocketImpl.timedFinishConnect(NioSocketImpl.java:546)
+	at java.base/sun.nio.ch.NioSocketImpl.connect(NioSocketImpl.java:594)
+	at java.base/java.net.Socket.connect(Socket.java:633)
+	at java.base/sun.net.NetworkClient.doConnect(NetworkClient.java:178)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:498)
+	at java.base/sun.net.www.http.HttpClient.openServer(HttpClient.java:603)
+	at java.base/sun.net.www.http.HttpClient.<init>(HttpClient.java:246)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:351)
+	at java.base/sun.net.www.http.HttpClient.New(HttpClient.java:373)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(HttpURLConnection.java:1309)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(HttpURLConnection.java:1242)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(HttpURLConnection.java:1128)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(HttpURLConnection.java:1057)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream0(HttpURLConnection.java:1665)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getInputStream(HttpURLConnection.java:1589)
+	at java.base/java.net.HttpURLConnection.getResponseCode(HttpURLConnection.java:529)
+	at me.sxyxuse.apibungee.api.Request.getWithHeader(Request.java:49)
+	at me.sxyxuse.apibungee.api.Player.getSpecificPlayer(Player.java:10)
+	... 17 more
+09:08:08 [INFO] [__sx] <-> ServerConnector [lobby] has connected
+09:08:09 [INFO] Netty is not using direct IO buffers.
+
+09:09:03 [INFO] [__sx] -> UpstreamBridge has disconnected
+09:09:03 [INFO] [__sx] <-> DownstreamBridge <-> [lobby] has disconnected
+09:09:04 [INFO] [/127.0.0.1:49668] <-> InitialHandler has pinged
+09:09:04 [INFO] [/127.0.0.1:49671] <-> InitialHandler has pinged
+09:09:06 [INFO] [/127.0.0.1:49675] <-> InitialHandler has connected
+09:09:07 [WARNING] Plugin listener me.sxyxuse.apibungee.listeners.players.ProxyJoin took 78ms to process event PostLoginEvent(player=__sx)!
+09:09:07 [INFO] [__sx] <-> ServerConnector [lobby] has connected
+09:09:34 [INFO] [__sx] -> UpstreamBridge has disconnected
+09:09:34 [INFO] [__sx] <-> DownstreamBridge <-> [lobby] has disconnected
+09:09:34 [INFO] [/127.0.0.1:49685] <-> InitialHandler has pinged
+09:09:35 [INFO] [/127.0.0.1:49692] <-> InitialHandler has pinged
+09:09:36 [INFO] [/127.0.0.1:49694] <-> InitialHandler has connected
+09:09:37 [WARNING] Error dispatching event PostLoginEvent(player=__sx) to listener me.sxyxuse.apibungee.listeners.players.ProxyJoin@25c5e994
+java.lang.NullPointerException: Cannot invoke "com.google.gson.JsonObject.get(String)" because "this.jsonAccount" is null
+	at me.sxyxuse.commons.users.Account.<init>(Account.java:28)
+	at me.sxyxuse.apibungee.core.AccountProvider.<init>(AccountProvider.java:13)
+	at me.sxyxuse.apibungee.listeners.players.ProxyJoin.onProxyJoin(ProxyJoin.java:13)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at net.md_5.bungee.event.EventHandlerMethod.invoke(EventHandlerMethod.java:19)
+	at net.md_5.bungee.event.EventBus.post(EventBus.java:49)
+	at net.md_5.bungee.api.plugin.PluginManager.callEvent(PluginManager.java:412)
+	at net.md_5.bungee.connection.InitialHandler$6$1.run(InitialHandler.java:604)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:566)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+09:09:37 [INFO] [__sx] <-> ServerConnector [lobby] has connected
+09:11:25 [INFO] Closing listener [id: 0x02f8b096, L:/[0:0:0:0:0:0:0:0]:25565]
+09:11:25 [INFO] Closing pending connections
+09:11:25 [INFO] Disconnecting 1 connections
+09:11:25 [INFO] [__sx] disconnected with: §cThe proxy server is restarting
+09:11:25 [INFO] [__sx] -> UpstreamBridge has disconnected
+09:11:25 [INFO] [__sx] <-> DownstreamBridge <-> [lobby] has disconnected
+09:11:26 [INFO] Disabling plugins
+09:11:26 [WARNING] [apibungee] La connexion à REDIS à été interrompue.
+09:11:26 [INFO] HikariPool-1 - Shutdown initiated...
+09:11:26 [WARNING] [apibungee] Connexion à la base de données interrompue.
+09:11:26 [INFO] HikariPool-1 - Shutdown completed.
+09:11:26 [INFO] [apibungee] Plugin arrêté avec succès !
+09:11:26 [INFO] Closing IO threads
+09:11:29 [INFO] Using standard Java JCE cipher.
+09:11:29 [INFO] Using standard Java compressor.
+09:11:29 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.19-R0.1-SNAPSHOT:f8e0bcc:1675
+09:11:29 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+09:11:29 [WARNING] Epoll is not working, falling back to NIO: ExceptionInInitializerError : null @ io.netty.channel.epoll.Epoll:40
+09:11:29 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+
+09:11:29 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+
+09:11:29 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+
+09:11:29 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+
+09:11:29 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+
+09:11:29 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+
+09:11:29 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+09:11:29 [INFO] Loaded plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+09:11:29 [INFO] Loaded plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+09:11:29 [INFO] Loaded plugin apibungee version 1.0 by SxYxuse
+09:11:29 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+09:11:29 [INFO] Loaded plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+09:11:29 [INFO] Loaded plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+09:11:29 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+09:11:29 [INFO] Enabled plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+09:11:29 [INFO] Enabled plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+09:11:29 [INFO] HikariPool-1 - Starting...
+09:11:29 [INFO] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3b65e559
+09:11:29 [INFO] HikariPool-1 - Start completed.
+09:11:29 [WARNING] [apibungee] Connexion à la base de données établie.
+09:11:29 [WARNING] [apibungee] La connexion à REDIS à été établie.
+09:11:29 [INFO] [apibungee] Plugin démarré avec succès !
+09:11:29 [INFO] Enabled plugin apibungee version 1.0 by SxYxuse
+09:11:29 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+09:11:29 [INFO] Enabled plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+09:11:29 [INFO] Enabled plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+09:11:29 [INFO] Listening on /0.0.0.0:25565
+09:11:31 [INFO] [/127.0.0.1:49731] <-> InitialHandler has connected
+09:11:33 [WARNING] Error dispatching event PostLoginEvent(player=__sx) to listener me.sxyxuse.apibungee.listeners.players.ProxyJoin@25c5e994
+java.lang.NullPointerException: Cannot invoke "com.google.gson.JsonObject.get(String)" because "this.jsonAccount" is null
+	at me.sxyxuse.commons.users.Account.<init>(Account.java:28)
+	at me.sxyxuse.apibungee.core.AccountProvider.<init>(AccountProvider.java:13)
+	at me.sxyxuse.apibungee.listeners.players.ProxyJoin.onProxyJoin(ProxyJoin.java:13)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at net.md_5.bungee.event.EventHandlerMethod.invoke(EventHandlerMethod.java:19)
+	at net.md_5.bungee.event.EventBus.post(EventBus.java:49)
+	at net.md_5.bungee.api.plugin.PluginManager.callEvent(PluginManager.java:412)
+	at net.md_5.bungee.connection.InitialHandler$6$1.run(InitialHandler.java:604)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:566)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+09:11:33 [INFO] [__sx] <-> ServerConnector [lobby] has connected
+09:11:33 [INFO] Netty is not using direct IO buffers.
+
+09:12:40 [INFO] Closing listener [id: 0x57150c6d, L:/[0:0:0:0:0:0:0:0]:25565]
+09:12:40 [INFO] Closing pending connections
+09:12:40 [INFO] Disconnecting 1 connections
+09:12:40 [INFO] [__sx] disconnected with: §cThe proxy server is restarting
+09:12:40 [WARNING] Error dispatching event PlayerDisconnectEvent(player=__sx) to listener me.sxyxuse.apibungee.listeners.players.ProxyLeft@3d7fa3ae
+java.lang.NoClassDefFoundError: me/sxyxuse/apibungee/redis/RedisAccount
+	at me.sxyxuse.apibungee.listeners.players.ProxyLeft.onProxyLeft(ProxyLeft.java:11)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at net.md_5.bungee.event.EventHandlerMethod.invoke(EventHandlerMethod.java:19)
+	at net.md_5.bungee.event.EventBus.post(EventBus.java:49)
+	at net.md_5.bungee.api.plugin.PluginManager.callEvent(PluginManager.java:412)
+	at net.md_5.bungee.connection.UpstreamBridge.disconnected(UpstreamBridge.java:68)
+	at net.md_5.bungee.netty.HandlerBoss.channelInactive(HandlerBoss.java:60)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:305)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:281)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:274)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelInactive(ChannelInboundHandlerAdapter.java:81)
+	at io.netty.handler.timeout.IdleStateHandler.channelInactive(IdleStateHandler.java:277)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:303)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:281)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:274)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelInputClosed(ByteToMessageDecoder.java:411)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelInactive(ByteToMessageDecoder.java:376)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:305)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:281)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:274)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelInactive(DefaultChannelPipeline.java:1405)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:301)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:281)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelInactive(DefaultChannelPipeline.java:901)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$7.run(AbstractChannel.java:813)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.ClassNotFoundException: me.sxyxuse.apibungee.redis.RedisAccount
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:103)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:59)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 33 more
+09:12:40 [INFO] [__sx] -> UpstreamBridge has disconnected
+09:12:40 [INFO] [__sx] <-> DownstreamBridge <-> [lobby] has disconnected
+09:12:41 [INFO] Disabling plugins
+09:12:41 [WARNING] [apibungee] La connexion à REDIS à été interrompue.
+09:12:41 [INFO] HikariPool-1 - Shutdown initiated...
+09:12:41 [WARNING] [apibungee] Connexion à la base de données interrompue.
+09:12:41 [INFO] HikariPool-1 - Shutdown completed.
+09:12:41 [INFO] [apibungee] Plugin arrêté avec succès !
+09:12:41 [INFO] Closing IO threads
+09:12:43 [INFO] Thank you and goodbye
+09:12:44 [INFO] Using standard Java JCE cipher.
+09:12:44 [INFO] Using standard Java compressor.
+09:12:44 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.19-R0.1-SNAPSHOT:f8e0bcc:1675
+09:12:44 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+09:12:44 [WARNING] Epoll is not working, falling back to NIO: ExceptionInInitializerError : null @ io.netty.channel.epoll.Epoll:40
+09:12:44 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+
+09:12:44 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+
+09:12:44 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+
+09:12:44 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+
+09:12:44 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+
+09:12:44 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+
+09:12:44 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+09:12:44 [INFO] Loaded plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+09:12:44 [INFO] Loaded plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+09:12:44 [INFO] Loaded plugin apibungee version 1.0 by SxYxuse
+09:12:44 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+09:12:44 [INFO] Loaded plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+09:12:44 [INFO] Loaded plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+09:12:44 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+09:12:44 [INFO] Enabled plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+09:12:44 [INFO] Enabled plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+09:12:44 [INFO] HikariPool-1 - Starting...
+09:12:44 [INFO] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3b65e559
+09:12:44 [INFO] HikariPool-1 - Start completed.
+09:12:44 [WARNING] [apibungee] Connexion à la base de données établie.
+09:12:44 [WARNING] [apibungee] La connexion à REDIS à été établie.
+09:12:44 [INFO] [apibungee] Plugin démarré avec succès !
+09:12:44 [INFO] Enabled plugin apibungee version 1.0 by SxYxuse
+09:12:44 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+09:12:44 [INFO] Enabled plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+09:12:44 [INFO] Enabled plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+09:12:44 [INFO] Listening on /0.0.0.0:25565
+09:12:47 [INFO] [/127.0.0.1:49761] <-> InitialHandler has connected
+09:12:48 [WARNING] Plugin listener me.sxyxuse.apibungee.listeners.players.ProxyJoin took 50ms to process event PostLoginEvent(player=__sx)!
+09:12:48 [INFO] [__sx] <-> ServerConnector [lobby] has connected
+09:12:49 [INFO] Netty is not using direct IO buffers.
+
+09:15:56 [INFO] Closing listener [id: 0xc47be2be, L:/[0:0:0:0:0:0:0:0]:25565]
+09:15:56 [INFO] Closing pending connections
+09:15:56 [INFO] Disconnecting 1 connections
+09:15:56 [INFO] [__sx] disconnected with: §cThe proxy server is restarting
+09:15:56 [WARNING] Error dispatching event PlayerDisconnectEvent(player=__sx) to listener me.sxyxuse.apibungee.listeners.players.ProxyLeft@3d7fa3ae
+java.lang.NoClassDefFoundError: redis/clients/jedis/Protocol$Command
+	at redis.clients.jedis.CommandObjects.expire(CommandObjects.java:107)
+	at redis.clients.jedis.UnifiedJedis.expire(UnifiedJedis.java:243)
+	at me.sxyxuse.apibungee.redis.RedisAccount.expireAccountFromRedis(RedisAccount.java:41)
+	at me.sxyxuse.apibungee.listeners.players.ProxyLeft.onProxyLeft(ProxyLeft.java:11)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at net.md_5.bungee.event.EventHandlerMethod.invoke(EventHandlerMethod.java:19)
+	at net.md_5.bungee.event.EventBus.post(EventBus.java:49)
+	at net.md_5.bungee.api.plugin.PluginManager.callEvent(PluginManager.java:412)
+	at net.md_5.bungee.connection.UpstreamBridge.disconnected(UpstreamBridge.java:68)
+	at net.md_5.bungee.netty.HandlerBoss.channelInactive(HandlerBoss.java:60)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:305)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:281)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:274)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelInactive(ChannelInboundHandlerAdapter.java:81)
+	at io.netty.handler.timeout.IdleStateHandler.channelInactive(IdleStateHandler.java:277)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:303)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:281)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:274)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelInputClosed(ByteToMessageDecoder.java:411)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelInactive(ByteToMessageDecoder.java:376)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:305)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:281)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:274)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelInactive(DefaultChannelPipeline.java:1405)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:301)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:281)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelInactive(DefaultChannelPipeline.java:901)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$7.run(AbstractChannel.java:813)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.ClassNotFoundException: redis.clients.jedis.Protocol$Command
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:103)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:59)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 36 more
+09:15:56 [INFO] [__sx] -> UpstreamBridge has disconnected
+09:15:56 [INFO] [__sx] <-> DownstreamBridge <-> [lobby] has disconnected
+09:15:57 [INFO] Disabling plugins
+09:15:57 [WARNING] [apibungee] La connexion à REDIS à été interrompue.
+09:15:57 [INFO] HikariPool-1 - Shutdown initiated...
+09:15:57 [WARNING] [apibungee] Connexion à la base de données interrompue.
+09:15:57 [INFO] HikariPool-1 - Shutdown completed.
+09:15:57 [INFO] [apibungee] Plugin arrêté avec succès !
+09:15:57 [INFO] Closing IO threads
+09:16:00 [INFO] Using standard Java JCE cipher.
+09:16:00 [INFO] Using standard Java compressor.
+09:16:00 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.19-R0.1-SNAPSHOT:f8e0bcc:1675
+09:16:00 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+09:16:00 [WARNING] Epoll is not working, falling back to NIO: ExceptionInInitializerError : null @ io.netty.channel.epoll.Epoll:40
+09:16:00 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+
+09:16:00 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+
+09:16:00 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+
+09:16:00 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+
+09:16:00 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+
+09:16:00 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+
+09:16:00 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+09:16:00 [INFO] Loaded plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+09:16:00 [INFO] Loaded plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+09:16:00 [INFO] Loaded plugin apibungee version 1.0 by SxYxuse
+09:16:00 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+09:16:00 [INFO] Loaded plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+09:16:00 [INFO] Loaded plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+09:16:00 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+09:16:00 [INFO] Enabled plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+09:16:00 [INFO] Enabled plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+09:16:00 [INFO] HikariPool-1 - Starting...
+09:16:00 [INFO] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3b65e559
+09:16:00 [INFO] HikariPool-1 - Start completed.
+09:16:00 [WARNING] [apibungee] Connexion à la base de données établie.
+09:16:00 [WARNING] [apibungee] La connexion à REDIS à été établie.
+09:16:00 [INFO] [apibungee] Plugin démarré avec succès !
+09:16:00 [INFO] Enabled plugin apibungee version 1.0 by SxYxuse
+09:16:00 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+09:16:00 [INFO] Enabled plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+09:16:00 [INFO] Enabled plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+09:16:00 [INFO] Listening on /0.0.0.0:25565
+09:16:09 [INFO] [/127.0.0.1:49794] <-> InitialHandler has connected
+09:16:10 [INFO] {"id":2,"uuid":"22d05056-7940-41f2-b6e4-b1ed165ceaa0","pseudo":"__sx","money":0,"permissions":0,"grade":0,"grade_time_left":0,"first_login":"10/02/2023 09:16:10","last_login":"10/02/2023 09:16:10"}
+
+09:16:10 [WARNING] Plugin listener me.sxyxuse.apibungee.listeners.players.ProxyJoin took 74ms to process event PostLoginEvent(player=__sx)!
+09:16:10 [INFO] [__sx] <-> ServerConnector [lobby] has connected
+09:16:11 [INFO] Netty is not using direct IO buffers.
+
+09:16:34 [INFO] Closing listener [id: 0x54b40daa, L:/[0:0:0:0:0:0:0:0]:25565]
+09:16:34 [INFO] Closing pending connections
+09:16:34 [INFO] Disconnecting 1 connections
+09:16:34 [INFO] [__sx] disconnected with: §cThe proxy server is restarting
+09:16:34 [INFO] [__sx] -> UpstreamBridge has disconnected
+09:16:34 [INFO] [__sx] <-> DownstreamBridge <-> [lobby] has disconnected
+09:16:35 [INFO] Disabling plugins
+09:16:35 [WARNING] [apibungee] La connexion à REDIS à été interrompue.
+09:16:35 [INFO] HikariPool-1 - Shutdown initiated...
+09:16:35 [WARNING] [apibungee] Connexion à la base de données interrompue.
+09:16:35 [INFO] HikariPool-1 - Shutdown completed.
+09:16:35 [INFO] [apibungee] Plugin arrêté avec succès !
+09:16:35 [INFO] Closing IO threads
+09:26:03 [INFO] Using standard Java JCE cipher.
+09:26:03 [INFO] Using standard Java compressor.
+09:26:03 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.19-R0.1-SNAPSHOT:f8e0bcc:1675
+09:26:03 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+09:26:03 [WARNING] Epoll is not working, falling back to NIO: ExceptionInInitializerError : null @ io.netty.channel.epoll.Epoll:40
+09:26:03 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+
+09:26:03 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+
+09:26:03 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+
+09:26:03 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+
+09:26:03 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+
+09:26:03 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+
+09:26:03 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+09:26:03 [INFO] Loaded plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+09:26:03 [INFO] Loaded plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+09:26:03 [INFO] Loaded plugin apibungee version 1.0 by SxYxuse
+09:26:03 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+09:26:03 [INFO] Loaded plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+09:26:03 [INFO] Loaded plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+09:26:03 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+09:26:03 [INFO] Enabled plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+09:26:03 [INFO] Enabled plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+09:26:03 [INFO] HikariPool-1 - Starting...
+09:26:03 [INFO] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3b65e559
+09:26:03 [INFO] HikariPool-1 - Start completed.
+09:26:03 [WARNING] [apibungee] Connexion à la base de données établie.
+09:26:03 [WARNING] [apibungee] La connexion à REDIS à été établie.
+09:26:03 [INFO] [apibungee] Plugin démarré avec succès !
+09:26:03 [INFO] Enabled plugin apibungee version 1.0 by SxYxuse
+09:26:03 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+09:26:03 [INFO] Enabled plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+09:26:03 [INFO] Enabled plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+09:26:03 [INFO] Listening on /0.0.0.0:25565
+09:26:48 [INFO] [/127.0.0.1:49879] <-> InitialHandler has pinged
+09:27:12 [INFO] [/127.0.0.1:49883] <-> InitialHandler has connected
+09:27:14 [WARNING] Error dispatching event PostLoginEvent(player=__sx) to listener me.sxyxuse.apibungee.listeners.players.ProxyJoin@25c5e994
+java.lang.IllegalArgumentException: null is not a valid argument.
+	at redis.clients.jedis.CommandArguments.add(CommandArguments.java:41)
+	at redis.clients.jedis.CommandObjects.jsonSet(CommandObjects.java:3294)
+	at redis.clients.jedis.UnifiedJedis.jsonSet(UnifiedJedis.java:3686)
+	at redis.clients.jedis.json.RedisJsonCommands.jsonSet(RedisJsonCommands.java:9)
+	at me.sxyxuse.apibungee.redis.RedisAccount.addAccountToRedis(RedisAccount.java:25)
+	at me.sxyxuse.apibungee.core.AccountProvider.initAccount(AccountProvider.java:23)
+	at me.sxyxuse.apibungee.listeners.players.ProxyJoin.onProxyJoin(ProxyJoin.java:12)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at net.md_5.bungee.event.EventHandlerMethod.invoke(EventHandlerMethod.java:19)
+	at net.md_5.bungee.event.EventBus.post(EventBus.java:49)
+	at net.md_5.bungee.api.plugin.PluginManager.callEvent(PluginManager.java:412)
+	at net.md_5.bungee.connection.InitialHandler$6$1.run(InitialHandler.java:604)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:566)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+09:27:14 [INFO] [__sx] <-> ServerConnector [lobby] has connected
+09:27:15 [INFO] Netty is not using direct IO buffers.
+
+09:30:42 [INFO] Closing listener [id: 0xfbfac00a, L:/[0:0:0:0:0:0:0:0]:25565]
+09:30:42 [INFO] Closing pending connections
+09:30:42 [INFO] Disconnecting 1 connections
+09:30:42 [INFO] [__sx] disconnected with: §cThe proxy server is restarting
+09:30:42 [WARNING] Error dispatching event PlayerDisconnectEvent(player=__sx) to listener me.sxyxuse.apibungee.listeners.players.ProxyLeft@3d7fa3ae
+java.lang.NoClassDefFoundError: redis/clients/jedis/Protocol$Command
+	at redis.clients.jedis.CommandObjects.expire(CommandObjects.java:107)
+	at redis.clients.jedis.UnifiedJedis.expire(UnifiedJedis.java:243)
+	at me.sxyxuse.apibungee.redis.RedisAccount.expireAccountFromRedis(RedisAccount.java:41)
+	at me.sxyxuse.apibungee.listeners.players.ProxyLeft.onProxyLeft(ProxyLeft.java:11)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at net.md_5.bungee.event.EventHandlerMethod.invoke(EventHandlerMethod.java:19)
+	at net.md_5.bungee.event.EventBus.post(EventBus.java:49)
+	at net.md_5.bungee.api.plugin.PluginManager.callEvent(PluginManager.java:412)
+	at net.md_5.bungee.connection.UpstreamBridge.disconnected(UpstreamBridge.java:68)
+	at net.md_5.bungee.netty.HandlerBoss.channelInactive(HandlerBoss.java:60)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:305)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:281)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:274)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelInactive(ChannelInboundHandlerAdapter.java:81)
+	at io.netty.handler.timeout.IdleStateHandler.channelInactive(IdleStateHandler.java:277)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:303)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:281)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:274)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelInputClosed(ByteToMessageDecoder.java:411)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelInactive(ByteToMessageDecoder.java:376)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:305)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:281)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:274)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelInactive(DefaultChannelPipeline.java:1405)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:301)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:281)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelInactive(DefaultChannelPipeline.java:901)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$7.run(AbstractChannel.java:813)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.ClassNotFoundException: redis.clients.jedis.Protocol$Command
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:103)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:59)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 36 more
+09:30:42 [INFO] [__sx] -> UpstreamBridge has disconnected
+09:30:42 [INFO] [__sx] <-> DownstreamBridge <-> [lobby] has disconnected
+09:30:43 [INFO] §cCommand not found
+09:30:43 [INFO] Disabling plugins
+09:30:43 [WARNING] [apibungee] La connexion à REDIS à été interrompue.
+09:30:43 [INFO] HikariPool-1 - Shutdown initiated...
+09:30:43 [INFO] HikariPool-1 - Shutdown completed.
+09:30:43 [WARNING] [apibungee] Connexion à la base de données interrompue.
+09:30:43 [INFO] [apibungee] Plugin arrêté avec succès !
+09:30:43 [INFO] Closing IO threads
+09:30:45 [INFO] Thank you and goodbye
+09:30:46 [INFO] Using standard Java JCE cipher.
+09:30:46 [INFO] Using standard Java compressor.
+09:30:46 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.19-R0.1-SNAPSHOT:f8e0bcc:1675
+09:30:46 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+09:30:46 [WARNING] Epoll is not working, falling back to NIO: ExceptionInInitializerError : null @ io.netty.channel.epoll.Epoll:40
+09:30:46 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+
+09:30:46 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+
+09:30:46 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+
+09:30:46 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+
+09:30:46 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+
+09:30:46 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+
+09:30:46 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+09:30:46 [INFO] Loaded plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+09:30:46 [INFO] Loaded plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+09:30:46 [INFO] Loaded plugin apibungee version 1.0 by SxYxuse
+09:30:46 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+09:30:46 [INFO] Loaded plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+09:30:46 [INFO] Loaded plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+09:30:46 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+09:30:46 [INFO] Enabled plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+09:30:46 [INFO] Enabled plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+09:30:46 [INFO] HikariPool-1 - Starting...
+09:30:46 [INFO] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3b65e559
+09:30:46 [INFO] HikariPool-1 - Start completed.
+09:30:46 [WARNING] [apibungee] Connexion à la base de données établie.
+09:30:46 [WARNING] [apibungee] La connexion à REDIS à été établie.
+09:30:46 [INFO] [apibungee] Plugin démarré avec succès !
+09:30:46 [INFO] Enabled plugin apibungee version 1.0 by SxYxuse
+09:30:46 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+09:30:46 [INFO] Enabled plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+09:30:46 [INFO] Enabled plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+09:30:47 [INFO] Listening on /0.0.0.0:25565
+09:30:50 [INFO] [/127.0.0.1:49917] <-> InitialHandler has connected
+09:30:52 [INFO] [__sx] <-> ServerConnector [lobby] has connected
+09:30:52 [INFO] Netty is not using direct IO buffers.
+
+09:32:44 [INFO] Closing listener [id: 0xefa1ea7e, L:/[0:0:0:0:0:0:0:0]:25565]
+09:32:44 [INFO] Closing pending connections
+09:32:44 [INFO] Disconnecting 1 connections
+09:32:44 [INFO] [__sx] disconnected with: §cThe proxy server is restarting
+09:32:44 [WARNING] Error dispatching event PlayerDisconnectEvent(player=__sx) to listener me.sxyxuse.apibungee.listeners.players.ProxyLeft@3d7fa3ae
+java.lang.NoClassDefFoundError: redis/clients/jedis/Protocol$Command
+	at redis.clients.jedis.CommandObjects.expire(CommandObjects.java:107)
+	at redis.clients.jedis.UnifiedJedis.expire(UnifiedJedis.java:243)
+	at me.sxyxuse.apibungee.redis.RedisAccount.expireAccountFromRedis(RedisAccount.java:41)
+	at me.sxyxuse.apibungee.listeners.players.ProxyLeft.onProxyLeft(ProxyLeft.java:11)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:577)
+	at net.md_5.bungee.event.EventHandlerMethod.invoke(EventHandlerMethod.java:19)
+	at net.md_5.bungee.event.EventBus.post(EventBus.java:49)
+	at net.md_5.bungee.api.plugin.PluginManager.callEvent(PluginManager.java:412)
+	at net.md_5.bungee.connection.UpstreamBridge.disconnected(UpstreamBridge.java:68)
+	at net.md_5.bungee.netty.HandlerBoss.channelInactive(HandlerBoss.java:60)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:305)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:281)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:274)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelInactive(ChannelInboundHandlerAdapter.java:81)
+	at io.netty.handler.timeout.IdleStateHandler.channelInactive(IdleStateHandler.java:277)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:303)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:281)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:274)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelInputClosed(ByteToMessageDecoder.java:411)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelInactive(ByteToMessageDecoder.java:376)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:305)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:281)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelInactive(AbstractChannelHandlerContext.java:274)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelInactive(DefaultChannelPipeline.java:1405)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:301)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelInactive(AbstractChannelHandlerContext.java:281)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelInactive(DefaultChannelPipeline.java:901)
+	at io.netty.channel.AbstractChannel$AbstractUnsafe$7.run(AbstractChannel.java:813)
+	at io.netty.util.concurrent.AbstractEventExecutor.runTask(AbstractEventExecutor.java:174)
+	at io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:167)
+	at io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:470)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:569)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:997)
+	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+Caused by: java.lang.ClassNotFoundException: redis.clients.jedis.Protocol$Command
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass0(PluginClassloader.java:103)
+	at net.md_5.bungee.api.plugin.PluginClassloader.loadClass(PluginClassloader.java:59)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:521)
+	... 36 more
+09:32:44 [INFO] [__sx] -> UpstreamBridge has disconnected
+09:32:44 [INFO] [__sx] <-> DownstreamBridge <-> [lobby] has disconnected
+09:32:45 [INFO] Disabling plugins
+09:32:45 [WARNING] [apibungee] La connexion à REDIS à été interrompue.
+09:32:45 [INFO] HikariPool-1 - Shutdown initiated...
+09:32:45 [WARNING] [apibungee] Connexion à la base de données interrompue.
+09:32:45 [INFO] HikariPool-1 - Shutdown completed.
+09:32:45 [INFO] [apibungee] Plugin arrêté avec succès !
+09:32:45 [INFO] Closing IO threads
+09:32:56 [INFO] Using standard Java JCE cipher.
+09:32:56 [INFO] Using standard Java compressor.
+09:32:56 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.19-R0.1-SNAPSHOT:f8e0bcc:1675
+09:32:56 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+09:32:56 [WARNING] Epoll is not working, falling back to NIO: ExceptionInInitializerError : null @ io.netty.channel.epoll.Epoll:40
+09:32:56 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+
+09:32:56 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+
+09:32:56 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+
+09:32:56 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+
+09:32:56 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+
+09:32:56 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+
+09:32:56 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+09:32:56 [INFO] Loaded plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+09:32:56 [INFO] Loaded plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+09:32:56 [INFO] Loaded plugin apibungee version 1.0 by SxYxuse
+09:32:56 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+09:32:56 [INFO] Loaded plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+09:32:56 [INFO] Loaded plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+09:32:56 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+09:32:56 [INFO] Enabled plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+09:32:56 [INFO] Enabled plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+09:32:56 [INFO] HikariPool-1 - Starting...
+09:32:56 [INFO] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3b65e559
+09:32:56 [INFO] HikariPool-1 - Start completed.
+09:32:56 [WARNING] [apibungee] Connexion à la base de données établie.
+09:32:56 [WARNING] [apibungee] La connexion à REDIS à été établie.
+09:32:56 [INFO] [apibungee] Plugin démarré avec succès !
+09:32:56 [INFO] Enabled plugin apibungee version 1.0 by SxYxuse
+09:32:56 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+09:32:56 [INFO] Enabled plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+09:32:56 [INFO] Enabled plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+09:32:56 [INFO] Listening on /0.0.0.0:25565
+09:33:02 [INFO] [/127.0.0.1:49944] <-> InitialHandler has connected
+09:33:03 [INFO] [__sx] <-> ServerConnector [lobby] has connected
+09:33:04 [INFO] Netty is not using direct IO buffers.
+
+09:33:39 [INFO] [__sx] -> UpstreamBridge has disconnected
+09:33:39 [INFO] [__sx] <-> DownstreamBridge <-> [lobby] has disconnected
+09:33:39 [INFO] [/127.0.0.1:49955] <-> InitialHandler has pinged
+09:36:29 [WARNING] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m3s11ms).
+09:40:54 [WARNING] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m25s63ms).
+10:01:28 [WARNING] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=2m3s194ms).
+10:12:13 [WARNING] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m15s872ms).
+10:14:06 [WARNING] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m22s128ms).
+10:15:49 [WARNING] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m13s812ms).
+10:17:03 [WARNING] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m13s244ms).
+10:21:10 [WARNING] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m6s907ms).
+10:29:58 [INFO] Closing listener [id: 0xfad1a00a, L:/[0:0:0:0:0:0:0:0]:25565]
+10:29:58 [INFO] Closing pending connections
+10:29:58 [INFO] Disconnecting 0 connections
+10:29:58 [INFO] Disabling plugins
+10:29:58 [WARNING] [apibungee] La connexion à REDIS à été interrompue.
+10:29:58 [INFO] HikariPool-1 - Shutdown initiated...
+10:29:58 [WARNING] [apibungee] Connexion à la base de données interrompue.
+10:29:58 [INFO] HikariPool-1 - Shutdown completed.
+10:29:58 [INFO] [apibungee] Plugin arrêté avec succès !
+10:29:58 [INFO] Closing IO threads
+10:30:02 [INFO] Using standard Java JCE cipher.
+10:30:02 [INFO] Using standard Java compressor.
+10:30:02 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.19-R0.1-SNAPSHOT:f8e0bcc:1675
+10:30:02 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+10:30:02 [WARNING] Epoll is not working, falling back to NIO: ExceptionInInitializerError : null @ io.netty.channel.epoll.Epoll:40
+10:30:02 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+
+10:30:02 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+
+10:30:02 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+
+10:30:02 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+
+10:30:02 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+
+10:30:02 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+
+10:30:02 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+10:30:02 [INFO] Loaded plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+10:30:02 [INFO] Loaded plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+10:30:02 [INFO] Loaded plugin apibungee version 1.0 by SxYxuse
+10:30:02 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+10:30:02 [INFO] Loaded plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+10:30:02 [INFO] Loaded plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+10:30:02 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+10:30:02 [INFO] Enabled plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+10:30:02 [INFO] Enabled plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+10:30:02 [INFO] HikariPool-1 - Starting...
+10:30:02 [INFO] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3b65e559
+10:30:02 [INFO] HikariPool-1 - Start completed.
+10:30:02 [WARNING] [apibungee] Connexion à la base de données établie.
+10:30:02 [WARNING] [apibungee] La connexion à REDIS à été établie.
+10:30:02 [INFO] [apibungee] Plugin démarré avec succès !
+10:30:02 [INFO] Enabled plugin apibungee version 1.0 by SxYxuse
+10:30:02 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+10:30:02 [INFO] Enabled plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+10:30:02 [INFO] Enabled plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+10:30:02 [INFO] Listening on /0.0.0.0:25565
+10:30:26 [INFO] [/127.0.0.1:50274] <-> InitialHandler has pinged
+10:30:27 [INFO] [/127.0.0.1:50279] <-> InitialHandler has pinged
+10:30:48 [INFO] [/127.0.0.1:50281] <-> InitialHandler has connected
+10:30:50 [INFO] [__sx] <-> ServerConnector [lobby] has connected
+10:30:50 [INFO] Netty is not using direct IO buffers.
+
+10:31:44 [INFO] [__sx] -> UpstreamBridge has disconnected
+10:31:44 [INFO] [__sx] <-> DownstreamBridge <-> [lobby] has disconnected
+10:31:45 [INFO] [/127.0.0.1:50298] <-> InitialHandler has pinged
+10:31:46 [INFO] [/127.0.0.1:50302] <-> InitialHandler has connected
+10:31:47 [INFO] [__sx] <-> ServerConnector [lobby] has connected
+10:31:56 [INFO] [__sx] -> UpstreamBridge has disconnected
+10:31:56 [INFO] [__sx] <-> DownstreamBridge <-> [lobby] has disconnected
+10:31:57 [INFO] [/127.0.0.1:50311] <-> InitialHandler has pinged
+10:32:03 [INFO] Closing listener [id: 0xc2856b8c, L:/[0:0:0:0:0:0:0:0]:25565]
+10:32:03 [INFO] Closing pending connections
+10:32:03 [INFO] Disconnecting 0 connections
+10:32:03 [INFO] Disabling plugins
+10:32:03 [WARNING] [apibungee] La connexion à REDIS à été interrompue.
+10:32:03 [INFO] HikariPool-1 - Shutdown initiated...
+10:32:03 [INFO] HikariPool-1 - Shutdown completed.
+10:32:03 [WARNING] [apibungee] Connexion à la base de données interrompue.
+10:32:03 [INFO] [apibungee] Plugin arrêté avec succès !
+10:32:03 [INFO] Closing IO threads
+10:32:06 [INFO] Using standard Java JCE cipher.
+10:32:06 [INFO] Using standard Java compressor.
+10:32:06 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.19-R0.1-SNAPSHOT:f8e0bcc:1675
+10:32:06 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+10:32:06 [WARNING] Epoll is not working, falling back to NIO: ExceptionInInitializerError : null @ io.netty.channel.epoll.Epoll:40
+10:32:07 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+
+10:32:07 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+
+10:32:07 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+
+10:32:07 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+
+10:32:07 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+
+10:32:07 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+
+10:32:07 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+10:32:07 [INFO] Loaded plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+10:32:07 [INFO] Loaded plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+10:32:07 [INFO] Loaded plugin apibungee version 1.0 by SxYxuse
+10:32:07 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+10:32:07 [INFO] Loaded plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+10:32:07 [INFO] Loaded plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+10:32:07 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+10:32:07 [INFO] Enabled plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+10:32:07 [INFO] Enabled plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+10:32:07 [INFO] HikariPool-1 - Starting...
+10:32:07 [INFO] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3b65e559
+10:32:07 [INFO] HikariPool-1 - Start completed.
+10:32:07 [WARNING] [apibungee] Connexion à la base de données établie.
+10:32:07 [WARNING] [apibungee] La connexion à REDIS à été établie.
+10:32:07 [INFO] [apibungee] Plugin démarré avec succès !
+10:32:07 [INFO] Enabled plugin apibungee version 1.0 by SxYxuse
+10:32:07 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+10:32:07 [INFO] Enabled plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+10:32:07 [INFO] Enabled plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+10:32:07 [INFO] Listening on /0.0.0.0:25565
+10:32:09 [INFO] [/127.0.0.1:50326] <-> InitialHandler has connected
+10:32:10 [INFO] "__sx"
+
+10:32:10 [INFO] [__sx] <-> ServerConnector [lobby] has connected
+10:32:11 [INFO] Netty is not using direct IO buffers.
+
+10:48:00 [WARNING] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m22s931ms).
+10:58:40 [WARNING] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=10m10s486ms).
+11:17:29 [INFO] Closing listener [id: 0xa30862cf, L:/[0:0:0:0:0:0:0:0]:25565]
+11:17:29 [INFO] Closing pending connections
+11:17:29 [INFO] Disconnecting 1 connections
+11:17:29 [INFO] [__sx] disconnected with: §cThe proxy server is restarting
+11:17:29 [INFO] [__sx] -> UpstreamBridge has disconnected
+11:17:29 [INFO] [__sx] <-> DownstreamBridge <-> [lobby] has disconnected
+11:17:29 [INFO] Disabling plugins
+11:17:29 [WARNING] [apibungee] La connexion à REDIS à été interrompue.
+11:17:29 [INFO] HikariPool-1 - Shutdown initiated...
+11:17:29 [WARNING] [apibungee] Connexion à la base de données interrompue.
+11:17:29 [INFO] HikariPool-1 - Shutdown completed.
+11:17:29 [INFO] [apibungee] Plugin arrêté avec succès !
+11:17:29 [INFO] Closing IO threads
+11:17:32 [INFO] Using standard Java JCE cipher.
+11:17:32 [INFO] Using standard Java compressor.
+11:17:32 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.19-R0.1-SNAPSHOT:f8e0bcc:1675
+11:17:32 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+11:17:32 [WARNING] Epoll is not working, falling back to NIO: ExceptionInInitializerError : null @ io.netty.channel.epoll.Epoll:40
+11:17:33 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+
+11:17:33 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+
+11:17:33 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+
+11:17:33 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+
+11:17:33 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+
+11:17:33 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+
+11:17:33 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+11:17:33 [INFO] Loaded plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+11:17:33 [INFO] Loaded plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+11:17:33 [INFO] Loaded plugin apibungee version 1.0 by SxYxuse
+11:17:33 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+11:17:33 [INFO] Loaded plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+11:17:33 [INFO] Loaded plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+11:17:33 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+11:17:33 [INFO] Enabled plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+11:17:33 [INFO] Enabled plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+11:17:33 [INFO] HikariPool-1 - Starting...
+11:17:33 [INFO] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3b65e559
+11:17:33 [INFO] HikariPool-1 - Start completed.
+11:17:33 [WARNING] [apibungee] Connexion à la base de données établie.
+11:17:33 [WARNING] [apibungee] La connexion à REDIS à été établie.
+11:17:33 [INFO] [apibungee] Plugin démarré avec succès !
+11:17:33 [INFO] Enabled plugin apibungee version 1.0 by SxYxuse
+11:17:33 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+11:17:33 [INFO] Enabled plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+11:17:33 [INFO] Enabled plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+11:17:33 [INFO] Listening on /0.0.0.0:25565
+11:17:36 [INFO] [/127.0.0.1:50709] <-> InitialHandler has connected
+11:17:42 [INFO] [/127.0.0.1:50711] <-> InitialHandler has pinged
+11:17:49 [INFO] [/127.0.0.1:50720] <-> InitialHandler has pinged
+11:17:52 [INFO] [/127.0.0.1:50723] <-> InitialHandler has pinged
+11:17:53 [INFO] [/127.0.0.1:50724] <-> InitialHandler has connected
+11:18:03 [INFO] Closing listener [id: 0x76787638, L:/[0:0:0:0:0:0:0:0]:25565]
+11:18:03 [INFO] Closing pending connections
+11:18:03 [INFO] Disconnecting 0 connections
+11:18:04 [INFO] Disabling plugins
+11:18:04 [WARNING] [apibungee] La connexion à REDIS à été interrompue.
+11:18:04 [INFO] HikariPool-1 - Shutdown initiated...
+11:18:04 [WARNING] [apibungee] Connexion à la base de données interrompue.
+11:18:04 [INFO] HikariPool-1 - Shutdown completed.
+11:18:04 [INFO] [apibungee] Plugin arrêté avec succès !
+11:18:04 [INFO] Closing IO threads
+11:18:07 [INFO] Using standard Java JCE cipher.
+11:18:07 [INFO] Using standard Java compressor.
+11:18:07 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.19-R0.1-SNAPSHOT:f8e0bcc:1675
+11:18:07 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+11:18:07 [WARNING] Epoll is not working, falling back to NIO: ExceptionInInitializerError : null @ io.netty.channel.epoll.Epoll:40
+11:18:07 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+
+11:18:07 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+
+11:18:07 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+
+11:18:07 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+
+11:18:07 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+
+11:18:07 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+
+11:18:07 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+11:18:07 [INFO] Loaded plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+11:18:07 [INFO] Loaded plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+11:18:07 [INFO] Loaded plugin apibungee version 1.0 by SxYxuse
+11:18:07 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+11:18:07 [INFO] Loaded plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+11:18:07 [INFO] Loaded plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+11:18:07 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+11:18:07 [INFO] Enabled plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+11:18:07 [INFO] Enabled plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+11:18:07 [INFO] HikariPool-1 - Starting...
+11:18:07 [INFO] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3b65e559
+11:18:07 [INFO] HikariPool-1 - Start completed.
+11:18:07 [WARNING] [apibungee] Connexion à la base de données établie.
+11:18:07 [WARNING] [apibungee] La connexion à REDIS à été établie.
+11:18:07 [INFO] [apibungee] Plugin démarré avec succès !
+11:18:07 [INFO] Enabled plugin apibungee version 1.0 by SxYxuse
+11:18:07 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+11:18:07 [INFO] Enabled plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+11:18:07 [INFO] Enabled plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+11:18:08 [INFO] Listening on /0.0.0.0:25565
+11:18:12 [INFO] [/127.0.0.1:50758] <-> InitialHandler has pinged
+11:18:13 [INFO] [/127.0.0.1:50762] <-> InitialHandler has connected
+11:18:15 [WARNING] Plugin listener me.sxyxuse.apibungee.listeners.players.ProxyJoin took 61ms to process event PostLoginEvent(player=__sx)!
+11:18:15 [INFO] [__sx] <-> ServerConnector [lobby] has connected
+11:18:15 [INFO] Netty is not using direct IO buffers.
+
+11:18:52 [INFO] [__sx] -> UpstreamBridge has disconnected
+11:18:52 [INFO] [__sx] <-> DownstreamBridge <-> [lobby] has disconnected
+11:18:52 [INFO] [/127.0.0.1:50781] <-> InitialHandler has pinged
+11:19:03 [INFO] [/127.0.0.1:50786] <-> InitialHandler has connected
+11:19:05 [INFO] [__sx] <-> ServerConnector [lobby] has connected
+11:19:10 [INFO] [__sx] -> UpstreamBridge has disconnected
+11:19:10 [INFO] [__sx] <-> DownstreamBridge <-> [lobby] has disconnected
+11:19:11 [INFO] [/127.0.0.1:50797] <-> InitialHandler has pinged
+11:19:18 [INFO] Closing listener [id: 0x13d55a5c, L:/[0:0:0:0:0:0:0:0]:25565]
+11:19:18 [INFO] Closing pending connections
+11:19:18 [INFO] Disconnecting 0 connections
+11:19:19 [INFO] Disabling plugins
+11:19:19 [WARNING] [apibungee] La connexion à REDIS à été interrompue.
+11:19:19 [INFO] HikariPool-1 - Shutdown initiated...
+11:19:19 [INFO] HikariPool-1 - Shutdown completed.
+11:19:19 [WARNING] [apibungee] Connexion à la base de données interrompue.
+11:19:19 [INFO] [apibungee] Plugin arrêté avec succès !
+11:19:19 [INFO] Closing IO threads

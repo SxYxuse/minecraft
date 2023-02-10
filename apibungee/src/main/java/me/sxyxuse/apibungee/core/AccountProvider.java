@@ -18,7 +18,6 @@ public class AccountProvider {
 
         this.account.setup();
         this.account.updateLastLogin();
-
         if (!RedisAccount.isAccountInRedis(uuid))
             RedisAccount.addAccountToRedis(this.account);
         else

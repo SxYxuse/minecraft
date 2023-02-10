@@ -1,155 +1,154 @@
-[18:40:24] [ServerMain/INFO]: Building unoptimized datafixer
-[18:40:25] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[18:40:25] [ServerMain/INFO]: Loaded 7 recipes
-[18:40:27] [Server thread/INFO]: Starting minecraft server version 1.19.2
-[18:40:27] [Server thread/INFO]: Loading properties
-[18:40:27] [Server thread/INFO]: This server is running CraftBukkit version 3610-Spigot-6198b5a-19df23a (MC: 1.19.2) (Implementing API version 1.19.2-R0.1-SNAPSHOT)
-[18:40:27] [Server thread/INFO]: Debug logging is disabled
-[18:40:27] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[18:40:27] [Server thread/INFO]: Using 4 threads for Netty based IO
-[18:40:27] [Server thread/INFO]: Default game type: SURVIVAL
-[18:40:27] [Server thread/INFO]: Generating keypair
-[18:40:27] [Server thread/INFO]: Starting Minecraft server on localhost:25566
-[18:40:27] [Server thread/INFO]: Using default channel type
-[18:40:27] [Server thread/INFO]: [manager] Loading manager v1.0
-[18:40:27] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[18:40:27] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[18:40:27] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
-[18:40:27] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
-[18:40:27] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[18:40:27] [Server thread/INFO]: Preparing level "world"
-[18:40:27] [Server thread/INFO]: -------- World Settings For [world] --------
-[18:40:27] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[18:40:27] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[18:40:27] [Server thread/INFO]: Mob Spawn Range: 6
-[18:40:27] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[18:40:27] [Server thread/INFO]: Cane Growth Modifier: 100%
-[18:40:27] [Server thread/INFO]: Melon Growth Modifier: 100%
-[18:40:27] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[18:40:27] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[18:40:27] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[18:40:27] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[18:40:27] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[18:40:27] [Server thread/INFO]: Potato Growth Modifier: 100%
-[18:40:27] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[18:40:27] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[18:40:27] [Server thread/INFO]: Vine Growth Modifier: 100%
-[18:40:27] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[18:40:27] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[18:40:27] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[18:40:27] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[18:40:27] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
-[18:40:27] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
-[18:40:27] [Server thread/INFO]: CaveVines Growth Modifier: 100%
-[18:40:27] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[18:40:27] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[18:40:27] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[18:40:27] [Server thread/INFO]: Max TNT Explosions: 100
-[18:40:27] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[18:40:27] [Server thread/INFO]: Item Merge Radius: 2.5
-[18:40:27] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[18:40:27] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[18:40:27] [Server thread/INFO]: View Distance: 10
-[18:40:27] [Server thread/INFO]: Simulation Distance: 10
-[18:40:27] [Server thread/INFO]: Item Despawn Rate: 6000
-[18:40:27] [Server thread/INFO]: Experience Merge Radius: 3.0
-[18:40:27] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[18:40:27] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[18:40:27] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[18:40:27] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[18:40:27] [Server thread/INFO]: Mob Spawn Range: 6
-[18:40:27] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[18:40:27] [Server thread/INFO]: Cane Growth Modifier: 100%
-[18:40:27] [Server thread/INFO]: Melon Growth Modifier: 100%
-[18:40:27] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[18:40:27] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[18:40:27] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[18:40:27] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[18:40:27] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[18:40:27] [Server thread/INFO]: Potato Growth Modifier: 100%
-[18:40:27] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[18:40:27] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[18:40:27] [Server thread/INFO]: Vine Growth Modifier: 100%
-[18:40:27] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[18:40:27] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[18:40:27] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[18:40:27] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[18:40:27] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
-[18:40:27] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
-[18:40:27] [Server thread/INFO]: CaveVines Growth Modifier: 100%
-[18:40:27] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[18:40:27] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[18:40:27] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[18:40:27] [Server thread/INFO]: Max TNT Explosions: 100
-[18:40:27] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[18:40:27] [Server thread/INFO]: Item Merge Radius: 2.5
-[18:40:27] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[18:40:27] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[18:40:27] [Server thread/INFO]: View Distance: 10
-[18:40:27] [Server thread/INFO]: Simulation Distance: 10
-[18:40:27] [Server thread/INFO]: Item Despawn Rate: 6000
-[18:40:27] [Server thread/INFO]: Experience Merge Radius: 3.0
-[18:40:27] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[18:40:28] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[18:40:28] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[18:40:28] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[18:40:28] [Server thread/INFO]: Mob Spawn Range: 6
-[18:40:28] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[18:40:28] [Server thread/INFO]: Cane Growth Modifier: 100%
-[18:40:28] [Server thread/INFO]: Melon Growth Modifier: 100%
-[18:40:28] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[18:40:28] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[18:40:28] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[18:40:28] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[18:40:28] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[18:40:28] [Server thread/INFO]: Potato Growth Modifier: 100%
-[18:40:28] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[18:40:28] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[18:40:28] [Server thread/INFO]: Vine Growth Modifier: 100%
-[18:40:28] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[18:40:28] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[18:40:28] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[18:40:28] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[18:40:28] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
-[18:40:28] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
-[18:40:28] [Server thread/INFO]: CaveVines Growth Modifier: 100%
-[18:40:28] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[18:40:28] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[18:40:28] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[18:40:28] [Server thread/INFO]: Max TNT Explosions: 100
-[18:40:28] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[18:40:28] [Server thread/INFO]: Item Merge Radius: 2.5
-[18:40:28] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[18:40:28] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[18:40:28] [Server thread/INFO]: View Distance: 10
-[18:40:28] [Server thread/INFO]: Simulation Distance: 10
-[18:40:28] [Server thread/INFO]: Item Despawn Rate: 6000
-[18:40:28] [Server thread/INFO]: Experience Merge Radius: 3.0
-[18:40:28] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[18:40:28] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[18:40:29] [Worker-Main-7/INFO]: Preparing spawn area: 0%
-[18:40:29] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[18:40:29] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[18:40:29] [Worker-Main-7/INFO]: Preparing spawn area: 0%
-[18:40:30] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[18:40:30] [Worker-Main-7/INFO]: Preparing spawn area: 58%
-[18:40:30] [Server thread/INFO]: Time elapsed: 2672 ms
-[18:40:30] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[18:40:31] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[18:40:31] [Worker-Main-2/INFO]: Preparing spawn area: 0%
-[18:40:31] [Worker-Main-2/INFO]: Preparing spawn area: 32%
-[18:40:31] [Server thread/INFO]: Time elapsed: 1187 ms
-[18:40:31] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[18:40:32] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[18:40:32] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[18:40:32] [Server thread/INFO]: Time elapsed: 985 ms
-[18:40:32] [Server thread/INFO]: [manager] Enabling manager v1.0
-[18:40:32] [Server thread/WARN]: [manager] La connexion à REDIS à été établie.
-[18:40:32] [Server thread/INFO]: [manager] Plugin démarré avec succès !
-[18:40:32] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[18:40:32] [Server thread/INFO]: Done (5.267s)! For help, type "help"
-[19:02:26] [User Authenticator #1/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
-[19:02:26] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to manager v1.0
+[09:04:57] [ServerMain/INFO]: Building unoptimized datafixer
+[09:04:57] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[09:04:58] [ServerMain/INFO]: Loaded 7 recipes
+[09:04:59] [Server thread/INFO]: Starting minecraft server version 1.19.2
+[09:04:59] [Server thread/INFO]: Loading properties
+[09:04:59] [Server thread/INFO]: This server is running CraftBukkit version 3610-Spigot-6198b5a-19df23a (MC: 1.19.2) (Implementing API version 1.19.2-R0.1-SNAPSHOT)
+[09:04:59] [Server thread/INFO]: Debug logging is disabled
+[09:04:59] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[09:04:59] [Server thread/INFO]: Using 4 threads for Netty based IO
+[09:04:59] [Server thread/INFO]: Default game type: SURVIVAL
+[09:04:59] [Server thread/INFO]: Generating keypair
+[09:05:00] [Server thread/INFO]: Starting Minecraft server on localhost:25566
+[09:05:00] [Server thread/INFO]: Using default channel type
+[09:05:00] [Server thread/INFO]: [manager] Loading manager v1.0
+[09:05:00] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[09:05:00] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[09:05:00] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[09:05:00] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[09:05:00] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[09:05:00] [Server thread/INFO]: Preparing level "world"
+[09:05:00] [Server thread/INFO]: -------- World Settings For [world] --------
+[09:05:00] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[09:05:00] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[09:05:00] [Server thread/INFO]: Item Despawn Rate: 6000
+[09:05:00] [Server thread/INFO]: View Distance: 10
+[09:05:00] [Server thread/INFO]: Simulation Distance: 10
+[09:05:00] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[09:05:00] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[09:05:00] [Server thread/INFO]: Item Merge Radius: 2.5
+[09:05:00] [Server thread/INFO]: Mob Spawn Range: 6
+[09:05:00] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[09:05:00] [Server thread/INFO]: Cane Growth Modifier: 100%
+[09:05:00] [Server thread/INFO]: Melon Growth Modifier: 100%
+[09:05:00] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[09:05:00] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[09:05:00] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[09:05:00] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[09:05:00] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[09:05:00] [Server thread/INFO]: Potato Growth Modifier: 100%
+[09:05:00] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[09:05:00] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[09:05:00] [Server thread/INFO]: Vine Growth Modifier: 100%
+[09:05:00] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[09:05:00] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[09:05:00] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[09:05:00] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[09:05:00] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[09:05:00] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[09:05:00] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[09:05:00] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[09:05:00] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[09:05:00] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[09:05:00] [Server thread/INFO]: Max TNT Explosions: 100
+[09:05:00] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[09:05:00] [Server thread/INFO]: Experience Merge Radius: 3.0
+[09:05:00] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[09:05:00] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[09:05:00] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[09:05:00] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[09:05:00] [Server thread/INFO]: Item Despawn Rate: 6000
+[09:05:00] [Server thread/INFO]: View Distance: 10
+[09:05:00] [Server thread/INFO]: Simulation Distance: 10
+[09:05:00] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[09:05:00] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[09:05:00] [Server thread/INFO]: Item Merge Radius: 2.5
+[09:05:00] [Server thread/INFO]: Mob Spawn Range: 6
+[09:05:00] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[09:05:00] [Server thread/INFO]: Cane Growth Modifier: 100%
+[09:05:00] [Server thread/INFO]: Melon Growth Modifier: 100%
+[09:05:00] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[09:05:00] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[09:05:00] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[09:05:00] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[09:05:00] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[09:05:00] [Server thread/INFO]: Potato Growth Modifier: 100%
+[09:05:00] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[09:05:00] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[09:05:00] [Server thread/INFO]: Vine Growth Modifier: 100%
+[09:05:00] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[09:05:00] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[09:05:00] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[09:05:00] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[09:05:00] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[09:05:00] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[09:05:00] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[09:05:00] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[09:05:00] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[09:05:00] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[09:05:00] [Server thread/INFO]: Max TNT Explosions: 100
+[09:05:00] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[09:05:00] [Server thread/INFO]: Experience Merge Radius: 3.0
+[09:05:00] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[09:05:00] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[09:05:00] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[09:05:00] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[09:05:00] [Server thread/INFO]: Item Despawn Rate: 6000
+[09:05:00] [Server thread/INFO]: View Distance: 10
+[09:05:00] [Server thread/INFO]: Simulation Distance: 10
+[09:05:00] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[09:05:00] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[09:05:00] [Server thread/INFO]: Item Merge Radius: 2.5
+[09:05:00] [Server thread/INFO]: Mob Spawn Range: 6
+[09:05:00] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[09:05:00] [Server thread/INFO]: Cane Growth Modifier: 100%
+[09:05:00] [Server thread/INFO]: Melon Growth Modifier: 100%
+[09:05:00] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[09:05:00] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[09:05:00] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[09:05:00] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[09:05:00] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[09:05:00] [Server thread/INFO]: Potato Growth Modifier: 100%
+[09:05:00] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[09:05:00] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[09:05:00] [Server thread/INFO]: Vine Growth Modifier: 100%
+[09:05:00] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[09:05:00] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[09:05:00] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[09:05:00] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[09:05:00] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[09:05:00] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[09:05:00] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[09:05:00] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[09:05:00] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[09:05:00] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[09:05:00] [Server thread/INFO]: Max TNT Explosions: 100
+[09:05:00] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[09:05:00] [Server thread/INFO]: Experience Merge Radius: 3.0
+[09:05:00] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[09:05:00] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[09:05:01] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[09:05:01] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[09:05:01] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[09:05:02] [Worker-Main-6/INFO]: Preparing spawn area: 0%
+[09:05:02] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[09:05:03] [Server thread/INFO]: Time elapsed: 2470 ms
+[09:05:03] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[09:05:03] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[09:05:03] [Worker-Main-5/INFO]: Preparing spawn area: 0%
+[09:05:04] [Worker-Main-6/INFO]: Preparing spawn area: 47%
+[09:05:04] [Server thread/INFO]: Time elapsed: 1140 ms
+[09:05:04] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[09:05:04] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[09:05:04] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[09:05:05] [Server thread/INFO]: Time elapsed: 977 ms
+[09:05:05] [Server thread/INFO]: [manager] Enabling manager v1.0
+[09:05:05] [Server thread/WARN]: [manager] La connexion à REDIS à été établie.
+[09:05:05] [Server thread/INFO]: [manager] Plugin démarré avec succès !
+[09:05:05] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[09:05:05] [Server thread/INFO]: Done (5.028s)! For help, type "help"
+[09:08:08] [User Authenticator #1/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
+[09:08:08] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to manager v1.0
 org.bukkit.event.EventException: null
 	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
@@ -174,472 +173,12 @@ Caused by: java.lang.NullPointerException: Cannot invoke "java.lang.Double.intVa
 	at java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
 	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
 	... 15 more
-[19:02:26] [Server thread/INFO]: __sx joined the game
-[19:02:26] [Server thread/INFO]: __sx[/127.0.0.1:57532] logged in with entity id 75 at ([world]-46.465281157387004, 125.0, -180.23726897754864)
-[19:02:50] [Server thread/INFO]: __sx lost connection: Disconnected
-[19:02:50] [Server thread/INFO]: [-] __sx
-[19:03:48] [User Authenticator #2/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
-[19:03:48] [Server thread/INFO]: [+] __sx
-[19:03:48] [Server thread/INFO]: __sx[/127.0.0.1:57584] logged in with entity id 174 at ([world]-46.465281157387004, 125.0, -180.23726897754864)
-[19:05:21] [Server thread/INFO]: __sx lost connection: Disconnected
-[19:05:21] [Server thread/INFO]: [-] __sx
-[19:05:23] [User Authenticator #3/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
-[19:05:23] [Server thread/INFO]: [+] __sx
-[19:05:23] [Server thread/INFO]: __sx[/127.0.0.1:57603] logged in with entity id 371 at ([world]-46.465281157387004, 125.0, -180.23726897754864)
-[19:06:51] [Server thread/INFO]: __sx lost connection: Disconnected
-[19:06:51] [Server thread/INFO]: [-] __sx
-[19:06:54] [User Authenticator #4/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
-[19:06:54] [Server thread/INFO]: [+] __sx
-[19:06:54] [Server thread/INFO]: __sx[/127.0.0.1:57619] logged in with entity id 569 at ([world]-46.465281157387004, 125.0, -180.23726897754864)
-[19:07:48] [Server thread/INFO]: __sx lost connection: Disconnected
-[19:07:48] [Server thread/INFO]: [-] __sx
-[19:07:50] [User Authenticator #5/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
-[19:07:50] [Server thread/INFO]: [+] __sx
-[19:07:50] [Server thread/INFO]: __sx[/127.0.0.1:57637] logged in with entity id 722 at ([world]-46.465281157387004, 125.0, -180.23726897754864)
-[19:10:00] [Server thread/INFO]: __sx lost connection: Disconnected
-[19:10:00] [Server thread/INFO]: [-] __sx
-[19:10:07] [User Authenticator #6/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
-[19:10:07] [Server thread/INFO]: [+] __sx
-[19:10:07] [Server thread/INFO]: __sx[/127.0.0.1:57669] logged in with entity id 994 at ([world]-46.465281157387004, 125.0, -180.23726897754864)
-[19:11:40] [Server thread/INFO]: __sx lost connection: Disconnected
-[19:11:40] [Server thread/INFO]: [-] __sx
-[19:11:50] [User Authenticator #7/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
-[19:11:50] [Server thread/INFO]: [+] __sx
-[19:11:50] [Server thread/INFO]: __sx[/127.0.0.1:57702] logged in with entity id 1205 at ([world]-46.465281157387004, 125.0, -180.23726897754864)
-[19:16:26] [Server thread/INFO]: __sx lost connection: Disconnected
-[19:16:26] [Server thread/INFO]: [-] __sx
-[19:16:34] [User Authenticator #8/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
-[19:16:34] [Server thread/INFO]: [+] __sx
-[19:16:34] [Server thread/INFO]: __sx[/127.0.0.1:57736] logged in with entity id 1667 at ([world]-46.465281157387004, 125.0, -180.23726897754864)
-[19:18:07] [Server thread/INFO]: __sx lost connection: Disconnected
-[19:18:07] [Server thread/INFO]: [-] __sx
-[19:18:10] [User Authenticator #9/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
-[19:18:10] [Server thread/INFO]: [+] __sx
-[19:18:10] [Server thread/INFO]: __sx[/127.0.0.1:57751] logged in with entity id 1873 at ([world]-46.465281157387004, 125.0, -180.23726897754864)
-[19:18:19] [Server thread/INFO]: __sx lost connection: Disconnected
-[19:18:19] [Server thread/INFO]: [-] __sx
-[19:18:32] [User Authenticator #10/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
-[19:18:32] [Server thread/INFO]: [+] __sx
-[19:18:32] [Server thread/INFO]: __sx[/127.0.0.1:57778] logged in with entity id 1970 at ([world]-46.465281157387004, 125.0, -180.23726897754864)
-[19:19:42] [Server thread/INFO]: __sx lost connection: Disconnected
-[19:19:42] [Server thread/INFO]: [-] __sx
-[19:19:45] [User Authenticator #11/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
-[19:19:45] [Server thread/INFO]: [+] __sx
-[19:19:45] [Server thread/INFO]: __sx[/127.0.0.1:57804] logged in with entity id 2145 at ([world]-46.465281157387004, 125.0, -180.23726897754864)
-[19:22:55] [Server thread/INFO]: __sx lost connection: Disconnected
-[19:22:55] [Server thread/INFO]: [-] __sx
-[19:23:04] [User Authenticator #12/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
-[19:23:04] [Server thread/INFO]: [+] __sx
-[19:23:04] [Server thread/INFO]: __sx[/127.0.0.1:57847] logged in with entity id 2497 at ([world]-46.465281157387004, 125.0, -180.23726897754864)
-[19:23:49] [Server thread/INFO]: __sx lost connection: Disconnected
-[19:23:49] [Server thread/INFO]: [-] __sx
-[19:25:17] [User Authenticator #13/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
-[19:25:17] [Server thread/INFO]: [+] __sx
-[19:25:17] [Server thread/INFO]: __sx[/127.0.0.1:57898] logged in with entity id 2641 at ([world]-46.465281157387004, 125.0, -180.23726897754864)
-[19:26:47] [Server thread/INFO]: __sx lost connection: Disconnected
-[19:26:47] [Server thread/INFO]: [-] __sx
-[19:26:54] [User Authenticator #14/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
-[19:26:54] [Server thread/INFO]: [+] __sx
-[19:26:54] [Server thread/INFO]: __sx[/127.0.0.1:57921] logged in with entity id 2856 at ([world]-46.465281157387004, 125.0, -180.23726897754864)
-[19:28:23] [Server thread/INFO]: __sx lost connection: Disconnected
-[19:28:23] [Server thread/INFO]: [-] __sx
-[19:28:35] [User Authenticator #15/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
-[19:28:35] [Server thread/INFO]: [+] __sx
-[19:28:35] [Server thread/INFO]: __sx[/127.0.0.1:57954] logged in with entity id 3055 at ([world]-46.465281157387004, 125.0, -180.23726897754864)
-[19:31:11] [Server thread/INFO]: __sx lost connection: Disconnected
-[19:31:11] [Server thread/INFO]: [-] __sx
-[19:31:15] [User Authenticator #16/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
-[19:31:15] [Server thread/INFO]: [+] __sx
-[19:31:15] [Server thread/INFO]: __sx[/127.0.0.1:57977] logged in with entity id 3331 at ([world]-46.465281157387004, 125.0, -180.23726897754864)
-[19:33:52] [Server thread/INFO]: __sx lost connection: Disconnected
-[19:33:52] [Server thread/INFO]: [-] __sx
-[19:33:55] [User Authenticator #17/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
-[19:33:55] [Server thread/INFO]: [+] __sx
-[19:33:55] [Server thread/INFO]: __sx[/127.0.0.1:58013] logged in with entity id 3620 at ([world]-46.465281157387004, 125.0, -180.23726897754864)
-[19:34:16] [Server thread/INFO]: __sx lost connection: Disconnected
-[19:34:16] [Server thread/INFO]: [-] __sx
-[19:34:45] [User Authenticator #18/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
-[19:34:45] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to manager v1.0
-org.bukkit.event.EventException: null
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:589) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:576) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at net.minecraft.server.players.PlayerList.a(PlayerList.java:283) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.LoginListener.a(LoginListener.java:202) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.LoginListener.d(LoginListener.java:188) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.LoginListener.c(LoginListener.java:80) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.network.NetworkManager.a(NetworkManager.java:272) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.ServerConnection.c(ServerConnection.java:174) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1312) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.dedicated.DedicatedServer.b(DedicatedServer.java:394) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1197) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.v(MinecraftServer.java:1013) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:293) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-Caused by: redis.clients.jedis.exceptions.JedisDataException: ERR Path '$.pseudo' does not exist
-	at redis.clients.jedis.Protocol.processError(Protocol.java:96) ~[?:?]
-	at redis.clients.jedis.Protocol.process(Protocol.java:137) ~[?:?]
-	at redis.clients.jedis.Protocol.read(Protocol.java:192) ~[?:?]
-	at redis.clients.jedis.Connection.readProtocolWithCheckingBroken(Connection.java:316) ~[?:?]
-	at redis.clients.jedis.Connection.getOne(Connection.java:298) ~[?:?]
-	at redis.clients.jedis.Connection.executeCommand(Connection.java:123) ~[?:?]
-	at redis.clients.jedis.executors.DefaultCommandExecutor.executeCommand(DefaultCommandExecutor.java:24) ~[?:?]
-	at redis.clients.jedis.UnifiedJedis.executeCommand(UnifiedJedis.java:167) ~[?:?]
-	at redis.clients.jedis.UnifiedJedis.jsonGet(UnifiedJedis.java:3736) ~[?:?]
-	at me.sxyxuse.manager.redis.RedisAccount.getPseudo(RedisAccount.java:57) ~[?:?]
-	at me.sxyxuse.manager.listeners.players.JoinEvent.onJointEvent(JoinEvent.java:37) ~[?:?]
-	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	... 15 more
-[19:34:45] [Server thread/INFO]: [+] __sx
-[19:34:45] [Server thread/INFO]: __sx[/127.0.0.1:58028] logged in with entity id 3719 at ([world]-46.465281157387004, 125.0, -180.23726897754864)
-[19:35:17] [Server thread/INFO]: CONSOLE: [0;31;1mPlease note that this command is not supported and may cause issues when using some plugins.[m
-[19:35:17] [Server thread/INFO]: CONSOLE: [0;31;1mIf you encounter any issues please use the /stop command to restart your server.[m
-[19:35:17] [Server thread/INFO]: Debug logging is disabled
-[19:35:17] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[19:35:17] [Server thread/INFO]: Using 4 threads for Netty based IO
-[19:35:17] [Server thread/INFO]: -------- World Settings For [world] --------
-[19:35:17] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[19:35:17] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[19:35:17] [Server thread/INFO]: Mob Spawn Range: 6
-[19:35:17] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[19:35:17] [Server thread/INFO]: Cane Growth Modifier: 100%
-[19:35:17] [Server thread/INFO]: Melon Growth Modifier: 100%
-[19:35:17] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[19:35:17] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[19:35:17] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[19:35:17] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[19:35:17] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[19:35:17] [Server thread/INFO]: Potato Growth Modifier: 100%
-[19:35:17] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[19:35:17] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[19:35:17] [Server thread/INFO]: Vine Growth Modifier: 100%
-[19:35:17] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[19:35:17] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[19:35:17] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[19:35:17] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[19:35:17] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
-[19:35:17] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
-[19:35:17] [Server thread/INFO]: CaveVines Growth Modifier: 100%
-[19:35:17] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[19:35:17] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[19:35:17] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[19:35:17] [Server thread/INFO]: Max TNT Explosions: 100
-[19:35:17] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[19:35:17] [Server thread/INFO]: Item Merge Radius: 2.5
-[19:35:17] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[19:35:17] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[19:35:17] [Server thread/INFO]: View Distance: 10
-[19:35:17] [Server thread/INFO]: Simulation Distance: 10
-[19:35:17] [Server thread/INFO]: Item Despawn Rate: 6000
-[19:35:17] [Server thread/INFO]: Experience Merge Radius: 3.0
-[19:35:17] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[19:35:17] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[19:35:17] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[19:35:17] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[19:35:17] [Server thread/INFO]: Mob Spawn Range: 6
-[19:35:17] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[19:35:17] [Server thread/INFO]: Cane Growth Modifier: 100%
-[19:35:17] [Server thread/INFO]: Melon Growth Modifier: 100%
-[19:35:17] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[19:35:17] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[19:35:17] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[19:35:17] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[19:35:17] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[19:35:17] [Server thread/INFO]: Potato Growth Modifier: 100%
-[19:35:17] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[19:35:17] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[19:35:17] [Server thread/INFO]: Vine Growth Modifier: 100%
-[19:35:17] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[19:35:17] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[19:35:17] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[19:35:17] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[19:35:17] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
-[19:35:17] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
-[19:35:17] [Server thread/INFO]: CaveVines Growth Modifier: 100%
-[19:35:17] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[19:35:17] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[19:35:17] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[19:35:17] [Server thread/INFO]: Max TNT Explosions: 100
-[19:35:17] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[19:35:17] [Server thread/INFO]: Item Merge Radius: 2.5
-[19:35:17] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[19:35:17] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[19:35:17] [Server thread/INFO]: View Distance: 10
-[19:35:17] [Server thread/INFO]: Simulation Distance: 10
-[19:35:17] [Server thread/INFO]: Item Despawn Rate: 6000
-[19:35:17] [Server thread/INFO]: Experience Merge Radius: 3.0
-[19:35:17] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[19:35:17] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[19:35:17] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[19:35:17] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[19:35:17] [Server thread/INFO]: Mob Spawn Range: 6
-[19:35:17] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[19:35:17] [Server thread/INFO]: Cane Growth Modifier: 100%
-[19:35:17] [Server thread/INFO]: Melon Growth Modifier: 100%
-[19:35:17] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[19:35:17] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[19:35:17] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[19:35:17] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[19:35:17] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[19:35:17] [Server thread/INFO]: Potato Growth Modifier: 100%
-[19:35:17] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[19:35:17] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[19:35:17] [Server thread/INFO]: Vine Growth Modifier: 100%
-[19:35:17] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[19:35:17] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[19:35:17] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[19:35:17] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[19:35:17] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
-[19:35:17] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
-[19:35:17] [Server thread/INFO]: CaveVines Growth Modifier: 100%
-[19:35:17] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[19:35:17] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[19:35:17] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[19:35:17] [Server thread/INFO]: Max TNT Explosions: 100
-[19:35:17] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[19:35:17] [Server thread/INFO]: Item Merge Radius: 2.5
-[19:35:17] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[19:35:17] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[19:35:17] [Server thread/INFO]: View Distance: 10
-[19:35:17] [Server thread/INFO]: Simulation Distance: 10
-[19:35:17] [Server thread/INFO]: Item Despawn Rate: 6000
-[19:35:17] [Server thread/INFO]: Experience Merge Radius: 3.0
-[19:35:17] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[19:35:17] [Server thread/INFO]: [manager] Disabling manager v1.0
-[19:35:17] [Server thread/WARN]: [manager] La connexion à REDIS à été interrompue.
-[19:35:17] [Server thread/INFO]: [manager] Plugin arrêté avec succès !
-[19:35:17] [Server thread/INFO]: Loaded 7 recipes
-[19:35:18] [Server thread/INFO]: [manager] Loading manager v1.0
-[19:35:18] [Server thread/INFO]: [manager] Enabling manager v1.0
-[19:35:18] [Server thread/WARN]: [manager] La connexion à REDIS à été établie.
-[19:35:18] [Server thread/INFO]: [manager] Plugin démarré avec succès !
-[19:35:18] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[19:35:18] [Server thread/INFO]: CONSOLE: [0;32;1mReload complete.[m
-[19:35:21] [Server thread/INFO]: __sx lost connection: Disconnected
-[19:35:21] [Server thread/INFO]: [-] __sx
-[19:35:24] [User Authenticator #19/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
-[19:35:24] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to manager v1.0
-org.bukkit.event.EventException: null
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:589) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:576) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at net.minecraft.server.players.PlayerList.a(PlayerList.java:283) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.LoginListener.a(LoginListener.java:202) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.LoginListener.d(LoginListener.java:188) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.LoginListener.c(LoginListener.java:80) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.network.NetworkManager.a(NetworkManager.java:272) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.ServerConnection.c(ServerConnection.java:174) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1312) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.dedicated.DedicatedServer.b(DedicatedServer.java:394) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1197) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.v(MinecraftServer.java:1013) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:293) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-Caused by: redis.clients.jedis.exceptions.JedisDataException: ERR Path '$.pseudo' does not exist
-	at redis.clients.jedis.Protocol.processError(Protocol.java:96) ~[?:?]
-	at redis.clients.jedis.Protocol.process(Protocol.java:137) ~[?:?]
-	at redis.clients.jedis.Protocol.read(Protocol.java:192) ~[?:?]
-	at redis.clients.jedis.Connection.readProtocolWithCheckingBroken(Connection.java:316) ~[?:?]
-	at redis.clients.jedis.Connection.getOne(Connection.java:298) ~[?:?]
-	at redis.clients.jedis.Connection.executeCommand(Connection.java:123) ~[?:?]
-	at redis.clients.jedis.executors.DefaultCommandExecutor.executeCommand(DefaultCommandExecutor.java:24) ~[?:?]
-	at redis.clients.jedis.UnifiedJedis.executeCommand(UnifiedJedis.java:167) ~[?:?]
-	at redis.clients.jedis.UnifiedJedis.jsonGet(UnifiedJedis.java:3736) ~[?:?]
-	at me.sxyxuse.manager.redis.RedisAccount.getPseudo(RedisAccount.java:57) ~[?:?]
-	at me.sxyxuse.manager.listeners.players.JoinEvent.onJointEvent(JoinEvent.java:37) ~[?:?]
-	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	... 15 more
-[19:35:24] [Server thread/INFO]: [+] __sx
-[19:35:24] [Server thread/INFO]: __sx[/127.0.0.1:58042] logged in with entity id 3838 at ([world]-46.465281157387004, 125.0, -180.23726897754864)
-[19:36:51] [Server thread/INFO]: __sx lost connection: Disconnected
-[19:36:51] [Server thread/INFO]: [-] __sx
-[19:37:33] [User Authenticator #20/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
-[19:37:33] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to manager v1.0
-org.bukkit.event.EventException: null
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:589) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:576) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at net.minecraft.server.players.PlayerList.a(PlayerList.java:283) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.LoginListener.a(LoginListener.java:202) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.LoginListener.d(LoginListener.java:188) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.LoginListener.c(LoginListener.java:80) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.network.NetworkManager.a(NetworkManager.java:272) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.ServerConnection.c(ServerConnection.java:174) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1312) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.dedicated.DedicatedServer.b(DedicatedServer.java:394) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1197) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.v(MinecraftServer.java:1013) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:293) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-Caused by: redis.clients.jedis.exceptions.JedisDataException: ERR Path '$.pseudo' does not exist
-	at redis.clients.jedis.Protocol.processError(Protocol.java:96) ~[?:?]
-	at redis.clients.jedis.Protocol.process(Protocol.java:137) ~[?:?]
-	at redis.clients.jedis.Protocol.read(Protocol.java:192) ~[?:?]
-	at redis.clients.jedis.Connection.readProtocolWithCheckingBroken(Connection.java:316) ~[?:?]
-	at redis.clients.jedis.Connection.getOne(Connection.java:298) ~[?:?]
-	at redis.clients.jedis.Connection.executeCommand(Connection.java:123) ~[?:?]
-	at redis.clients.jedis.executors.DefaultCommandExecutor.executeCommand(DefaultCommandExecutor.java:24) ~[?:?]
-	at redis.clients.jedis.UnifiedJedis.executeCommand(UnifiedJedis.java:167) ~[?:?]
-	at redis.clients.jedis.UnifiedJedis.jsonGet(UnifiedJedis.java:3736) ~[?:?]
-	at me.sxyxuse.manager.redis.RedisAccount.getPseudo(RedisAccount.java:57) ~[?:?]
-	at me.sxyxuse.manager.listeners.players.JoinEvent.onJointEvent(JoinEvent.java:37) ~[?:?]
-	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	... 15 more
-[19:37:33] [Server thread/INFO]: [+] __sx
-[19:37:33] [Server thread/INFO]: __sx[/127.0.0.1:58120] logged in with entity id 4033 at ([world]-46.465281157387004, 125.0, -180.23726897754864)
-[19:37:57] [Server thread/INFO]: __sx lost connection: Disconnected
-[19:37:57] [Server thread/INFO]: [-] __sx
-[19:38:12] [User Authenticator #21/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
-[19:38:12] [Server thread/INFO]: [+] __sx
-[19:38:12] [Server thread/INFO]: __sx[/127.0.0.1:58138] logged in with entity id 4147 at ([world]-46.465281157387004, 125.0, -180.23726897754864)
-[19:41:12] [Server thread/INFO]: __sx lost connection: Disconnected
-[19:41:12] [Server thread/INFO]: [-] __sx
-[19:41:22] [User Authenticator #22/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
-[19:41:22] [Server thread/INFO]: [+] __sx
-[19:41:22] [Server thread/INFO]: __sx[/127.0.0.1:58158] logged in with entity id 4510 at ([world]-13.683562853662092, 128.0, -177.07457019105667)
-[19:43:34] [Server thread/INFO]: __sx lost connection: Disconnected
-[19:43:34] [Server thread/INFO]: [-] __sx
-[19:54:22] [User Authenticator #23/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
-[19:54:22] [Server thread/INFO]: [+] __sx
-[19:54:22] [Server thread/INFO]: __sx[/127.0.0.1:58241] logged in with entity id 4769 at ([world]-13.683562853662092, 128.0, -177.07457019105667)
-[19:54:37] [Server thread/INFO]: __sx lost connection: Disconnected
-[19:54:37] [Server thread/INFO]: [-] __sx
-[19:56:01] [User Authenticator #24/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
-[19:56:01] [Server thread/INFO]: [+] __sx
-[19:56:01] [Server thread/INFO]: __sx[/127.0.0.1:58273] logged in with entity id 4876 at ([world]-13.683562853662092, 128.0, -177.07457019105667)
-[19:56:44] [Server thread/INFO]: __sx lost connection: Disconnected
-[19:56:44] [Server thread/INFO]: [-] __sx
-[19:56:50] [User Authenticator #25/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
-[19:56:50] [Server thread/INFO]: [+] __sx
-[19:56:50] [Server thread/INFO]: __sx[/127.0.0.1:58297] logged in with entity id 5009 at ([world]-13.683562853662092, 128.0, -177.07457019105667)
-[20:00:16] [Server thread/INFO]: __sx lost connection: Disconnected
-[20:00:16] [Server thread/INFO]: [-] __sx
-[20:00:23] [User Authenticator #26/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
-[20:00:23] [Server thread/INFO]: [+] __sx
-[20:00:23] [Server thread/INFO]: __sx[/127.0.0.1:58325] logged in with entity id 5364 at ([world]-13.683562853662092, 128.0, -177.07457019105667)
-[20:07:02] [Server thread/INFO]: __sx lost connection: Disconnected
-[20:07:02] [Server thread/INFO]: [-] __sx
-[20:07:11] [User Authenticator #27/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
-[20:07:11] [Server thread/INFO]: [+] __sx
-[20:07:12] [Server thread/INFO]: __sx[/127.0.0.1:58423] logged in with entity id 5968 at ([world]-13.683562853662092, 128.0, -177.07457019105667)
-[20:07:34] [Server thread/INFO]: __sx lost connection: Disconnected
-[20:07:34] [Server thread/INFO]: [-] __sx
-[20:08:15] [User Authenticator #28/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
-[20:08:15] [Server thread/INFO]: [+] __sx
-[20:08:15] [Server thread/INFO]: __sx[/127.0.0.1:58444] logged in with entity id 6061 at ([world]-13.683562853662092, 128.0, -177.07457019105667)
-[20:09:52] [Server thread/INFO]: __sx lost connection: Disconnected
-[20:09:52] [Server thread/INFO]: [-] __sx
-[20:10:00] [User Authenticator #29/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
-[20:10:00] [Server thread/INFO]: [+] __sx
-[20:10:00] [Server thread/INFO]: __sx[/127.0.0.1:58468] logged in with entity id 6260 at ([world]-13.683562853662092, 128.0, -177.07457019105667)
-[20:10:26] [Server thread/INFO]: __sx lost connection: Disconnected
-[20:10:26] [Server thread/INFO]: [-] __sx
-[20:10:35] [User Authenticator #30/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
-[20:10:35] [Server thread/INFO]: [+] __sx
-[20:10:35] [Server thread/INFO]: __sx[/127.0.0.1:58490] logged in with entity id 6363 at ([world]-13.683562853662092, 128.0, -177.07457019105667)
-[20:18:13] [Server thread/INFO]: __sx lost connection: Disconnected
-[20:18:13] [Server thread/INFO]: [-] __sx
-[20:18:20] [User Authenticator #31/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
-[20:18:20] [Server thread/INFO]: [+] __sx
-[20:18:20] [Server thread/INFO]: __sx[/127.0.0.1:58559] logged in with entity id 7071 at ([world]-13.683562853662092, 128.0, -177.07457019105667)
-[20:20:51] [Server thread/INFO]: __sx lost connection: Disconnected
-[20:20:51] [Server thread/INFO]: [-] __sx
-[20:21:00] [User Authenticator #32/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
-[20:21:00] [Server thread/INFO]: [+] __sx
-[20:21:00] [Server thread/INFO]: __sx[/127.0.0.1:58585] logged in with entity id 7354 at ([world]-13.683562853662092, 128.0, -177.07457019105667)
-[20:21:42] [Server thread/INFO]: __sx lost connection: Disconnected
-[20:21:42] [Server thread/INFO]: [-] __sx
-[20:21:51] [User Authenticator #33/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
-[20:21:51] [Server thread/INFO]: [+] __sx
-[20:21:51] [Server thread/INFO]: __sx[/127.0.0.1:58604] logged in with entity id 7490 at ([world]-13.683562853662092, 128.0, -177.07457019105667)
-[20:22:26] [Server thread/INFO]: __sx lost connection: Disconnected
-[20:22:26] [Server thread/INFO]: [-] __sx
-[20:22:39] [User Authenticator #34/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
-[20:22:40] [Server thread/INFO]: [+] __sx
-[20:22:40] [Server thread/INFO]: __sx[/127.0.0.1:58633] logged in with entity id 7617 at ([world]-13.683562853662092, 128.0, -177.07457019105667)
-[20:23:37] [Server thread/INFO]: __sx lost connection: Disconnected
-[20:23:37] [Server thread/INFO]: [-] __sx
-[20:23:44] [User Authenticator #35/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
-[20:23:44] [Server thread/INFO]: [+] __sx
-[20:23:44] [Server thread/INFO]: __sx[/127.0.0.1:58657] logged in with entity id 7787 at ([world]-13.683562853662092, 128.0, -177.07457019105667)
-[20:24:58] [Server thread/INFO]: __sx lost connection: Disconnected
-[20:24:58] [Server thread/INFO]: [-] __sx
-[20:25:11] [User Authenticator #36/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
-[20:25:11] [Server thread/INFO]: [+] __sx
-[20:25:11] [Server thread/INFO]: __sx[/127.0.0.1:58682] logged in with entity id 7942 at ([world]-13.683562853662092, 128.0, -177.07457019105667)
-[20:28:02] [Server thread/INFO]: __sx lost connection: Disconnected
-[20:28:02] [Server thread/INFO]: [-] __sx
-[20:28:10] [User Authenticator #37/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
-[20:28:10] [Server thread/INFO]: [+] __sx
-[20:28:10] [Server thread/INFO]: __sx[/127.0.0.1:58706] logged in with entity id 8240 at ([world]-13.683562853662092, 128.0, -177.07457019105667)
-[20:28:32] [Server thread/INFO]: __sx lost connection: Disconnected
-[20:28:32] [Server thread/INFO]: [-] __sx
-[20:28:40] [User Authenticator #38/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
-[20:28:40] [Server thread/INFO]: [+] __sx
-[20:28:40] [Server thread/INFO]: __sx[/127.0.0.1:58729] logged in with entity id 8339 at ([world]-13.683562853662092, 128.0, -177.07457019105667)
-[20:29:48] [Server thread/INFO]: __sx lost connection: Disconnected
-[20:29:48] [Server thread/INFO]: [-] __sx
-[20:29:55] [User Authenticator #39/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
-[20:29:55] [Server thread/INFO]: [+] __sx
-[20:29:55] [Server thread/INFO]: __sx[/127.0.0.1:58756] logged in with entity id 8496 at ([world]-13.683562853662092, 128.0, -177.07457019105667)
-[20:31:08] [Server thread/INFO]: __sx lost connection: Disconnected
-[20:31:08] [Server thread/INFO]: [-] __sx
-[20:31:19] [User Authenticator #40/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
-[20:31:19] [Server thread/INFO]: [+] __sx
-[20:31:19] [Server thread/INFO]: __sx[/127.0.0.1:58783] logged in with entity id 8661 at ([world]-13.683562853662092, 128.0, -177.07457019105667)
-[20:31:46] [Server thread/INFO]: __sx lost connection: Disconnected
-[20:31:46] [Server thread/INFO]: [-] __sx
-[20:31:54] [User Authenticator #41/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
-[20:31:54] [Server thread/INFO]: [+] __sx
-[20:31:54] [Server thread/INFO]: __sx[/127.0.0.1:58807] logged in with entity id 8760 at ([world]-13.683562853662092, 128.0, -177.07457019105667)
-[20:32:20] [Server thread/INFO]: __sx lost connection: Disconnected
-[20:32:20] [Server thread/INFO]: [-] __sx
-[20:32:29] [User Authenticator #42/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
-[20:32:29] [Server thread/INFO]: [+] __sx
-[20:32:29] [Server thread/INFO]: __sx[/127.0.0.1:58826] logged in with entity id 8866 at ([world]-13.683562853662092, 128.0, -177.07457019105667)
-[20:35:28] [Server thread/INFO]: __sx lost connection: Disconnected
-[20:35:28] [Server thread/INFO]: [-] __sx
-[20:35:34] [User Authenticator #43/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
-[20:35:34] [Server thread/INFO]: [+] __sx
-[20:35:35] [Server thread/INFO]: __sx[/127.0.0.1:58852] logged in with entity id 9174 at ([world]-13.683562853662092, 128.0, -177.07457019105667)
-[20:36:17] [Server thread/INFO]: __sx lost connection: Disconnected
-[20:36:17] [Server thread/INFO]: [-] __sx
-[20:36:25] [User Authenticator #44/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
-[20:36:25] [Server thread/INFO]: [+] __sx
-[20:36:25] [Server thread/INFO]: __sx[/127.0.0.1:58873] logged in with entity id 9296 at ([world]-13.683562853662092, 128.0, -177.07457019105667)
-[20:37:09] [Server thread/INFO]: __sx lost connection: Disconnected
-[20:37:09] [Server thread/INFO]: [-] __sx
-[20:37:17] [User Authenticator #45/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
-[20:37:17] [Server thread/INFO]: [+] __sx
-[20:37:17] [Server thread/INFO]: __sx[/127.0.0.1:58892] logged in with entity id 9430 at ([world]-13.683562853662092, 128.0, -177.07457019105667)
-[20:38:06] [Server thread/INFO]: __sx lost connection: Disconnected
-[20:38:06] [Server thread/INFO]: [-] __sx
-[20:38:15] [User Authenticator #46/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
-[20:38:15] [Server thread/INFO]: [+] __sx
-[20:38:16] [Server thread/INFO]: __sx[/127.0.0.1:58916] logged in with entity id 9572 at ([world]-13.683562853662092, 128.0, -177.07457019105667)
-[20:38:26] [Server thread/INFO]: __sx lost connection: Disconnected
-[20:38:26] [Server thread/INFO]: [-] __sx
-[20:38:30] [User Authenticator #47/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
-[20:38:30] [Server thread/INFO]: [+] __sx
-[20:38:30] [Server thread/INFO]: __sx[/127.0.0.1:58931] logged in with entity id 9674 at ([world]-13.683562853662092, 128.0, -177.07457019105667)
-[20:40:37] [Server thread/INFO]: __sx lost connection: Disconnected
-[20:40:37] [Server thread/INFO]: [-] __sx
-[20:40:43] [User Authenticator #48/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
-[20:40:43] [Server thread/INFO]: [+] __sx
-[20:40:43] [Server thread/INFO]: __sx[/127.0.0.1:58953] logged in with entity id 9934 at ([world]-13.683562853662092, 128.0, -177.07457019105667)
-[21:08:01] [Server thread/INFO]: __sx lost connection: Disconnected
-[21:08:01] [Server thread/INFO]: [-] __sx
-[21:08:46] [User Authenticator #49/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
-[21:08:46] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to manager v1.0
+[09:08:08] [Server thread/INFO]: __sx joined the game
+[09:08:08] [Server thread/INFO]: __sx[/127.0.0.1:49630] logged in with entity id 48 at ([world]-13.971967273921546, 128.0, -177.06245518978128)
+[09:09:03] [Server thread/INFO]: __sx lost connection: Disconnected
+[09:09:03] [Server thread/INFO]: [-] __sx
+[09:09:07] [User Authenticator #2/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
+[09:09:07] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to manager v1.0
 org.bukkit.event.EventException: null
 	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
@@ -664,12 +203,12 @@ Caused by: java.lang.NullPointerException: Cannot invoke "java.lang.Double.intVa
 	at java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
 	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
 	... 15 more
-[21:08:46] [Server thread/INFO]: __sx joined the game
-[21:08:46] [Server thread/INFO]: __sx[/127.0.0.1:59226] logged in with entity id 12170 at ([world]-13.683562853662092, 128.0, -177.07457019105667)
-[21:09:37] [Server thread/INFO]: __sx lost connection: Disconnected
-[21:09:37] [Server thread/INFO]: [-] __sx
-[21:09:45] [User Authenticator #50/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
-[21:09:45] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to manager v1.0
+[09:09:07] [Server thread/INFO]: __sx joined the game
+[09:09:07] [Server thread/INFO]: __sx[/127.0.0.1:49681] logged in with entity id 213 at ([world]-13.971967273921546, 128.0, -177.06245518978128)
+[09:09:34] [Server thread/INFO]: __sx lost connection: Disconnected
+[09:09:34] [Server thread/INFO]: [-] __sx
+[09:09:37] [User Authenticator #3/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
+[09:09:37] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to manager v1.0
 org.bukkit.event.EventException: null
 	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
@@ -687,28 +226,19 @@ org.bukkit.event.EventException: null
 	at net.minecraft.server.MinecraftServer.v(MinecraftServer.java:1013) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
 	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:293) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
 	at java.lang.Thread.run(Thread.java:833) [?:?]
-Caused by: redis.clients.jedis.exceptions.JedisDataException: ERR Path '$.pseudo' does not exist
-	at redis.clients.jedis.Protocol.processError(Protocol.java:96) ~[?:?]
-	at redis.clients.jedis.Protocol.process(Protocol.java:137) ~[?:?]
-	at redis.clients.jedis.Protocol.read(Protocol.java:192) ~[?:?]
-	at redis.clients.jedis.Connection.readProtocolWithCheckingBroken(Connection.java:316) ~[?:?]
-	at redis.clients.jedis.Connection.getOne(Connection.java:298) ~[?:?]
-	at redis.clients.jedis.Connection.executeCommand(Connection.java:123) ~[?:?]
-	at redis.clients.jedis.executors.DefaultCommandExecutor.executeCommand(DefaultCommandExecutor.java:24) ~[?:?]
-	at redis.clients.jedis.UnifiedJedis.executeCommand(UnifiedJedis.java:167) ~[?:?]
-	at redis.clients.jedis.UnifiedJedis.jsonGet(UnifiedJedis.java:3736) ~[?:?]
-	at me.sxyxuse.manager.redis.RedisAccount.getPseudo(RedisAccount.java:57) ~[?:?]
-	at me.sxyxuse.manager.listeners.players.JoinEvent.onJointEvent(JoinEvent.java:37) ~[?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "java.lang.Double.intValue()" because the return value of "redis.clients.jedis.UnifiedJedis.jsonGet(String, redis.clients.jedis.json.Path[])" is null
+	at me.sxyxuse.manager.redis.RedisAccount.getPermissions(RedisAccount.java:67) ~[?:?]
+	at me.sxyxuse.manager.listeners.players.JoinEvent.onJointEvent(JoinEvent.java:21) ~[?:?]
 	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
 	at java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
 	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
 	... 15 more
-[21:09:45] [Server thread/INFO]: [+] __sx
-[21:09:45] [Server thread/INFO]: __sx[/127.0.0.1:59246] logged in with entity id 12295 at ([world]-13.683562853662092, 128.0, -177.07457019105667)
-[21:13:27] [Server thread/INFO]: __sx lost connection: Disconnected
-[21:13:27] [Server thread/INFO]: [-] __sx
-[21:13:40] [User Authenticator #51/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
-[21:13:40] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to manager v1.0
+[09:09:37] [Server thread/INFO]: __sx joined the game
+[09:09:37] [Server thread/INFO]: __sx[/127.0.0.1:49699] logged in with entity id 324 at ([world]-13.971967273921546, 128.0, -177.06245518978128)
+[09:11:25] [Server thread/INFO]: __sx lost connection: Disconnected
+[09:11:25] [Server thread/INFO]: [-] __sx
+[09:11:33] [User Authenticator #4/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
+[09:11:33] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to manager v1.0
 org.bukkit.event.EventException: null
 	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
@@ -726,28 +256,19 @@ org.bukkit.event.EventException: null
 	at net.minecraft.server.MinecraftServer.v(MinecraftServer.java:1013) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
 	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:293) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
 	at java.lang.Thread.run(Thread.java:833) [?:?]
-Caused by: redis.clients.jedis.exceptions.JedisDataException: ERR Path '$.pseudo' does not exist
-	at redis.clients.jedis.Protocol.processError(Protocol.java:96) ~[?:?]
-	at redis.clients.jedis.Protocol.process(Protocol.java:137) ~[?:?]
-	at redis.clients.jedis.Protocol.read(Protocol.java:192) ~[?:?]
-	at redis.clients.jedis.Connection.readProtocolWithCheckingBroken(Connection.java:316) ~[?:?]
-	at redis.clients.jedis.Connection.getOne(Connection.java:298) ~[?:?]
-	at redis.clients.jedis.Connection.executeCommand(Connection.java:123) ~[?:?]
-	at redis.clients.jedis.executors.DefaultCommandExecutor.executeCommand(DefaultCommandExecutor.java:24) ~[?:?]
-	at redis.clients.jedis.UnifiedJedis.executeCommand(UnifiedJedis.java:167) ~[?:?]
-	at redis.clients.jedis.UnifiedJedis.jsonGet(UnifiedJedis.java:3736) ~[?:?]
-	at me.sxyxuse.manager.redis.RedisAccount.getPseudo(RedisAccount.java:57) ~[?:?]
-	at me.sxyxuse.manager.listeners.players.JoinEvent.onJointEvent(JoinEvent.java:37) ~[?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "java.lang.Double.intValue()" because the return value of "redis.clients.jedis.UnifiedJedis.jsonGet(String, redis.clients.jedis.json.Path[])" is null
+	at me.sxyxuse.manager.redis.RedisAccount.getPermissions(RedisAccount.java:67) ~[?:?]
+	at me.sxyxuse.manager.listeners.players.JoinEvent.onJointEvent(JoinEvent.java:21) ~[?:?]
 	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
 	at java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
 	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
 	... 15 more
-[21:13:40] [Server thread/INFO]: [+] __sx
-[21:13:40] [Server thread/INFO]: __sx[/127.0.0.1:59278] logged in with entity id 12655 at ([world]-13.683562853662092, 128.0, -177.07457019105667)
-[21:15:20] [Server thread/INFO]: __sx lost connection: Disconnected
-[21:15:20] [Server thread/INFO]: [-] __sx
-[21:15:34] [User Authenticator #52/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
-[21:15:34] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to manager v1.0
+[09:11:33] [Server thread/INFO]: __sx joined the game
+[09:11:33] [Server thread/INFO]: __sx[/127.0.0.1:49738] logged in with entity id 541 at ([world]-13.971967273921546, 128.0, -177.06245518978128)
+[09:12:40] [Server thread/INFO]: __sx lost connection: Disconnected
+[09:12:40] [Server thread/INFO]: [-] __sx
+[09:12:48] [User Authenticator #5/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
+[09:12:48] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to manager v1.0
 org.bukkit.event.EventException: null
 	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
@@ -765,28 +286,19 @@ org.bukkit.event.EventException: null
 	at net.minecraft.server.MinecraftServer.v(MinecraftServer.java:1013) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
 	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:293) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
 	at java.lang.Thread.run(Thread.java:833) [?:?]
-Caused by: redis.clients.jedis.exceptions.JedisDataException: ERR Path '$.pseudo' does not exist
-	at redis.clients.jedis.Protocol.processError(Protocol.java:96) ~[?:?]
-	at redis.clients.jedis.Protocol.process(Protocol.java:137) ~[?:?]
-	at redis.clients.jedis.Protocol.read(Protocol.java:192) ~[?:?]
-	at redis.clients.jedis.Connection.readProtocolWithCheckingBroken(Connection.java:316) ~[?:?]
-	at redis.clients.jedis.Connection.getOne(Connection.java:298) ~[?:?]
-	at redis.clients.jedis.Connection.executeCommand(Connection.java:123) ~[?:?]
-	at redis.clients.jedis.executors.DefaultCommandExecutor.executeCommand(DefaultCommandExecutor.java:24) ~[?:?]
-	at redis.clients.jedis.UnifiedJedis.executeCommand(UnifiedJedis.java:167) ~[?:?]
-	at redis.clients.jedis.UnifiedJedis.jsonGet(UnifiedJedis.java:3736) ~[?:?]
-	at me.sxyxuse.manager.redis.RedisAccount.getPseudo(RedisAccount.java:57) ~[?:?]
-	at me.sxyxuse.manager.listeners.players.JoinEvent.onJointEvent(JoinEvent.java:37) ~[?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "java.lang.Double.intValue()" because the return value of "redis.clients.jedis.UnifiedJedis.jsonGet(String, redis.clients.jedis.json.Path[])" is null
+	at me.sxyxuse.manager.redis.RedisAccount.getPermissions(RedisAccount.java:67) ~[?:?]
+	at me.sxyxuse.manager.listeners.players.JoinEvent.onJointEvent(JoinEvent.java:21) ~[?:?]
 	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
 	at java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
 	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
 	... 15 more
-[21:15:34] [Server thread/INFO]: [+] __sx
-[21:15:34] [Server thread/INFO]: __sx[/127.0.0.1:59304] logged in with entity id 12871 at ([world]-13.683562853662092, 128.0, -177.07457019105667)
-[21:16:08] [Server thread/INFO]: __sx lost connection: Disconnected
-[21:16:08] [Server thread/INFO]: [-] __sx
-[21:16:16] [User Authenticator #53/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
-[21:16:16] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to manager v1.0
+[09:12:48] [Server thread/INFO]: __sx joined the game
+[09:12:48] [Server thread/INFO]: __sx[/127.0.0.1:49769] logged in with entity id 708 at ([world]-13.971967273921546, 128.0, -177.06245518978128)
+[09:15:56] [Server thread/INFO]: __sx lost connection: Disconnected
+[09:15:56] [Server thread/INFO]: [-] __sx
+[09:16:10] [User Authenticator #6/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
+[09:16:10] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to manager v1.0
 org.bukkit.event.EventException: null
 	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
@@ -804,28 +316,143 @@ org.bukkit.event.EventException: null
 	at net.minecraft.server.MinecraftServer.v(MinecraftServer.java:1013) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
 	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:293) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
 	at java.lang.Thread.run(Thread.java:833) [?:?]
-Caused by: redis.clients.jedis.exceptions.JedisDataException: ERR Path '$.pseudo' does not exist
-	at redis.clients.jedis.Protocol.processError(Protocol.java:96) ~[?:?]
-	at redis.clients.jedis.Protocol.process(Protocol.java:137) ~[?:?]
-	at redis.clients.jedis.Protocol.read(Protocol.java:192) ~[?:?]
-	at redis.clients.jedis.Connection.readProtocolWithCheckingBroken(Connection.java:316) ~[?:?]
-	at redis.clients.jedis.Connection.getOne(Connection.java:298) ~[?:?]
-	at redis.clients.jedis.Connection.executeCommand(Connection.java:123) ~[?:?]
-	at redis.clients.jedis.executors.DefaultCommandExecutor.executeCommand(DefaultCommandExecutor.java:24) ~[?:?]
-	at redis.clients.jedis.UnifiedJedis.executeCommand(UnifiedJedis.java:167) ~[?:?]
-	at redis.clients.jedis.UnifiedJedis.jsonGet(UnifiedJedis.java:3736) ~[?:?]
-	at me.sxyxuse.manager.redis.RedisAccount.getPseudo(RedisAccount.java:57) ~[?:?]
-	at me.sxyxuse.manager.listeners.players.JoinEvent.onJointEvent(JoinEvent.java:37) ~[?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "java.lang.Double.intValue()" because the return value of "redis.clients.jedis.UnifiedJedis.jsonGet(String, redis.clients.jedis.json.Path[])" is null
+	at me.sxyxuse.manager.redis.RedisAccount.getPermissions(RedisAccount.java:67) ~[?:?]
+	at me.sxyxuse.manager.listeners.players.JoinEvent.onJointEvent(JoinEvent.java:21) ~[?:?]
 	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
 	at java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
 	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
 	... 15 more
-[21:16:16] [Server thread/INFO]: [+] __sx
-[21:16:16] [Server thread/INFO]: __sx[/127.0.0.1:59327] logged in with entity id 12985 at ([world]-13.971967273921546, 128.0, -177.06245518978128)
-[21:22:30] [Server thread/INFO]: __sx lost connection: Disconnected
-[21:22:30] [Server thread/INFO]: [-] __sx
-[21:22:55] [User Authenticator #54/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
-[21:22:55] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to manager v1.0
+[09:16:10] [Server thread/INFO]: __sx joined the game
+[09:16:10] [Server thread/INFO]: __sx[/127.0.0.1:49803] logged in with entity id 1046 at ([world]-13.971967273921546, 128.0, -177.06245518978128)
+[09:16:34] [Server thread/INFO]: __sx lost connection: Disconnected
+[09:16:34] [Server thread/INFO]: [-] __sx
+[09:27:00] [Server thread/INFO]: Commande inconnue. Type "/help" for help.[m
+[09:27:05] [Server thread/INFO]: CONSOLE: [0;31;1mPlease note that this command is not supported and may cause issues when using some plugins.[m
+[09:27:05] [Server thread/INFO]: CONSOLE: [0;31;1mIf you encounter any issues please use the /stop command to restart your server.[m
+[09:27:05] [Server thread/INFO]: Debug logging is disabled
+[09:27:05] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[09:27:05] [Server thread/INFO]: Using 4 threads for Netty based IO
+[09:27:05] [Server thread/INFO]: -------- World Settings For [world] --------
+[09:27:05] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[09:27:05] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[09:27:05] [Server thread/INFO]: Item Despawn Rate: 6000
+[09:27:05] [Server thread/INFO]: View Distance: 10
+[09:27:05] [Server thread/INFO]: Simulation Distance: 10
+[09:27:05] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[09:27:05] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[09:27:05] [Server thread/INFO]: Item Merge Radius: 2.5
+[09:27:05] [Server thread/INFO]: Mob Spawn Range: 6
+[09:27:05] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[09:27:05] [Server thread/INFO]: Cane Growth Modifier: 100%
+[09:27:05] [Server thread/INFO]: Melon Growth Modifier: 100%
+[09:27:05] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[09:27:05] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[09:27:05] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[09:27:05] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[09:27:05] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[09:27:05] [Server thread/INFO]: Potato Growth Modifier: 100%
+[09:27:05] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[09:27:05] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[09:27:05] [Server thread/INFO]: Vine Growth Modifier: 100%
+[09:27:05] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[09:27:05] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[09:27:05] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[09:27:05] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[09:27:05] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[09:27:05] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[09:27:05] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[09:27:05] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[09:27:05] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[09:27:05] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[09:27:05] [Server thread/INFO]: Max TNT Explosions: 100
+[09:27:05] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[09:27:05] [Server thread/INFO]: Experience Merge Radius: 3.0
+[09:27:05] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[09:27:05] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[09:27:05] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[09:27:05] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[09:27:05] [Server thread/INFO]: Item Despawn Rate: 6000
+[09:27:05] [Server thread/INFO]: View Distance: 10
+[09:27:05] [Server thread/INFO]: Simulation Distance: 10
+[09:27:05] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[09:27:05] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[09:27:05] [Server thread/INFO]: Item Merge Radius: 2.5
+[09:27:05] [Server thread/INFO]: Mob Spawn Range: 6
+[09:27:05] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[09:27:05] [Server thread/INFO]: Cane Growth Modifier: 100%
+[09:27:05] [Server thread/INFO]: Melon Growth Modifier: 100%
+[09:27:05] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[09:27:05] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[09:27:05] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[09:27:05] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[09:27:05] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[09:27:05] [Server thread/INFO]: Potato Growth Modifier: 100%
+[09:27:05] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[09:27:05] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[09:27:05] [Server thread/INFO]: Vine Growth Modifier: 100%
+[09:27:05] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[09:27:05] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[09:27:05] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[09:27:05] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[09:27:05] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[09:27:05] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[09:27:05] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[09:27:05] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[09:27:05] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[09:27:05] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[09:27:05] [Server thread/INFO]: Max TNT Explosions: 100
+[09:27:05] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[09:27:05] [Server thread/INFO]: Experience Merge Radius: 3.0
+[09:27:05] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[09:27:05] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[09:27:05] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[09:27:05] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[09:27:05] [Server thread/INFO]: Item Despawn Rate: 6000
+[09:27:05] [Server thread/INFO]: View Distance: 10
+[09:27:05] [Server thread/INFO]: Simulation Distance: 10
+[09:27:05] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[09:27:05] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[09:27:05] [Server thread/INFO]: Item Merge Radius: 2.5
+[09:27:05] [Server thread/INFO]: Mob Spawn Range: 6
+[09:27:05] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[09:27:05] [Server thread/INFO]: Cane Growth Modifier: 100%
+[09:27:05] [Server thread/INFO]: Melon Growth Modifier: 100%
+[09:27:05] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[09:27:05] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[09:27:05] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[09:27:05] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[09:27:05] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[09:27:05] [Server thread/INFO]: Potato Growth Modifier: 100%
+[09:27:05] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[09:27:05] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[09:27:05] [Server thread/INFO]: Vine Growth Modifier: 100%
+[09:27:05] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[09:27:05] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[09:27:05] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[09:27:05] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[09:27:05] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[09:27:05] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[09:27:05] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[09:27:05] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[09:27:05] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[09:27:05] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[09:27:05] [Server thread/INFO]: Max TNT Explosions: 100
+[09:27:05] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[09:27:05] [Server thread/INFO]: Experience Merge Radius: 3.0
+[09:27:05] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[09:27:05] [Server thread/INFO]: [manager] Disabling manager v1.0
+[09:27:05] [Server thread/WARN]: [manager] La connexion à REDIS à été interrompue.
+[09:27:05] [Server thread/INFO]: [manager] Plugin arrêté avec succès !
+[09:27:05] [Server thread/INFO]: Loaded 7 recipes
+[09:27:05] [Server thread/INFO]: [manager] Loading manager v1.0
+[09:27:05] [Server thread/INFO]: [manager] Enabling manager v1.0
+[09:27:05] [Server thread/WARN]: [manager] La connexion à REDIS à été établie.
+[09:27:05] [Server thread/INFO]: [manager] Plugin démarré avec succès !
+[09:27:05] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[09:27:05] [Server thread/INFO]: CONSOLE: [0;32;1mReload complete.[m
+[09:27:14] [User Authenticator #7/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
+[09:27:14] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to manager v1.0
 org.bukkit.event.EventException: null
 	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
 	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
@@ -843,856 +470,186 @@ org.bukkit.event.EventException: null
 	at net.minecraft.server.MinecraftServer.v(MinecraftServer.java:1013) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
 	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:293) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
 	at java.lang.Thread.run(Thread.java:833) [?:?]
-Caused by: redis.clients.jedis.exceptions.JedisDataException: ERR Path '$.pseudo' does not exist
-	at redis.clients.jedis.Protocol.processError(Protocol.java:96) ~[?:?]
-	at redis.clients.jedis.Protocol.process(Protocol.java:137) ~[?:?]
-	at redis.clients.jedis.Protocol.read(Protocol.java:192) ~[?:?]
-	at redis.clients.jedis.Connection.readProtocolWithCheckingBroken(Connection.java:316) ~[?:?]
-	at redis.clients.jedis.Connection.getOne(Connection.java:298) ~[?:?]
-	at redis.clients.jedis.Connection.executeCommand(Connection.java:123) ~[?:?]
-	at redis.clients.jedis.executors.DefaultCommandExecutor.executeCommand(DefaultCommandExecutor.java:24) ~[?:?]
-	at redis.clients.jedis.UnifiedJedis.executeCommand(UnifiedJedis.java:167) ~[?:?]
-	at redis.clients.jedis.UnifiedJedis.jsonGet(UnifiedJedis.java:3736) ~[?:?]
-	at me.sxyxuse.manager.redis.RedisAccount.getPseudo(RedisAccount.java:57) ~[?:?]
-	at me.sxyxuse.manager.listeners.players.JoinEvent.onJointEvent(JoinEvent.java:37) ~[?:?]
+Caused by: java.lang.NullPointerException: Cannot invoke "java.lang.Double.intValue()" because the return value of "redis.clients.jedis.UnifiedJedis.jsonGet(String, redis.clients.jedis.json.Path[])" is null
+	at me.sxyxuse.manager.redis.RedisAccount.getPermissions(RedisAccount.java:67) ~[?:?]
+	at me.sxyxuse.manager.listeners.players.JoinEvent.onJointEvent(JoinEvent.java:21) ~[?:?]
 	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
 	at java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
 	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
 	... 15 more
-[21:22:55] [Server thread/INFO]: [+] __sx
-[21:22:55] [Server thread/INFO]: __sx[/127.0.0.1:59415] logged in with entity id 13536 at ([world]-13.971967273921546, 128.0, -177.06245518978128)
-[21:22:58] [Server thread/INFO]: __sx lost connection: Disconnected
-[21:22:58] [Server thread/INFO]: [-] __sx
-[21:25:20] [User Authenticator #55/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
-[21:25:20] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to manager v1.0
-org.bukkit.event.EventException: null
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:589) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:576) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at net.minecraft.server.players.PlayerList.a(PlayerList.java:283) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.LoginListener.a(LoginListener.java:202) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.LoginListener.d(LoginListener.java:188) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.LoginListener.c(LoginListener.java:80) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.network.NetworkManager.a(NetworkManager.java:272) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.ServerConnection.c(ServerConnection.java:174) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1312) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.dedicated.DedicatedServer.b(DedicatedServer.java:394) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1197) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.v(MinecraftServer.java:1013) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:293) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-Caused by: redis.clients.jedis.exceptions.JedisDataException: ERR Path '$.pseudo' does not exist
-	at redis.clients.jedis.Protocol.processError(Protocol.java:96) ~[?:?]
-	at redis.clients.jedis.Protocol.process(Protocol.java:137) ~[?:?]
-	at redis.clients.jedis.Protocol.read(Protocol.java:192) ~[?:?]
-	at redis.clients.jedis.Connection.readProtocolWithCheckingBroken(Connection.java:316) ~[?:?]
-	at redis.clients.jedis.Connection.getOne(Connection.java:298) ~[?:?]
-	at redis.clients.jedis.Connection.executeCommand(Connection.java:123) ~[?:?]
-	at redis.clients.jedis.executors.DefaultCommandExecutor.executeCommand(DefaultCommandExecutor.java:24) ~[?:?]
-	at redis.clients.jedis.UnifiedJedis.executeCommand(UnifiedJedis.java:167) ~[?:?]
-	at redis.clients.jedis.UnifiedJedis.jsonGet(UnifiedJedis.java:3736) ~[?:?]
-	at me.sxyxuse.manager.redis.RedisAccount.getPseudo(RedisAccount.java:57) ~[?:?]
-	at me.sxyxuse.manager.listeners.players.JoinEvent.onJointEvent(JoinEvent.java:37) ~[?:?]
-	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	... 15 more
-[21:25:20] [Server thread/INFO]: [+] __sx
-[21:25:20] [Server thread/INFO]: __sx[/127.0.0.1:59453] logged in with entity id 13627 at ([world]-13.971967273921546, 128.0, -177.06245518978128)
-[21:26:55] [Server thread/INFO]: __sx lost connection: Disconnected
-[21:26:55] [Server thread/INFO]: [-] __sx
-[21:27:09] [User Authenticator #56/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
-[21:27:09] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to manager v1.0
-org.bukkit.event.EventException: null
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:589) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:576) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at net.minecraft.server.players.PlayerList.a(PlayerList.java:283) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.LoginListener.a(LoginListener.java:202) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.LoginListener.d(LoginListener.java:188) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.LoginListener.c(LoginListener.java:80) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.network.NetworkManager.a(NetworkManager.java:272) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.ServerConnection.c(ServerConnection.java:174) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1312) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.dedicated.DedicatedServer.b(DedicatedServer.java:394) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1197) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.v(MinecraftServer.java:1013) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:293) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-Caused by: redis.clients.jedis.exceptions.JedisDataException: ERR Path '$.pseudo' does not exist
-	at redis.clients.jedis.Protocol.processError(Protocol.java:96) ~[?:?]
-	at redis.clients.jedis.Protocol.process(Protocol.java:137) ~[?:?]
-	at redis.clients.jedis.Protocol.read(Protocol.java:192) ~[?:?]
-	at redis.clients.jedis.Connection.readProtocolWithCheckingBroken(Connection.java:316) ~[?:?]
-	at redis.clients.jedis.Connection.getOne(Connection.java:298) ~[?:?]
-	at redis.clients.jedis.Connection.executeCommand(Connection.java:123) ~[?:?]
-	at redis.clients.jedis.executors.DefaultCommandExecutor.executeCommand(DefaultCommandExecutor.java:24) ~[?:?]
-	at redis.clients.jedis.UnifiedJedis.executeCommand(UnifiedJedis.java:167) ~[?:?]
-	at redis.clients.jedis.UnifiedJedis.jsonGet(UnifiedJedis.java:3736) ~[?:?]
-	at me.sxyxuse.manager.redis.RedisAccount.getPseudo(RedisAccount.java:57) ~[?:?]
-	at me.sxyxuse.manager.listeners.players.JoinEvent.onJointEvent(JoinEvent.java:37) ~[?:?]
-	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	... 15 more
-[21:27:09] [Server thread/INFO]: [+] __sx
-[21:27:09] [Server thread/INFO]: __sx[/127.0.0.1:59485] logged in with entity id 13827 at ([world]-13.971967273921546, 128.0, -177.06245518978128)
-[21:27:47] [Server thread/INFO]: __sx lost connection: Disconnected
-[21:27:47] [Server thread/INFO]: [-] __sx
-[21:27:55] [User Authenticator #57/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
-[21:27:55] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to manager v1.0
-org.bukkit.event.EventException: null
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:589) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:576) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at net.minecraft.server.players.PlayerList.a(PlayerList.java:283) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.LoginListener.a(LoginListener.java:202) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.LoginListener.d(LoginListener.java:188) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.LoginListener.c(LoginListener.java:80) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.network.NetworkManager.a(NetworkManager.java:272) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.ServerConnection.c(ServerConnection.java:174) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1312) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.dedicated.DedicatedServer.b(DedicatedServer.java:394) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1197) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.v(MinecraftServer.java:1013) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:293) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-Caused by: redis.clients.jedis.exceptions.JedisDataException: ERR Path '$.pseudo' does not exist
-	at redis.clients.jedis.Protocol.processError(Protocol.java:96) ~[?:?]
-	at redis.clients.jedis.Protocol.process(Protocol.java:137) ~[?:?]
-	at redis.clients.jedis.Protocol.read(Protocol.java:192) ~[?:?]
-	at redis.clients.jedis.Connection.readProtocolWithCheckingBroken(Connection.java:316) ~[?:?]
-	at redis.clients.jedis.Connection.getOne(Connection.java:298) ~[?:?]
-	at redis.clients.jedis.Connection.executeCommand(Connection.java:123) ~[?:?]
-	at redis.clients.jedis.executors.DefaultCommandExecutor.executeCommand(DefaultCommandExecutor.java:24) ~[?:?]
-	at redis.clients.jedis.UnifiedJedis.executeCommand(UnifiedJedis.java:167) ~[?:?]
-	at redis.clients.jedis.UnifiedJedis.jsonGet(UnifiedJedis.java:3736) ~[?:?]
-	at me.sxyxuse.manager.redis.RedisAccount.getPseudo(RedisAccount.java:57) ~[?:?]
-	at me.sxyxuse.manager.listeners.players.JoinEvent.onJointEvent(JoinEvent.java:37) ~[?:?]
-	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	... 15 more
-[21:27:55] [Server thread/INFO]: [+] __sx
-[21:27:55] [Server thread/INFO]: __sx[/127.0.0.1:59507] logged in with entity id 13936 at ([world]-13.971967273921546, 128.0, -177.06245518978128)
-[21:28:52] [Server thread/INFO]: __sx lost connection: Disconnected
-[21:28:52] [Server thread/INFO]: [-] __sx
-[21:28:59] [User Authenticator #58/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
-[21:28:59] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to manager v1.0
-org.bukkit.event.EventException: null
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:589) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:576) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at net.minecraft.server.players.PlayerList.a(PlayerList.java:283) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.LoginListener.a(LoginListener.java:202) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.LoginListener.d(LoginListener.java:188) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.LoginListener.c(LoginListener.java:80) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.network.NetworkManager.a(NetworkManager.java:272) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.ServerConnection.c(ServerConnection.java:174) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1312) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.dedicated.DedicatedServer.b(DedicatedServer.java:394) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1197) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.v(MinecraftServer.java:1013) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:293) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-Caused by: redis.clients.jedis.exceptions.JedisDataException: ERR Path '$.pseudo' does not exist
-	at redis.clients.jedis.Protocol.processError(Protocol.java:96) ~[?:?]
-	at redis.clients.jedis.Protocol.process(Protocol.java:137) ~[?:?]
-	at redis.clients.jedis.Protocol.read(Protocol.java:192) ~[?:?]
-	at redis.clients.jedis.Connection.readProtocolWithCheckingBroken(Connection.java:316) ~[?:?]
-	at redis.clients.jedis.Connection.getOne(Connection.java:298) ~[?:?]
-	at redis.clients.jedis.Connection.executeCommand(Connection.java:123) ~[?:?]
-	at redis.clients.jedis.executors.DefaultCommandExecutor.executeCommand(DefaultCommandExecutor.java:24) ~[?:?]
-	at redis.clients.jedis.UnifiedJedis.executeCommand(UnifiedJedis.java:167) ~[?:?]
-	at redis.clients.jedis.UnifiedJedis.jsonGet(UnifiedJedis.java:3736) ~[?:?]
-	at me.sxyxuse.manager.redis.RedisAccount.getPseudo(RedisAccount.java:57) ~[?:?]
-	at me.sxyxuse.manager.listeners.players.JoinEvent.onJointEvent(JoinEvent.java:37) ~[?:?]
-	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	... 15 more
-[21:28:59] [Server thread/INFO]: [+] __sx
-[21:28:59] [Server thread/INFO]: __sx[/127.0.0.1:59533] logged in with entity id 14065 at ([world]-13.971967273921546, 128.0, -177.06245518978128)
-[21:29:27] [Server thread/INFO]: __sx lost connection: Disconnected
-[21:29:27] [Server thread/INFO]: [-] __sx
-[21:29:40] [User Authenticator #59/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
-[21:29:41] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to manager v1.0
-org.bukkit.event.EventException: null
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:589) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:576) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at net.minecraft.server.players.PlayerList.a(PlayerList.java:283) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.LoginListener.a(LoginListener.java:202) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.LoginListener.d(LoginListener.java:188) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.LoginListener.c(LoginListener.java:80) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.network.NetworkManager.a(NetworkManager.java:272) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.ServerConnection.c(ServerConnection.java:174) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1312) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.dedicated.DedicatedServer.b(DedicatedServer.java:394) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1197) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.v(MinecraftServer.java:1013) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:293) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-Caused by: redis.clients.jedis.exceptions.JedisDataException: ERR Path '$.pseudo' does not exist
-	at redis.clients.jedis.Protocol.processError(Protocol.java:96) ~[?:?]
-	at redis.clients.jedis.Protocol.process(Protocol.java:137) ~[?:?]
-	at redis.clients.jedis.Protocol.read(Protocol.java:192) ~[?:?]
-	at redis.clients.jedis.Connection.readProtocolWithCheckingBroken(Connection.java:316) ~[?:?]
-	at redis.clients.jedis.Connection.getOne(Connection.java:298) ~[?:?]
-	at redis.clients.jedis.Connection.executeCommand(Connection.java:123) ~[?:?]
-	at redis.clients.jedis.executors.DefaultCommandExecutor.executeCommand(DefaultCommandExecutor.java:24) ~[?:?]
-	at redis.clients.jedis.UnifiedJedis.executeCommand(UnifiedJedis.java:167) ~[?:?]
-	at redis.clients.jedis.UnifiedJedis.jsonGet(UnifiedJedis.java:3736) ~[?:?]
-	at me.sxyxuse.manager.redis.RedisAccount.getPseudo(RedisAccount.java:57) ~[?:?]
-	at me.sxyxuse.manager.listeners.players.JoinEvent.onJointEvent(JoinEvent.java:37) ~[?:?]
-	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	... 15 more
-[21:29:41] [Server thread/INFO]: [+] __sx
-[21:29:41] [Server thread/INFO]: __sx[/127.0.0.1:59557] logged in with entity id 14163 at ([world]-13.971967273921546, 128.0, -177.06245518978128)
-[21:29:51] [Server thread/INFO]: __sx lost connection: Disconnected
-[21:29:51] [Server thread/INFO]: [-] __sx
-[21:29:55] [User Authenticator #60/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
-[21:29:55] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to manager v1.0
-org.bukkit.event.EventException: null
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:589) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:576) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at net.minecraft.server.players.PlayerList.a(PlayerList.java:283) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.LoginListener.a(LoginListener.java:202) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.LoginListener.d(LoginListener.java:188) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.LoginListener.c(LoginListener.java:80) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.network.NetworkManager.a(NetworkManager.java:272) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.ServerConnection.c(ServerConnection.java:174) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1312) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.dedicated.DedicatedServer.b(DedicatedServer.java:394) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1197) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.v(MinecraftServer.java:1013) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:293) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-Caused by: redis.clients.jedis.exceptions.JedisDataException: ERR Path '$.pseudo' does not exist
-	at redis.clients.jedis.Protocol.processError(Protocol.java:96) ~[?:?]
-	at redis.clients.jedis.Protocol.process(Protocol.java:137) ~[?:?]
-	at redis.clients.jedis.Protocol.read(Protocol.java:192) ~[?:?]
-	at redis.clients.jedis.Connection.readProtocolWithCheckingBroken(Connection.java:316) ~[?:?]
-	at redis.clients.jedis.Connection.getOne(Connection.java:298) ~[?:?]
-	at redis.clients.jedis.Connection.executeCommand(Connection.java:123) ~[?:?]
-	at redis.clients.jedis.executors.DefaultCommandExecutor.executeCommand(DefaultCommandExecutor.java:24) ~[?:?]
-	at redis.clients.jedis.UnifiedJedis.executeCommand(UnifiedJedis.java:167) ~[?:?]
-	at redis.clients.jedis.UnifiedJedis.jsonGet(UnifiedJedis.java:3736) ~[?:?]
-	at me.sxyxuse.manager.redis.RedisAccount.getPseudo(RedisAccount.java:57) ~[?:?]
-	at me.sxyxuse.manager.listeners.players.JoinEvent.onJointEvent(JoinEvent.java:37) ~[?:?]
-	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	... 15 more
-[21:29:55] [Server thread/INFO]: [+] __sx
-[21:29:55] [Server thread/INFO]: __sx[/127.0.0.1:59568] logged in with entity id 14258 at ([world]-13.971967273921546, 128.0, -177.06245518978128)
-[21:30:01] [Server thread/INFO]: __sx lost connection: Disconnected
-[21:30:01] [Server thread/INFO]: [-] __sx
-[21:46:35] [User Authenticator #61/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
-[21:46:35] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to manager v1.0
-org.bukkit.event.EventException: null
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:589) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:576) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at net.minecraft.server.players.PlayerList.a(PlayerList.java:283) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.LoginListener.a(LoginListener.java:202) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.LoginListener.d(LoginListener.java:188) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.LoginListener.c(LoginListener.java:80) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.network.NetworkManager.a(NetworkManager.java:272) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.ServerConnection.c(ServerConnection.java:174) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1312) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.dedicated.DedicatedServer.b(DedicatedServer.java:394) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1197) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.v(MinecraftServer.java:1013) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:293) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-Caused by: redis.clients.jedis.exceptions.JedisDataException: ERR Path '$.pseudo' does not exist
-	at redis.clients.jedis.Protocol.processError(Protocol.java:96) ~[?:?]
-	at redis.clients.jedis.Protocol.process(Protocol.java:137) ~[?:?]
-	at redis.clients.jedis.Protocol.read(Protocol.java:192) ~[?:?]
-	at redis.clients.jedis.Connection.readProtocolWithCheckingBroken(Connection.java:316) ~[?:?]
-	at redis.clients.jedis.Connection.getOne(Connection.java:298) ~[?:?]
-	at redis.clients.jedis.Connection.executeCommand(Connection.java:123) ~[?:?]
-	at redis.clients.jedis.executors.DefaultCommandExecutor.executeCommand(DefaultCommandExecutor.java:24) ~[?:?]
-	at redis.clients.jedis.UnifiedJedis.executeCommand(UnifiedJedis.java:167) ~[?:?]
-	at redis.clients.jedis.UnifiedJedis.jsonGet(UnifiedJedis.java:3736) ~[?:?]
-	at me.sxyxuse.manager.redis.RedisAccount.getPseudo(RedisAccount.java:57) ~[?:?]
-	at me.sxyxuse.manager.listeners.players.JoinEvent.onJointEvent(JoinEvent.java:37) ~[?:?]
-	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	... 15 more
-[21:46:35] [Server thread/INFO]: [+] __sx
-[21:46:35] [Server thread/INFO]: __sx[/127.0.0.1:59668] logged in with entity id 14351 at ([world]-13.971967273921546, 128.0, -177.06245518978128)
-[21:47:49] [Server thread/INFO]: __sx lost connection: Disconnected
-[21:47:49] [Server thread/INFO]: [-] __sx
-[21:47:54] [User Authenticator #62/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
-[21:47:54] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to manager v1.0
-org.bukkit.event.EventException: null
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:589) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:576) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at net.minecraft.server.players.PlayerList.a(PlayerList.java:283) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.LoginListener.a(LoginListener.java:202) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.LoginListener.d(LoginListener.java:188) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.LoginListener.c(LoginListener.java:80) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.network.NetworkManager.a(NetworkManager.java:272) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.ServerConnection.c(ServerConnection.java:174) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1312) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.dedicated.DedicatedServer.b(DedicatedServer.java:394) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1197) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.v(MinecraftServer.java:1013) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:293) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-Caused by: redis.clients.jedis.exceptions.JedisDataException: ERR Path '$.pseudo' does not exist
-	at redis.clients.jedis.Protocol.processError(Protocol.java:96) ~[?:?]
-	at redis.clients.jedis.Protocol.process(Protocol.java:137) ~[?:?]
-	at redis.clients.jedis.Protocol.read(Protocol.java:192) ~[?:?]
-	at redis.clients.jedis.Connection.readProtocolWithCheckingBroken(Connection.java:316) ~[?:?]
-	at redis.clients.jedis.Connection.getOne(Connection.java:298) ~[?:?]
-	at redis.clients.jedis.Connection.executeCommand(Connection.java:123) ~[?:?]
-	at redis.clients.jedis.executors.DefaultCommandExecutor.executeCommand(DefaultCommandExecutor.java:24) ~[?:?]
-	at redis.clients.jedis.UnifiedJedis.executeCommand(UnifiedJedis.java:167) ~[?:?]
-	at redis.clients.jedis.UnifiedJedis.jsonGet(UnifiedJedis.java:3736) ~[?:?]
-	at me.sxyxuse.manager.redis.RedisAccount.getPseudo(RedisAccount.java:57) ~[?:?]
-	at me.sxyxuse.manager.listeners.players.JoinEvent.onJointEvent(JoinEvent.java:37) ~[?:?]
-	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	... 15 more
-[21:47:54] [Server thread/INFO]: [+] __sx
-[21:47:54] [Server thread/INFO]: __sx[/127.0.0.1:59685] logged in with entity id 14518 at ([world]-13.971967273921546, 128.0, -177.06245518978128)
-[21:47:59] [Server thread/INFO]: __sx lost connection: Disconnected
-[21:47:59] [Server thread/INFO]: [-] __sx
-[21:48:03] [User Authenticator #63/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
-[21:48:03] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to manager v1.0
-org.bukkit.event.EventException: null
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:589) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:576) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at net.minecraft.server.players.PlayerList.a(PlayerList.java:283) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.LoginListener.a(LoginListener.java:202) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.LoginListener.d(LoginListener.java:188) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.LoginListener.c(LoginListener.java:80) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.network.NetworkManager.a(NetworkManager.java:272) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.ServerConnection.c(ServerConnection.java:174) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1312) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.dedicated.DedicatedServer.b(DedicatedServer.java:394) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1197) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.v(MinecraftServer.java:1013) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:293) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-Caused by: redis.clients.jedis.exceptions.JedisDataException: ERR Path '$.pseudo' does not exist
-	at redis.clients.jedis.Protocol.processError(Protocol.java:96) ~[?:?]
-	at redis.clients.jedis.Protocol.process(Protocol.java:137) ~[?:?]
-	at redis.clients.jedis.Protocol.read(Protocol.java:192) ~[?:?]
-	at redis.clients.jedis.Connection.readProtocolWithCheckingBroken(Connection.java:316) ~[?:?]
-	at redis.clients.jedis.Connection.getOne(Connection.java:298) ~[?:?]
-	at redis.clients.jedis.Connection.executeCommand(Connection.java:123) ~[?:?]
-	at redis.clients.jedis.executors.DefaultCommandExecutor.executeCommand(DefaultCommandExecutor.java:24) ~[?:?]
-	at redis.clients.jedis.UnifiedJedis.executeCommand(UnifiedJedis.java:167) ~[?:?]
-	at redis.clients.jedis.UnifiedJedis.jsonGet(UnifiedJedis.java:3736) ~[?:?]
-	at me.sxyxuse.manager.redis.RedisAccount.getPseudo(RedisAccount.java:57) ~[?:?]
-	at me.sxyxuse.manager.listeners.players.JoinEvent.onJointEvent(JoinEvent.java:37) ~[?:?]
-	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	... 15 more
-[21:48:03] [Server thread/INFO]: [+] __sx
-[21:48:03] [Server thread/INFO]: __sx[/127.0.0.1:59699] logged in with entity id 14600 at ([world]-13.971967273921546, 128.0, -177.06245518978128)
-[21:48:08] [Server thread/INFO]: __sx lost connection: Disconnected
-[21:48:08] [Server thread/INFO]: [-] __sx
-[21:57:55] [User Authenticator #64/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
-[21:57:55] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to manager v1.0
-org.bukkit.event.EventException: null
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:589) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:576) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at net.minecraft.server.players.PlayerList.a(PlayerList.java:283) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.LoginListener.a(LoginListener.java:202) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.LoginListener.d(LoginListener.java:188) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.LoginListener.c(LoginListener.java:80) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.network.NetworkManager.a(NetworkManager.java:272) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.ServerConnection.c(ServerConnection.java:174) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1312) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.dedicated.DedicatedServer.b(DedicatedServer.java:394) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1197) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.v(MinecraftServer.java:1013) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:293) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-Caused by: redis.clients.jedis.exceptions.JedisDataException: ERR Path '$.pseudo' does not exist
-	at redis.clients.jedis.Protocol.processError(Protocol.java:96) ~[?:?]
-	at redis.clients.jedis.Protocol.process(Protocol.java:137) ~[?:?]
-	at redis.clients.jedis.Protocol.read(Protocol.java:192) ~[?:?]
-	at redis.clients.jedis.Connection.readProtocolWithCheckingBroken(Connection.java:316) ~[?:?]
-	at redis.clients.jedis.Connection.getOne(Connection.java:298) ~[?:?]
-	at redis.clients.jedis.Connection.executeCommand(Connection.java:123) ~[?:?]
-	at redis.clients.jedis.executors.DefaultCommandExecutor.executeCommand(DefaultCommandExecutor.java:24) ~[?:?]
-	at redis.clients.jedis.UnifiedJedis.executeCommand(UnifiedJedis.java:167) ~[?:?]
-	at redis.clients.jedis.UnifiedJedis.jsonGet(UnifiedJedis.java:3736) ~[?:?]
-	at me.sxyxuse.manager.redis.RedisAccount.getPseudo(RedisAccount.java:57) ~[?:?]
-	at me.sxyxuse.manager.listeners.players.JoinEvent.onJointEvent(JoinEvent.java:37) ~[?:?]
-	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	... 15 more
-[21:57:55] [Server thread/INFO]: [+] __sx
-[21:57:55] [Server thread/INFO]: __sx[/127.0.0.1:59776] logged in with entity id 14684 at ([world]-13.971967273921546, 128.0, -177.06245518978128)
-[21:58:30] [Server thread/INFO]: __sx lost connection: Disconnected
-[21:58:30] [Server thread/INFO]: [-] __sx
-[21:58:37] [User Authenticator #65/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
-[21:58:37] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to manager v1.0
-org.bukkit.event.EventException: null
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:589) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:576) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at net.minecraft.server.players.PlayerList.a(PlayerList.java:283) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.LoginListener.a(LoginListener.java:202) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.LoginListener.d(LoginListener.java:188) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.LoginListener.c(LoginListener.java:80) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.network.NetworkManager.a(NetworkManager.java:272) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.ServerConnection.c(ServerConnection.java:174) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1312) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.dedicated.DedicatedServer.b(DedicatedServer.java:394) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1197) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.v(MinecraftServer.java:1013) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:293) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-Caused by: redis.clients.jedis.exceptions.JedisDataException: ERR Path '$.pseudo' does not exist
-	at redis.clients.jedis.Protocol.processError(Protocol.java:96) ~[?:?]
-	at redis.clients.jedis.Protocol.process(Protocol.java:137) ~[?:?]
-	at redis.clients.jedis.Protocol.read(Protocol.java:192) ~[?:?]
-	at redis.clients.jedis.Connection.readProtocolWithCheckingBroken(Connection.java:316) ~[?:?]
-	at redis.clients.jedis.Connection.getOne(Connection.java:298) ~[?:?]
-	at redis.clients.jedis.Connection.executeCommand(Connection.java:123) ~[?:?]
-	at redis.clients.jedis.executors.DefaultCommandExecutor.executeCommand(DefaultCommandExecutor.java:24) ~[?:?]
-	at redis.clients.jedis.UnifiedJedis.executeCommand(UnifiedJedis.java:167) ~[?:?]
-	at redis.clients.jedis.UnifiedJedis.jsonGet(UnifiedJedis.java:3736) ~[?:?]
-	at me.sxyxuse.manager.redis.RedisAccount.getPseudo(RedisAccount.java:57) ~[?:?]
-	at me.sxyxuse.manager.listeners.players.JoinEvent.onJointEvent(JoinEvent.java:37) ~[?:?]
-	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	... 15 more
-[21:58:37] [Server thread/INFO]: [+] __sx
-[21:58:37] [Server thread/INFO]: __sx[/127.0.0.1:59797] logged in with entity id 14796 at ([world]-13.971967273921546, 128.0, -177.06245518978128)
-[22:01:23] [Server thread/INFO]: __sx lost connection: Disconnected
-[22:01:23] [Server thread/INFO]: [-] __sx
-[22:01:29] [User Authenticator #66/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
-[22:01:29] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to manager v1.0
-org.bukkit.event.EventException: null
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:589) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:576) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at net.minecraft.server.players.PlayerList.a(PlayerList.java:283) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.LoginListener.a(LoginListener.java:202) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.LoginListener.d(LoginListener.java:188) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.LoginListener.c(LoginListener.java:80) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.network.NetworkManager.a(NetworkManager.java:272) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.ServerConnection.c(ServerConnection.java:174) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1312) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.dedicated.DedicatedServer.b(DedicatedServer.java:394) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1197) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.v(MinecraftServer.java:1013) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:293) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-Caused by: redis.clients.jedis.exceptions.JedisDataException: ERR Path '$.pseudo' does not exist
-	at redis.clients.jedis.Protocol.processError(Protocol.java:96) ~[?:?]
-	at redis.clients.jedis.Protocol.process(Protocol.java:137) ~[?:?]
-	at redis.clients.jedis.Protocol.read(Protocol.java:192) ~[?:?]
-	at redis.clients.jedis.Connection.readProtocolWithCheckingBroken(Connection.java:316) ~[?:?]
-	at redis.clients.jedis.Connection.getOne(Connection.java:298) ~[?:?]
-	at redis.clients.jedis.Connection.executeCommand(Connection.java:123) ~[?:?]
-	at redis.clients.jedis.executors.DefaultCommandExecutor.executeCommand(DefaultCommandExecutor.java:24) ~[?:?]
-	at redis.clients.jedis.UnifiedJedis.executeCommand(UnifiedJedis.java:167) ~[?:?]
-	at redis.clients.jedis.UnifiedJedis.jsonGet(UnifiedJedis.java:3736) ~[?:?]
-	at me.sxyxuse.manager.redis.RedisAccount.getPseudo(RedisAccount.java:57) ~[?:?]
-	at me.sxyxuse.manager.listeners.players.JoinEvent.onJointEvent(JoinEvent.java:37) ~[?:?]
-	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	... 15 more
-[22:01:29] [Server thread/INFO]: [+] __sx
-[22:01:29] [Server thread/INFO]: __sx[/127.0.0.1:59852] logged in with entity id 15096 at ([world]-13.971967273921546, 128.0, -177.06245518978128)
-[22:05:11] [Server thread/INFO]: __sx lost connection: Disconnected
-[22:05:11] [Server thread/INFO]: [-] __sx
-[22:05:49] [User Authenticator #67/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
-[22:05:49] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to manager v1.0
-org.bukkit.event.EventException: null
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:589) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:576) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at net.minecraft.server.players.PlayerList.a(PlayerList.java:283) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.LoginListener.a(LoginListener.java:202) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.LoginListener.d(LoginListener.java:188) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.LoginListener.c(LoginListener.java:80) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.network.NetworkManager.a(NetworkManager.java:272) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.ServerConnection.c(ServerConnection.java:174) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1312) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.dedicated.DedicatedServer.b(DedicatedServer.java:394) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1197) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.v(MinecraftServer.java:1013) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:293) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-Caused by: redis.clients.jedis.exceptions.JedisDataException: ERR Path '$.pseudo' does not exist
-	at redis.clients.jedis.Protocol.processError(Protocol.java:96) ~[?:?]
-	at redis.clients.jedis.Protocol.process(Protocol.java:137) ~[?:?]
-	at redis.clients.jedis.Protocol.read(Protocol.java:192) ~[?:?]
-	at redis.clients.jedis.Connection.readProtocolWithCheckingBroken(Connection.java:316) ~[?:?]
-	at redis.clients.jedis.Connection.getOne(Connection.java:298) ~[?:?]
-	at redis.clients.jedis.Connection.executeCommand(Connection.java:123) ~[?:?]
-	at redis.clients.jedis.executors.DefaultCommandExecutor.executeCommand(DefaultCommandExecutor.java:24) ~[?:?]
-	at redis.clients.jedis.UnifiedJedis.executeCommand(UnifiedJedis.java:167) ~[?:?]
-	at redis.clients.jedis.UnifiedJedis.jsonGet(UnifiedJedis.java:3736) ~[?:?]
-	at me.sxyxuse.manager.redis.RedisAccount.getPseudo(RedisAccount.java:57) ~[?:?]
-	at me.sxyxuse.manager.listeners.players.JoinEvent.onJointEvent(JoinEvent.java:37) ~[?:?]
-	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	... 15 more
-[22:05:49] [Server thread/INFO]: [+] __sx
-[22:05:49] [Server thread/INFO]: __sx[/127.0.0.1:59957] logged in with entity id 15458 at ([world]-13.971967273921546, 128.0, -177.06245518978128)
-[22:05:53] [Server thread/INFO]: __sx lost connection: Disconnected
-[22:05:53] [Server thread/INFO]: [-] __sx
-[22:06:19] [User Authenticator #68/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
-[22:06:19] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to manager v1.0
-org.bukkit.event.EventException: null
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:589) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:576) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at net.minecraft.server.players.PlayerList.a(PlayerList.java:283) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.LoginListener.a(LoginListener.java:202) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.LoginListener.d(LoginListener.java:188) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.LoginListener.c(LoginListener.java:80) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.network.NetworkManager.a(NetworkManager.java:272) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.ServerConnection.c(ServerConnection.java:174) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1312) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.dedicated.DedicatedServer.b(DedicatedServer.java:394) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1197) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.v(MinecraftServer.java:1013) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:293) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-Caused by: redis.clients.jedis.exceptions.JedisDataException: ERR Path '$.pseudo' does not exist
-	at redis.clients.jedis.Protocol.processError(Protocol.java:96) ~[?:?]
-	at redis.clients.jedis.Protocol.process(Protocol.java:137) ~[?:?]
-	at redis.clients.jedis.Protocol.read(Protocol.java:192) ~[?:?]
-	at redis.clients.jedis.Connection.readProtocolWithCheckingBroken(Connection.java:316) ~[?:?]
-	at redis.clients.jedis.Connection.getOne(Connection.java:298) ~[?:?]
-	at redis.clients.jedis.Connection.executeCommand(Connection.java:123) ~[?:?]
-	at redis.clients.jedis.executors.DefaultCommandExecutor.executeCommand(DefaultCommandExecutor.java:24) ~[?:?]
-	at redis.clients.jedis.UnifiedJedis.executeCommand(UnifiedJedis.java:167) ~[?:?]
-	at redis.clients.jedis.UnifiedJedis.jsonGet(UnifiedJedis.java:3736) ~[?:?]
-	at me.sxyxuse.manager.redis.RedisAccount.getPseudo(RedisAccount.java:57) ~[?:?]
-	at me.sxyxuse.manager.listeners.players.JoinEvent.onJointEvent(JoinEvent.java:37) ~[?:?]
-	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	... 15 more
-[22:06:19] [Server thread/INFO]: [+] __sx
-[22:06:19] [Server thread/INFO]: __sx[/127.0.0.1:59989] logged in with entity id 15558 at ([world]-13.971967273921546, 128.0, -177.06245518978128)
-[22:06:52] [Server thread/INFO]: __sx lost connection: Disconnected
-[22:06:52] [Server thread/INFO]: [-] __sx
-[22:06:56] [User Authenticator #69/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
-[22:06:56] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to manager v1.0
-org.bukkit.event.EventException: null
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:589) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:576) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at net.minecraft.server.players.PlayerList.a(PlayerList.java:283) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.LoginListener.a(LoginListener.java:202) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.LoginListener.d(LoginListener.java:188) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.LoginListener.c(LoginListener.java:80) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.network.NetworkManager.a(NetworkManager.java:272) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.ServerConnection.c(ServerConnection.java:174) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1312) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.dedicated.DedicatedServer.b(DedicatedServer.java:394) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1197) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.v(MinecraftServer.java:1013) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:293) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-Caused by: redis.clients.jedis.exceptions.JedisDataException: ERR Path '$.pseudo' does not exist
-	at redis.clients.jedis.Protocol.processError(Protocol.java:96) ~[?:?]
-	at redis.clients.jedis.Protocol.process(Protocol.java:137) ~[?:?]
-	at redis.clients.jedis.Protocol.read(Protocol.java:192) ~[?:?]
-	at redis.clients.jedis.Connection.readProtocolWithCheckingBroken(Connection.java:316) ~[?:?]
-	at redis.clients.jedis.Connection.getOne(Connection.java:298) ~[?:?]
-	at redis.clients.jedis.Connection.executeCommand(Connection.java:123) ~[?:?]
-	at redis.clients.jedis.executors.DefaultCommandExecutor.executeCommand(DefaultCommandExecutor.java:24) ~[?:?]
-	at redis.clients.jedis.UnifiedJedis.executeCommand(UnifiedJedis.java:167) ~[?:?]
-	at redis.clients.jedis.UnifiedJedis.jsonGet(UnifiedJedis.java:3736) ~[?:?]
-	at me.sxyxuse.manager.redis.RedisAccount.getPseudo(RedisAccount.java:57) ~[?:?]
-	at me.sxyxuse.manager.listeners.players.JoinEvent.onJointEvent(JoinEvent.java:37) ~[?:?]
-	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	... 15 more
-[22:06:56] [Server thread/INFO]: [+] __sx
-[22:06:56] [Server thread/INFO]: __sx[/127.0.0.1:60006] logged in with entity id 15670 at ([world]-13.971967273921546, 128.0, -177.06245518978128)
-[22:07:40] [Server thread/INFO]: __sx lost connection: Disconnected
-[22:07:40] [Server thread/INFO]: [-] __sx
-[22:07:48] [User Authenticator #70/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
-[22:07:48] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to manager v1.0
-org.bukkit.event.EventException: null
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:589) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:576) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at net.minecraft.server.players.PlayerList.a(PlayerList.java:283) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.LoginListener.a(LoginListener.java:202) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.LoginListener.d(LoginListener.java:188) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.LoginListener.c(LoginListener.java:80) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.network.NetworkManager.a(NetworkManager.java:272) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.ServerConnection.c(ServerConnection.java:174) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1312) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.dedicated.DedicatedServer.b(DedicatedServer.java:394) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1197) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.v(MinecraftServer.java:1013) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:293) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-Caused by: redis.clients.jedis.exceptions.JedisDataException: ERR Path '$.pseudo' does not exist
-	at redis.clients.jedis.Protocol.processError(Protocol.java:96) ~[?:?]
-	at redis.clients.jedis.Protocol.process(Protocol.java:137) ~[?:?]
-	at redis.clients.jedis.Protocol.read(Protocol.java:192) ~[?:?]
-	at redis.clients.jedis.Connection.readProtocolWithCheckingBroken(Connection.java:316) ~[?:?]
-	at redis.clients.jedis.Connection.getOne(Connection.java:298) ~[?:?]
-	at redis.clients.jedis.Connection.executeCommand(Connection.java:123) ~[?:?]
-	at redis.clients.jedis.executors.DefaultCommandExecutor.executeCommand(DefaultCommandExecutor.java:24) ~[?:?]
-	at redis.clients.jedis.UnifiedJedis.executeCommand(UnifiedJedis.java:167) ~[?:?]
-	at redis.clients.jedis.UnifiedJedis.jsonGet(UnifiedJedis.java:3736) ~[?:?]
-	at me.sxyxuse.manager.redis.RedisAccount.getPseudo(RedisAccount.java:57) ~[?:?]
-	at me.sxyxuse.manager.listeners.players.JoinEvent.onJointEvent(JoinEvent.java:37) ~[?:?]
-	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	... 15 more
-[22:07:48] [Server thread/INFO]: [+] __sx
-[22:07:48] [Server thread/INFO]: __sx[/127.0.0.1:60026] logged in with entity id 15804 at ([world]-13.971967273921546, 128.0, -177.06245518978128)
-[22:08:25] [Server thread/INFO]: __sx lost connection: Disconnected
-[22:08:25] [Server thread/INFO]: [-] __sx
-[22:08:51] [User Authenticator #71/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
-[22:08:51] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to manager v1.0
-org.bukkit.event.EventException: null
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:589) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:576) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at net.minecraft.server.players.PlayerList.a(PlayerList.java:283) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.LoginListener.a(LoginListener.java:202) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.LoginListener.d(LoginListener.java:188) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.LoginListener.c(LoginListener.java:80) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.network.NetworkManager.a(NetworkManager.java:272) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.ServerConnection.c(ServerConnection.java:174) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1312) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.dedicated.DedicatedServer.b(DedicatedServer.java:394) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1197) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.v(MinecraftServer.java:1013) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:293) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-Caused by: redis.clients.jedis.exceptions.JedisDataException: ERR Path '$.pseudo' does not exist
-	at redis.clients.jedis.Protocol.processError(Protocol.java:96) ~[?:?]
-	at redis.clients.jedis.Protocol.process(Protocol.java:137) ~[?:?]
-	at redis.clients.jedis.Protocol.read(Protocol.java:192) ~[?:?]
-	at redis.clients.jedis.Connection.readProtocolWithCheckingBroken(Connection.java:316) ~[?:?]
-	at redis.clients.jedis.Connection.getOne(Connection.java:298) ~[?:?]
-	at redis.clients.jedis.Connection.executeCommand(Connection.java:123) ~[?:?]
-	at redis.clients.jedis.executors.DefaultCommandExecutor.executeCommand(DefaultCommandExecutor.java:24) ~[?:?]
-	at redis.clients.jedis.UnifiedJedis.executeCommand(UnifiedJedis.java:167) ~[?:?]
-	at redis.clients.jedis.UnifiedJedis.jsonGet(UnifiedJedis.java:3736) ~[?:?]
-	at me.sxyxuse.manager.redis.RedisAccount.getPseudo(RedisAccount.java:57) ~[?:?]
-	at me.sxyxuse.manager.listeners.players.JoinEvent.onJointEvent(JoinEvent.java:37) ~[?:?]
-	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	... 15 more
-[22:08:51] [Server thread/INFO]: [+] __sx
-[22:08:51] [Server thread/INFO]: __sx[/127.0.0.1:60074] logged in with entity id 15929 at ([world]-13.971967273921546, 128.0, -177.06245518978128)
-[22:09:20] [Server thread/INFO]: __sx lost connection: Disconnected
-[22:09:20] [Server thread/INFO]: [-] __sx
-[22:09:27] [User Authenticator #72/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
-[22:09:27] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to manager v1.0
-org.bukkit.event.EventException: null
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:589) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:576) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at net.minecraft.server.players.PlayerList.a(PlayerList.java:283) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.LoginListener.a(LoginListener.java:202) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.LoginListener.d(LoginListener.java:188) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.LoginListener.c(LoginListener.java:80) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.network.NetworkManager.a(NetworkManager.java:272) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.ServerConnection.c(ServerConnection.java:174) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1312) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.dedicated.DedicatedServer.b(DedicatedServer.java:394) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1197) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.v(MinecraftServer.java:1013) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:293) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-Caused by: redis.clients.jedis.exceptions.JedisDataException: ERR Path '$.pseudo' does not exist
-	at redis.clients.jedis.Protocol.processError(Protocol.java:96) ~[?:?]
-	at redis.clients.jedis.Protocol.process(Protocol.java:137) ~[?:?]
-	at redis.clients.jedis.Protocol.read(Protocol.java:192) ~[?:?]
-	at redis.clients.jedis.Connection.readProtocolWithCheckingBroken(Connection.java:316) ~[?:?]
-	at redis.clients.jedis.Connection.getOne(Connection.java:298) ~[?:?]
-	at redis.clients.jedis.Connection.executeCommand(Connection.java:123) ~[?:?]
-	at redis.clients.jedis.executors.DefaultCommandExecutor.executeCommand(DefaultCommandExecutor.java:24) ~[?:?]
-	at redis.clients.jedis.UnifiedJedis.executeCommand(UnifiedJedis.java:167) ~[?:?]
-	at redis.clients.jedis.UnifiedJedis.jsonGet(UnifiedJedis.java:3736) ~[?:?]
-	at me.sxyxuse.manager.redis.RedisAccount.getPseudo(RedisAccount.java:57) ~[?:?]
-	at me.sxyxuse.manager.listeners.players.JoinEvent.onJointEvent(JoinEvent.java:37) ~[?:?]
-	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	... 15 more
-[22:09:27] [Server thread/INFO]: [+] __sx
-[22:09:27] [Server thread/INFO]: __sx[/127.0.0.1:60096] logged in with entity id 16031 at ([world]-13.971967273921546, 128.0, -177.06245518978128)
-[22:10:40] [Server thread/INFO]: __sx lost connection: Disconnected
-[22:10:40] [Server thread/INFO]: [-] __sx
-[22:10:47] [User Authenticator #73/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
-[22:10:47] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to manager v1.0
-org.bukkit.event.EventException: null
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:589) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:576) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at net.minecraft.server.players.PlayerList.a(PlayerList.java:283) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.LoginListener.a(LoginListener.java:202) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.LoginListener.d(LoginListener.java:188) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.LoginListener.c(LoginListener.java:80) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.network.NetworkManager.a(NetworkManager.java:272) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.ServerConnection.c(ServerConnection.java:174) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1312) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.dedicated.DedicatedServer.b(DedicatedServer.java:394) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1197) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.v(MinecraftServer.java:1013) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:293) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-Caused by: redis.clients.jedis.exceptions.JedisDataException: ERR Path '$.pseudo' does not exist
-	at redis.clients.jedis.Protocol.processError(Protocol.java:96) ~[?:?]
-	at redis.clients.jedis.Protocol.process(Protocol.java:137) ~[?:?]
-	at redis.clients.jedis.Protocol.read(Protocol.java:192) ~[?:?]
-	at redis.clients.jedis.Connection.readProtocolWithCheckingBroken(Connection.java:316) ~[?:?]
-	at redis.clients.jedis.Connection.getOne(Connection.java:298) ~[?:?]
-	at redis.clients.jedis.Connection.executeCommand(Connection.java:123) ~[?:?]
-	at redis.clients.jedis.executors.DefaultCommandExecutor.executeCommand(DefaultCommandExecutor.java:24) ~[?:?]
-	at redis.clients.jedis.UnifiedJedis.executeCommand(UnifiedJedis.java:167) ~[?:?]
-	at redis.clients.jedis.UnifiedJedis.jsonGet(UnifiedJedis.java:3736) ~[?:?]
-	at me.sxyxuse.manager.redis.RedisAccount.getPseudo(RedisAccount.java:57) ~[?:?]
-	at me.sxyxuse.manager.listeners.players.JoinEvent.onJointEvent(JoinEvent.java:37) ~[?:?]
-	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	... 15 more
-[22:10:47] [Server thread/INFO]: [+] __sx
-[22:10:48] [Server thread/INFO]: __sx[/127.0.0.1:60121] logged in with entity id 16206 at ([world]-13.971967273921546, 128.0, -177.06245518978128)
-[22:13:34] [Server thread/INFO]: __sx lost connection: Disconnected
-[22:13:34] [Server thread/INFO]: [-] __sx
-[22:13:44] [User Authenticator #74/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
-[22:13:44] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to manager v1.0
-org.bukkit.event.EventException: null
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:589) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:576) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at net.minecraft.server.players.PlayerList.a(PlayerList.java:283) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.LoginListener.a(LoginListener.java:202) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.LoginListener.d(LoginListener.java:188) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.LoginListener.c(LoginListener.java:80) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.network.NetworkManager.a(NetworkManager.java:272) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.ServerConnection.c(ServerConnection.java:174) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1312) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.dedicated.DedicatedServer.b(DedicatedServer.java:394) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1197) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.v(MinecraftServer.java:1013) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:293) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-Caused by: redis.clients.jedis.exceptions.JedisDataException: ERR Path '$.pseudo' does not exist
-	at redis.clients.jedis.Protocol.processError(Protocol.java:96) ~[?:?]
-	at redis.clients.jedis.Protocol.process(Protocol.java:137) ~[?:?]
-	at redis.clients.jedis.Protocol.read(Protocol.java:192) ~[?:?]
-	at redis.clients.jedis.Connection.readProtocolWithCheckingBroken(Connection.java:316) ~[?:?]
-	at redis.clients.jedis.Connection.getOne(Connection.java:298) ~[?:?]
-	at redis.clients.jedis.Connection.executeCommand(Connection.java:123) ~[?:?]
-	at redis.clients.jedis.executors.DefaultCommandExecutor.executeCommand(DefaultCommandExecutor.java:24) ~[?:?]
-	at redis.clients.jedis.UnifiedJedis.executeCommand(UnifiedJedis.java:167) ~[?:?]
-	at redis.clients.jedis.UnifiedJedis.jsonGet(UnifiedJedis.java:3736) ~[?:?]
-	at me.sxyxuse.manager.redis.RedisAccount.getPseudo(RedisAccount.java:57) ~[?:?]
-	at me.sxyxuse.manager.listeners.players.JoinEvent.onJointEvent(JoinEvent.java:37) ~[?:?]
-	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	... 15 more
-[22:13:44] [Server thread/INFO]: [+] __sx
-[22:13:44] [Server thread/INFO]: __sx[/127.0.0.1:60149] logged in with entity id 16481 at ([world]-13.971967273921546, 128.0, -177.06245518978128)
-[22:14:08] [Server thread/INFO]: __sx lost connection: Disconnected
-[22:14:08] [Server thread/INFO]: [-] __sx
-[22:14:17] [User Authenticator #75/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
-[22:14:17] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to manager v1.0
-org.bukkit.event.EventException: null
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:589) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:576) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at net.minecraft.server.players.PlayerList.a(PlayerList.java:283) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.LoginListener.a(LoginListener.java:202) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.LoginListener.d(LoginListener.java:188) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.LoginListener.c(LoginListener.java:80) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.network.NetworkManager.a(NetworkManager.java:272) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.ServerConnection.c(ServerConnection.java:174) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1312) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.dedicated.DedicatedServer.b(DedicatedServer.java:394) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1197) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.v(MinecraftServer.java:1013) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:293) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-Caused by: redis.clients.jedis.exceptions.JedisDataException: ERR Path '$.pseudo' does not exist
-	at redis.clients.jedis.Protocol.processError(Protocol.java:96) ~[?:?]
-	at redis.clients.jedis.Protocol.process(Protocol.java:137) ~[?:?]
-	at redis.clients.jedis.Protocol.read(Protocol.java:192) ~[?:?]
-	at redis.clients.jedis.Connection.readProtocolWithCheckingBroken(Connection.java:316) ~[?:?]
-	at redis.clients.jedis.Connection.getOne(Connection.java:298) ~[?:?]
-	at redis.clients.jedis.Connection.executeCommand(Connection.java:123) ~[?:?]
-	at redis.clients.jedis.executors.DefaultCommandExecutor.executeCommand(DefaultCommandExecutor.java:24) ~[?:?]
-	at redis.clients.jedis.UnifiedJedis.executeCommand(UnifiedJedis.java:167) ~[?:?]
-	at redis.clients.jedis.UnifiedJedis.jsonGet(UnifiedJedis.java:3736) ~[?:?]
-	at me.sxyxuse.manager.redis.RedisAccount.getPseudo(RedisAccount.java:57) ~[?:?]
-	at me.sxyxuse.manager.listeners.players.JoinEvent.onJointEvent(JoinEvent.java:37) ~[?:?]
-	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	... 15 more
-[22:14:17] [Server thread/INFO]: [+] __sx
-[22:14:18] [Server thread/INFO]: __sx[/127.0.0.1:60171] logged in with entity id 16583 at ([world]-13.971967273921546, 128.0, -177.06245518978128)
-[22:14:23] [Server thread/INFO]: __sx lost connection: Disconnected
-[22:14:23] [Server thread/INFO]: [-] __sx
-[22:14:30] [Server thread/INFO]: Stopping the server
-[22:14:30] [Server thread/INFO]: Stopping server
-[22:14:30] [Server thread/INFO]: [manager] Disabling manager v1.0
-[22:14:30] [Server thread/WARN]: [manager] La connexion à REDIS à été interrompue.
-[22:14:30] [Server thread/INFO]: [manager] Plugin arrêté avec succès !
-[22:14:30] [Server thread/INFO]: Saving players
-[22:14:30] [Server thread/INFO]: Saving worlds
-[22:14:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[22:14:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[22:14:31] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[22:14:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[22:14:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[22:14:31] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[22:14:31] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[09:27:14] [Server thread/INFO]: __sx joined the game
+[09:27:14] [Server thread/INFO]: __sx[/127.0.0.1:49891] logged in with entity id 1151 at ([world]-13.971967273921546, 128.0, -177.06245518978128)
+[09:30:43] [Server thread/INFO]: __sx lost connection: Disconnected
+[09:30:43] [Server thread/INFO]: [-] __sx
+[09:30:52] [User Authenticator #8/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
+[09:30:52] [Server thread/INFO]: [+] __sx
+[09:30:52] [Server thread/INFO]: __sx[/127.0.0.1:49925] logged in with entity id 1484 at ([world]-13.971967273921546, 128.0, -177.06245518978128)
+[09:32:44] [Server thread/INFO]: __sx lost connection: Disconnected
+[09:32:44] [Server thread/INFO]: [-] __sx
+[09:33:03] [User Authenticator #9/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
+[09:33:03] [Server thread/INFO]: [+] __sx
+[09:33:03] [Server thread/INFO]: __sx[/127.0.0.1:49952] logged in with entity id 1694 at ([world]-13.971967273921546, 128.0, -177.06245518978128)
+[09:33:39] [Server thread/INFO]: __sx lost connection: Disconnected
+[09:33:39] [Server thread/INFO]: [-] __sx
+[10:30:10] [Server thread/INFO]: CONSOLE: [0;31;1mPlease note that this command is not supported and may cause issues when using some plugins.[m
+[10:30:10] [Server thread/INFO]: CONSOLE: [0;31;1mIf you encounter any issues please use the /stop command to restart your server.[m
+[10:30:10] [Server thread/INFO]: Debug logging is disabled
+[10:30:10] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[10:30:10] [Server thread/INFO]: Using 4 threads for Netty based IO
+[10:30:10] [Server thread/INFO]: -------- World Settings For [world] --------
+[10:30:10] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[10:30:10] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[10:30:10] [Server thread/INFO]: Item Despawn Rate: 6000
+[10:30:10] [Server thread/INFO]: View Distance: 10
+[10:30:10] [Server thread/INFO]: Simulation Distance: 10
+[10:30:10] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[10:30:10] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[10:30:10] [Server thread/INFO]: Item Merge Radius: 2.5
+[10:30:10] [Server thread/INFO]: Mob Spawn Range: 6
+[10:30:10] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[10:30:10] [Server thread/INFO]: Cane Growth Modifier: 100%
+[10:30:10] [Server thread/INFO]: Melon Growth Modifier: 100%
+[10:30:10] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[10:30:10] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[10:30:10] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[10:30:10] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[10:30:10] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[10:30:10] [Server thread/INFO]: Potato Growth Modifier: 100%
+[10:30:10] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[10:30:10] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[10:30:10] [Server thread/INFO]: Vine Growth Modifier: 100%
+[10:30:10] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[10:30:10] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[10:30:10] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[10:30:10] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[10:30:10] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[10:30:10] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[10:30:10] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[10:30:10] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[10:30:10] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[10:30:10] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[10:30:10] [Server thread/INFO]: Max TNT Explosions: 100
+[10:30:10] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[10:30:10] [Server thread/INFO]: Experience Merge Radius: 3.0
+[10:30:10] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[10:30:10] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[10:30:10] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[10:30:10] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[10:30:10] [Server thread/INFO]: Item Despawn Rate: 6000
+[10:30:10] [Server thread/INFO]: View Distance: 10
+[10:30:10] [Server thread/INFO]: Simulation Distance: 10
+[10:30:10] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[10:30:10] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[10:30:10] [Server thread/INFO]: Item Merge Radius: 2.5
+[10:30:10] [Server thread/INFO]: Mob Spawn Range: 6
+[10:30:10] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[10:30:10] [Server thread/INFO]: Cane Growth Modifier: 100%
+[10:30:10] [Server thread/INFO]: Melon Growth Modifier: 100%
+[10:30:10] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[10:30:10] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[10:30:10] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[10:30:10] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[10:30:10] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[10:30:10] [Server thread/INFO]: Potato Growth Modifier: 100%
+[10:30:10] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[10:30:10] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[10:30:10] [Server thread/INFO]: Vine Growth Modifier: 100%
+[10:30:10] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[10:30:10] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[10:30:10] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[10:30:10] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[10:30:10] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[10:30:10] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[10:30:10] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[10:30:10] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[10:30:10] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[10:30:10] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[10:30:10] [Server thread/INFO]: Max TNT Explosions: 100
+[10:30:10] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[10:30:10] [Server thread/INFO]: Experience Merge Radius: 3.0
+[10:30:10] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[10:30:10] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[10:30:10] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[10:30:10] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[10:30:10] [Server thread/INFO]: Item Despawn Rate: 6000
+[10:30:10] [Server thread/INFO]: View Distance: 10
+[10:30:10] [Server thread/INFO]: Simulation Distance: 10
+[10:30:10] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[10:30:10] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[10:30:10] [Server thread/INFO]: Item Merge Radius: 2.5
+[10:30:10] [Server thread/INFO]: Mob Spawn Range: 6
+[10:30:10] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[10:30:10] [Server thread/INFO]: Cane Growth Modifier: 100%
+[10:30:10] [Server thread/INFO]: Melon Growth Modifier: 100%
+[10:30:10] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[10:30:10] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[10:30:10] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[10:30:10] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[10:30:10] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[10:30:10] [Server thread/INFO]: Potato Growth Modifier: 100%
+[10:30:10] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[10:30:10] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[10:30:10] [Server thread/INFO]: Vine Growth Modifier: 100%
+[10:30:10] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[10:30:10] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[10:30:10] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[10:30:10] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[10:30:10] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[10:30:10] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[10:30:10] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[10:30:10] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[10:30:10] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[10:30:10] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[10:30:10] [Server thread/INFO]: Max TNT Explosions: 100
+[10:30:10] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[10:30:10] [Server thread/INFO]: Experience Merge Radius: 3.0
+[10:30:10] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[10:30:10] [Server thread/INFO]: [manager] Disabling manager v1.0
+[10:30:10] [Server thread/WARN]: [manager] La connexion à REDIS à été interrompue.
+[10:30:10] [Server thread/INFO]: [manager] Plugin arrêté avec succès !
+[10:30:10] [Server thread/INFO]: Loaded 7 recipes
+[10:30:10] [Server thread/INFO]: [manager] Loading manager v1.0
+[10:30:10] [Server thread/INFO]: [manager] Enabling manager v1.0
+[10:30:10] [Server thread/WARN]: [manager] La connexion à REDIS à été établie.
+[10:30:10] [Server thread/INFO]: [manager] Plugin démarré avec succès !
+[10:30:10] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[10:30:10] [Server thread/INFO]: CONSOLE: [0;32;1mReload complete.[m
+[10:30:50] [User Authenticator #10/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
+[10:30:50] [Server thread/INFO]: [+] __sx
+[10:30:50] [Server thread/INFO]: __sx[/127.0.0.1:50291] logged in with entity id 1805 at ([world]-13.971967273921546, 128.0, -177.06245518978128)
+[10:31:44] [Server thread/INFO]: __sx lost connection: Disconnected
+[10:31:44] [Server thread/INFO]: [-] __sx
+[10:31:47] [User Authenticator #11/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
+[10:31:47] [Server thread/INFO]: [+] __sx
+[10:31:47] [Server thread/INFO]: __sx[/127.0.0.1:50308] logged in with entity id 1962 at ([world]-13.971967273921546, 128.0, -177.06245518978128)
+[10:31:56] [Server thread/INFO]: __sx lost connection: Disconnected
+[10:31:56] [Server thread/INFO]: [-] __sx
+[10:32:10] [User Authenticator #12/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
+[10:32:10] [Server thread/INFO]: [+] __sx
+[10:32:10] [Server thread/INFO]: __sx[/127.0.0.1:50332] logged in with entity id 2057 at ([world]-13.971967273921546, 128.0, -177.06245518978128)
+[11:17:29] [Server thread/INFO]: __sx lost connection: Disconnected
+[11:17:29] [Server thread/INFO]: [-] __sx
+[11:18:15] [User Authenticator #13/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
+[11:18:15] [Server thread/INFO]: [+] __sx
+[11:18:15] [Server thread/INFO]: __sx[/127.0.0.1:50771] logged in with entity id 4860 at ([world]-13.971967273921546, 128.0, -177.06245518978128)
+[11:18:52] [Server thread/INFO]: __sx lost connection: Disconnected
+[11:18:52] [Server thread/INFO]: [-] __sx
+[11:19:05] [User Authenticator #14/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
+[11:19:05] [Server thread/INFO]: [+] __sx
+[11:19:05] [Server thread/INFO]: __sx[/127.0.0.1:50792] logged in with entity id 4980 at ([world]-13.971967273921546, 128.0, -177.06245518978128)
+[11:19:10] [Server thread/INFO]: __sx lost connection: Disconnected
+[11:19:10] [Server thread/INFO]: [-] __sx
+[11:19:21] [Server thread/INFO]: Stopping the server
+[11:19:21] [Server thread/INFO]: Stopping server
+[11:19:21] [Server thread/INFO]: [manager] Disabling manager v1.0
+[11:19:21] [Server thread/WARN]: [manager] La connexion à REDIS à été interrompue.
+[11:19:21] [Server thread/INFO]: [manager] Plugin arrêté avec succès !
+[11:19:21] [Server thread/INFO]: Saving players
+[11:19:21] [Server thread/INFO]: Saving worlds
+[11:19:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[11:19:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
+[11:19:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
+[11:19:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[11:19:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[11:19:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[11:19:22] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
