@@ -22,25 +22,6 @@ public class Request {
         this.httpURLConnection.setConnectTimeout(100);
     }
 
-//    public JsonObject getWithHeader(String header, String value) {
-//        try {
-//            this.httpURLConnection.setRequestMethod("GET");
-//            this.httpURLConnection.setRequestProperty(header, value);
-//            this.httpURLConnection.setRequestProperty("Content-Type", "application/json");
-//            int responseCode = this.httpURLConnection.getResponseCode();
-//            if (responseCode == 200) {
-//                try (Scanner scanner = new Scanner(this.httpURLConnection.getInputStream())) {
-//                    return gson.fromJson(scanner.useDelimiter("\\A").next(), JsonObject.class);
-//                }
-//            } else if (responseCode == 404)
-//                return null;
-//            else
-//                throw new IOException("HttpResponseCode: " + responseCode);
-//        } catch (IOException e) {
-//            throw new RuntimeException("Error while processing GET request", e);
-//        }
-//    }
-
     public JsonObject getWithHeader(String header, String value) throws IOException {
         try {
             this.httpURLConnection.setRequestMethod("GET");
@@ -77,7 +58,7 @@ public class Request {
         }
     }
 
-    public JsonElement updateWithHeader(JsonObject jsonObject, String header, String value) throws IOException {
+    public void updateWithHeader(JsonObject jsonObject, String header, String value) throws IOException {
         try {
             this.httpURLConnection.setRequestMethod("POST");
             this.httpURLConnection.setRequestProperty(header, value);
@@ -89,9 +70,7 @@ public class Request {
             }
             int responseCode = this.httpURLConnection.getResponseCode();
             if (responseCode == 200)
-                return gson.fromJson(new Scanner(this.httpURLConnection.getInputStream()).useDelimiter("\\A").next(), JsonObject.class);
-            else if (responseCode == 404)
-                return null;
+                gson.fromJson(new Scanner(this.httpURLConnection.getInputStream()).useDelimiter("\\A").next(), JsonObject.class);
             else
                 throw new IOException("HttpResponseCode: " + responseCode);
         } finally {

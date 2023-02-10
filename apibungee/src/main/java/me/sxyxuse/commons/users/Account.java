@@ -1,6 +1,5 @@
 package me.sxyxuse.commons.users;
 
-import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import me.sxyxuse.apibungee.api.Player;
 import net.md_5.bungee.api.connection.ProxiedPlayer;
@@ -31,19 +30,18 @@ public class Account {
     }
 
     public void setup() {
-        if (this.getFromDb() == null) {
+        if (this.getFromDb() == null)
             this.jsonAccount = Player.addPlayer(this.getDefaultAccountJson()).getAsJsonObject();
-        }
     }
 
     public JsonObject getFromDb() {
         return Player.getSpecificPlayer("uuid", this.proxiedPlayer.getUniqueId().toString());
     }
 
-    public JsonElement updateLastLogin() {
+    public void updateLastLogin() {
         JsonObject json = new JsonObject();
-        json.addProperty("last_login", LocalDateTime.now().format(DateTimeFormatter.ofPattern("dd/MM/yyyy hh:mm:ss")));
-        return Player.updateLastLoginPlayer(json, "uuid", this.proxiedPlayer.getUniqueId().toString());
+        new JsonObject().addProperty("last_login", LocalDateTime.now().format(DateTimeFormatter.ofPattern("dd/MM/yyyy hh:mm:ss")));
+        Player.updateLastLoginPlayer(json, "uuid", this.proxiedPlayer.getUniqueId().toString());
     }
 
     public ProxiedPlayer getProxiedPlayer() {

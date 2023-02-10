@@ -1,6 +1,5 @@
 package me.sxyxuse.apibungee;
 
-import me.sxyxuse.apibungee.database.DatabaseManager;
 import me.sxyxuse.apibungee.listeners.players.ProxyJoin;
 import me.sxyxuse.apibungee.listeners.players.ProxyLeft;
 import me.sxyxuse.apibungee.redis.RedisManager;
@@ -12,7 +11,6 @@ import java.util.logging.Level;
 public class ApiBungee extends Plugin {
 
     public static ApiBungee APIBUNGEE;
-    public DatabaseManager databaseManager;
     public RedisManager redisManager;
 
     public static ApiBungee getInstance() {
@@ -23,10 +21,9 @@ public class ApiBungee extends Plugin {
     public void onEnable() {
         APIBUNGEE = this;
 
-        this.databaseManager = new DatabaseManager(this);
         this.redisManager = new RedisManager("127.0.0.1", 6379);
         this.redisManager.start();
-        
+
         this.registerListeners();
 
         this.log(Level.INFO, "Plugin démarré avec succès !");
@@ -35,7 +32,6 @@ public class ApiBungee extends Plugin {
     @Override
     public void onDisable() {
         this.redisManager.stop();
-        this.databaseManager.closePool();
 
         this.log(Level.INFO, "Plugin arrêté avec succès !");
     }
