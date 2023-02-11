@@ -1,655 +1,162 @@
-[09:04:57] [ServerMain/INFO]: Building unoptimized datafixer
-[09:04:57] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
-[09:04:58] [ServerMain/INFO]: Loaded 7 recipes
-[09:04:59] [Server thread/INFO]: Starting minecraft server version 1.19.2
-[09:04:59] [Server thread/INFO]: Loading properties
-[09:04:59] [Server thread/INFO]: This server is running CraftBukkit version 3610-Spigot-6198b5a-19df23a (MC: 1.19.2) (Implementing API version 1.19.2-R0.1-SNAPSHOT)
-[09:04:59] [Server thread/INFO]: Debug logging is disabled
-[09:04:59] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[09:04:59] [Server thread/INFO]: Using 4 threads for Netty based IO
-[09:04:59] [Server thread/INFO]: Default game type: SURVIVAL
-[09:04:59] [Server thread/INFO]: Generating keypair
-[09:05:00] [Server thread/INFO]: Starting Minecraft server on localhost:25566
-[09:05:00] [Server thread/INFO]: Using default channel type
-[09:05:00] [Server thread/INFO]: [manager] Loading manager v1.0
-[09:05:00] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[09:05:00] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[09:05:00] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
-[09:05:00] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
-[09:05:00] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[09:05:00] [Server thread/INFO]: Preparing level "world"
-[09:05:00] [Server thread/INFO]: -------- World Settings For [world] --------
-[09:05:00] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[09:05:00] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[09:05:00] [Server thread/INFO]: Item Despawn Rate: 6000
-[09:05:00] [Server thread/INFO]: View Distance: 10
-[09:05:00] [Server thread/INFO]: Simulation Distance: 10
-[09:05:00] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[09:05:00] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[09:05:00] [Server thread/INFO]: Item Merge Radius: 2.5
-[09:05:00] [Server thread/INFO]: Mob Spawn Range: 6
-[09:05:00] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[09:05:00] [Server thread/INFO]: Cane Growth Modifier: 100%
-[09:05:00] [Server thread/INFO]: Melon Growth Modifier: 100%
-[09:05:00] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[09:05:00] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[09:05:00] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[09:05:00] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[09:05:00] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[09:05:00] [Server thread/INFO]: Potato Growth Modifier: 100%
-[09:05:00] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[09:05:00] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[09:05:00] [Server thread/INFO]: Vine Growth Modifier: 100%
-[09:05:00] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[09:05:00] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[09:05:00] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[09:05:00] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[09:05:00] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
-[09:05:00] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
-[09:05:00] [Server thread/INFO]: CaveVines Growth Modifier: 100%
-[09:05:00] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[09:05:00] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[09:05:00] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[09:05:00] [Server thread/INFO]: Max TNT Explosions: 100
-[09:05:00] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[09:05:00] [Server thread/INFO]: Experience Merge Radius: 3.0
-[09:05:00] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[09:05:00] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[09:05:00] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[09:05:00] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[09:05:00] [Server thread/INFO]: Item Despawn Rate: 6000
-[09:05:00] [Server thread/INFO]: View Distance: 10
-[09:05:00] [Server thread/INFO]: Simulation Distance: 10
-[09:05:00] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[09:05:00] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[09:05:00] [Server thread/INFO]: Item Merge Radius: 2.5
-[09:05:00] [Server thread/INFO]: Mob Spawn Range: 6
-[09:05:00] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[09:05:00] [Server thread/INFO]: Cane Growth Modifier: 100%
-[09:05:00] [Server thread/INFO]: Melon Growth Modifier: 100%
-[09:05:00] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[09:05:00] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[09:05:00] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[09:05:00] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[09:05:00] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[09:05:00] [Server thread/INFO]: Potato Growth Modifier: 100%
-[09:05:00] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[09:05:00] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[09:05:00] [Server thread/INFO]: Vine Growth Modifier: 100%
-[09:05:00] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[09:05:00] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[09:05:00] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[09:05:00] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[09:05:00] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
-[09:05:00] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
-[09:05:00] [Server thread/INFO]: CaveVines Growth Modifier: 100%
-[09:05:00] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[09:05:00] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[09:05:00] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[09:05:00] [Server thread/INFO]: Max TNT Explosions: 100
-[09:05:00] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[09:05:00] [Server thread/INFO]: Experience Merge Radius: 3.0
-[09:05:00] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[09:05:00] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[09:05:00] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[09:05:00] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[09:05:00] [Server thread/INFO]: Item Despawn Rate: 6000
-[09:05:00] [Server thread/INFO]: View Distance: 10
-[09:05:00] [Server thread/INFO]: Simulation Distance: 10
-[09:05:00] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[09:05:00] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[09:05:00] [Server thread/INFO]: Item Merge Radius: 2.5
-[09:05:00] [Server thread/INFO]: Mob Spawn Range: 6
-[09:05:00] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[09:05:00] [Server thread/INFO]: Cane Growth Modifier: 100%
-[09:05:00] [Server thread/INFO]: Melon Growth Modifier: 100%
-[09:05:00] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[09:05:00] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[09:05:00] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[09:05:00] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[09:05:00] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[09:05:00] [Server thread/INFO]: Potato Growth Modifier: 100%
-[09:05:00] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[09:05:00] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[09:05:00] [Server thread/INFO]: Vine Growth Modifier: 100%
-[09:05:00] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[09:05:00] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[09:05:00] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[09:05:00] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[09:05:00] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
-[09:05:00] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
-[09:05:00] [Server thread/INFO]: CaveVines Growth Modifier: 100%
-[09:05:00] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[09:05:00] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[09:05:00] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[09:05:00] [Server thread/INFO]: Max TNT Explosions: 100
-[09:05:00] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[09:05:00] [Server thread/INFO]: Experience Merge Radius: 3.0
-[09:05:00] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[09:05:00] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
-[09:05:01] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[09:05:01] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[09:05:01] [Worker-Main-1/INFO]: Preparing spawn area: 0%
-[09:05:02] [Worker-Main-6/INFO]: Preparing spawn area: 0%
-[09:05:02] [Worker-Main-7/INFO]: Preparing spawn area: 0%
-[09:05:03] [Server thread/INFO]: Time elapsed: 2470 ms
-[09:05:03] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
-[09:05:03] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[09:05:03] [Worker-Main-5/INFO]: Preparing spawn area: 0%
-[09:05:04] [Worker-Main-6/INFO]: Preparing spawn area: 47%
-[09:05:04] [Server thread/INFO]: Time elapsed: 1140 ms
-[09:05:04] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
-[09:05:04] [Worker-Main-3/INFO]: Preparing spawn area: 0%
-[09:05:04] [Worker-Main-4/INFO]: Preparing spawn area: 0%
-[09:05:05] [Server thread/INFO]: Time elapsed: 977 ms
-[09:05:05] [Server thread/INFO]: [manager] Enabling manager v1.0
-[09:05:05] [Server thread/WARN]: [manager] La connexion à REDIS à été établie.
-[09:05:05] [Server thread/INFO]: [manager] Plugin démarré avec succès !
-[09:05:05] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[09:05:05] [Server thread/INFO]: Done (5.028s)! For help, type "help"
-[09:08:08] [User Authenticator #1/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
-[09:08:08] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to manager v1.0
-org.bukkit.event.EventException: null
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:589) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:576) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at net.minecraft.server.players.PlayerList.a(PlayerList.java:283) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.LoginListener.a(LoginListener.java:202) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.LoginListener.d(LoginListener.java:188) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.LoginListener.c(LoginListener.java:80) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.network.NetworkManager.a(NetworkManager.java:272) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.ServerConnection.c(ServerConnection.java:174) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1312) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.dedicated.DedicatedServer.b(DedicatedServer.java:394) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1197) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.v(MinecraftServer.java:1013) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:293) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-Caused by: java.lang.NullPointerException: Cannot invoke "java.lang.Double.intValue()" because the return value of "redis.clients.jedis.UnifiedJedis.jsonGet(String, redis.clients.jedis.json.Path[])" is null
-	at me.sxyxuse.manager.redis.RedisAccount.getPermissions(RedisAccount.java:67) ~[?:?]
-	at me.sxyxuse.manager.listeners.players.JoinEvent.onJointEvent(JoinEvent.java:21) ~[?:?]
-	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	... 15 more
-[09:08:08] [Server thread/INFO]: __sx joined the game
-[09:08:08] [Server thread/INFO]: __sx[/127.0.0.1:49630] logged in with entity id 48 at ([world]-13.971967273921546, 128.0, -177.06245518978128)
-[09:09:03] [Server thread/INFO]: __sx lost connection: Disconnected
-[09:09:03] [Server thread/INFO]: [-] __sx
-[09:09:07] [User Authenticator #2/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
-[09:09:07] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to manager v1.0
-org.bukkit.event.EventException: null
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:589) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:576) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at net.minecraft.server.players.PlayerList.a(PlayerList.java:283) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.LoginListener.a(LoginListener.java:202) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.LoginListener.d(LoginListener.java:188) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.LoginListener.c(LoginListener.java:80) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.network.NetworkManager.a(NetworkManager.java:272) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.ServerConnection.c(ServerConnection.java:174) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1312) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.dedicated.DedicatedServer.b(DedicatedServer.java:394) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1197) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.v(MinecraftServer.java:1013) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:293) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-Caused by: java.lang.NullPointerException: Cannot invoke "java.lang.Double.intValue()" because the return value of "redis.clients.jedis.UnifiedJedis.jsonGet(String, redis.clients.jedis.json.Path[])" is null
-	at me.sxyxuse.manager.redis.RedisAccount.getPermissions(RedisAccount.java:67) ~[?:?]
-	at me.sxyxuse.manager.listeners.players.JoinEvent.onJointEvent(JoinEvent.java:21) ~[?:?]
-	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	... 15 more
-[09:09:07] [Server thread/INFO]: __sx joined the game
-[09:09:07] [Server thread/INFO]: __sx[/127.0.0.1:49681] logged in with entity id 213 at ([world]-13.971967273921546, 128.0, -177.06245518978128)
-[09:09:34] [Server thread/INFO]: __sx lost connection: Disconnected
-[09:09:34] [Server thread/INFO]: [-] __sx
-[09:09:37] [User Authenticator #3/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
-[09:09:37] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to manager v1.0
-org.bukkit.event.EventException: null
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:589) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:576) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at net.minecraft.server.players.PlayerList.a(PlayerList.java:283) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.LoginListener.a(LoginListener.java:202) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.LoginListener.d(LoginListener.java:188) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.LoginListener.c(LoginListener.java:80) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.network.NetworkManager.a(NetworkManager.java:272) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.ServerConnection.c(ServerConnection.java:174) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1312) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.dedicated.DedicatedServer.b(DedicatedServer.java:394) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1197) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.v(MinecraftServer.java:1013) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:293) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-Caused by: java.lang.NullPointerException: Cannot invoke "java.lang.Double.intValue()" because the return value of "redis.clients.jedis.UnifiedJedis.jsonGet(String, redis.clients.jedis.json.Path[])" is null
-	at me.sxyxuse.manager.redis.RedisAccount.getPermissions(RedisAccount.java:67) ~[?:?]
-	at me.sxyxuse.manager.listeners.players.JoinEvent.onJointEvent(JoinEvent.java:21) ~[?:?]
-	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	... 15 more
-[09:09:37] [Server thread/INFO]: __sx joined the game
-[09:09:37] [Server thread/INFO]: __sx[/127.0.0.1:49699] logged in with entity id 324 at ([world]-13.971967273921546, 128.0, -177.06245518978128)
-[09:11:25] [Server thread/INFO]: __sx lost connection: Disconnected
-[09:11:25] [Server thread/INFO]: [-] __sx
-[09:11:33] [User Authenticator #4/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
-[09:11:33] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to manager v1.0
-org.bukkit.event.EventException: null
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:589) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:576) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at net.minecraft.server.players.PlayerList.a(PlayerList.java:283) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.LoginListener.a(LoginListener.java:202) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.LoginListener.d(LoginListener.java:188) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.LoginListener.c(LoginListener.java:80) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.network.NetworkManager.a(NetworkManager.java:272) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.ServerConnection.c(ServerConnection.java:174) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1312) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.dedicated.DedicatedServer.b(DedicatedServer.java:394) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1197) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.v(MinecraftServer.java:1013) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:293) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-Caused by: java.lang.NullPointerException: Cannot invoke "java.lang.Double.intValue()" because the return value of "redis.clients.jedis.UnifiedJedis.jsonGet(String, redis.clients.jedis.json.Path[])" is null
-	at me.sxyxuse.manager.redis.RedisAccount.getPermissions(RedisAccount.java:67) ~[?:?]
-	at me.sxyxuse.manager.listeners.players.JoinEvent.onJointEvent(JoinEvent.java:21) ~[?:?]
-	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	... 15 more
-[09:11:33] [Server thread/INFO]: __sx joined the game
-[09:11:33] [Server thread/INFO]: __sx[/127.0.0.1:49738] logged in with entity id 541 at ([world]-13.971967273921546, 128.0, -177.06245518978128)
-[09:12:40] [Server thread/INFO]: __sx lost connection: Disconnected
-[09:12:40] [Server thread/INFO]: [-] __sx
-[09:12:48] [User Authenticator #5/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
-[09:12:48] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to manager v1.0
-org.bukkit.event.EventException: null
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:589) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:576) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at net.minecraft.server.players.PlayerList.a(PlayerList.java:283) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.LoginListener.a(LoginListener.java:202) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.LoginListener.d(LoginListener.java:188) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.LoginListener.c(LoginListener.java:80) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.network.NetworkManager.a(NetworkManager.java:272) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.ServerConnection.c(ServerConnection.java:174) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1312) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.dedicated.DedicatedServer.b(DedicatedServer.java:394) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1197) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.v(MinecraftServer.java:1013) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:293) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-Caused by: java.lang.NullPointerException: Cannot invoke "java.lang.Double.intValue()" because the return value of "redis.clients.jedis.UnifiedJedis.jsonGet(String, redis.clients.jedis.json.Path[])" is null
-	at me.sxyxuse.manager.redis.RedisAccount.getPermissions(RedisAccount.java:67) ~[?:?]
-	at me.sxyxuse.manager.listeners.players.JoinEvent.onJointEvent(JoinEvent.java:21) ~[?:?]
-	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	... 15 more
-[09:12:48] [Server thread/INFO]: __sx joined the game
-[09:12:48] [Server thread/INFO]: __sx[/127.0.0.1:49769] logged in with entity id 708 at ([world]-13.971967273921546, 128.0, -177.06245518978128)
-[09:15:56] [Server thread/INFO]: __sx lost connection: Disconnected
-[09:15:56] [Server thread/INFO]: [-] __sx
-[09:16:10] [User Authenticator #6/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
-[09:16:10] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to manager v1.0
-org.bukkit.event.EventException: null
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:589) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:576) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at net.minecraft.server.players.PlayerList.a(PlayerList.java:283) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.LoginListener.a(LoginListener.java:202) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.LoginListener.d(LoginListener.java:188) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.LoginListener.c(LoginListener.java:80) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.network.NetworkManager.a(NetworkManager.java:272) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.ServerConnection.c(ServerConnection.java:174) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1312) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.dedicated.DedicatedServer.b(DedicatedServer.java:394) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1197) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.v(MinecraftServer.java:1013) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:293) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-Caused by: java.lang.NullPointerException: Cannot invoke "java.lang.Double.intValue()" because the return value of "redis.clients.jedis.UnifiedJedis.jsonGet(String, redis.clients.jedis.json.Path[])" is null
-	at me.sxyxuse.manager.redis.RedisAccount.getPermissions(RedisAccount.java:67) ~[?:?]
-	at me.sxyxuse.manager.listeners.players.JoinEvent.onJointEvent(JoinEvent.java:21) ~[?:?]
-	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	... 15 more
-[09:16:10] [Server thread/INFO]: __sx joined the game
-[09:16:10] [Server thread/INFO]: __sx[/127.0.0.1:49803] logged in with entity id 1046 at ([world]-13.971967273921546, 128.0, -177.06245518978128)
-[09:16:34] [Server thread/INFO]: __sx lost connection: Disconnected
-[09:16:34] [Server thread/INFO]: [-] __sx
-[09:27:00] [Server thread/INFO]: Commande inconnue. Type "/help" for help.[m
-[09:27:05] [Server thread/INFO]: CONSOLE: [0;31;1mPlease note that this command is not supported and may cause issues when using some plugins.[m
-[09:27:05] [Server thread/INFO]: CONSOLE: [0;31;1mIf you encounter any issues please use the /stop command to restart your server.[m
-[09:27:05] [Server thread/INFO]: Debug logging is disabled
-[09:27:05] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[09:27:05] [Server thread/INFO]: Using 4 threads for Netty based IO
-[09:27:05] [Server thread/INFO]: -------- World Settings For [world] --------
-[09:27:05] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[09:27:05] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[09:27:05] [Server thread/INFO]: Item Despawn Rate: 6000
-[09:27:05] [Server thread/INFO]: View Distance: 10
-[09:27:05] [Server thread/INFO]: Simulation Distance: 10
-[09:27:05] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[09:27:05] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[09:27:05] [Server thread/INFO]: Item Merge Radius: 2.5
-[09:27:05] [Server thread/INFO]: Mob Spawn Range: 6
-[09:27:05] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[09:27:05] [Server thread/INFO]: Cane Growth Modifier: 100%
-[09:27:05] [Server thread/INFO]: Melon Growth Modifier: 100%
-[09:27:05] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[09:27:05] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[09:27:05] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[09:27:05] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[09:27:05] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[09:27:05] [Server thread/INFO]: Potato Growth Modifier: 100%
-[09:27:05] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[09:27:05] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[09:27:05] [Server thread/INFO]: Vine Growth Modifier: 100%
-[09:27:05] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[09:27:05] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[09:27:05] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[09:27:05] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[09:27:05] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
-[09:27:05] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
-[09:27:05] [Server thread/INFO]: CaveVines Growth Modifier: 100%
-[09:27:05] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[09:27:05] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[09:27:05] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[09:27:05] [Server thread/INFO]: Max TNT Explosions: 100
-[09:27:05] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[09:27:05] [Server thread/INFO]: Experience Merge Radius: 3.0
-[09:27:05] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[09:27:05] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[09:27:05] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[09:27:05] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[09:27:05] [Server thread/INFO]: Item Despawn Rate: 6000
-[09:27:05] [Server thread/INFO]: View Distance: 10
-[09:27:05] [Server thread/INFO]: Simulation Distance: 10
-[09:27:05] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[09:27:05] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[09:27:05] [Server thread/INFO]: Item Merge Radius: 2.5
-[09:27:05] [Server thread/INFO]: Mob Spawn Range: 6
-[09:27:05] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[09:27:05] [Server thread/INFO]: Cane Growth Modifier: 100%
-[09:27:05] [Server thread/INFO]: Melon Growth Modifier: 100%
-[09:27:05] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[09:27:05] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[09:27:05] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[09:27:05] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[09:27:05] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[09:27:05] [Server thread/INFO]: Potato Growth Modifier: 100%
-[09:27:05] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[09:27:05] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[09:27:05] [Server thread/INFO]: Vine Growth Modifier: 100%
-[09:27:05] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[09:27:05] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[09:27:05] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[09:27:05] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[09:27:05] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
-[09:27:05] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
-[09:27:05] [Server thread/INFO]: CaveVines Growth Modifier: 100%
-[09:27:05] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[09:27:05] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[09:27:05] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[09:27:05] [Server thread/INFO]: Max TNT Explosions: 100
-[09:27:05] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[09:27:05] [Server thread/INFO]: Experience Merge Radius: 3.0
-[09:27:05] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[09:27:05] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[09:27:05] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[09:27:05] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[09:27:05] [Server thread/INFO]: Item Despawn Rate: 6000
-[09:27:05] [Server thread/INFO]: View Distance: 10
-[09:27:05] [Server thread/INFO]: Simulation Distance: 10
-[09:27:05] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[09:27:05] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[09:27:05] [Server thread/INFO]: Item Merge Radius: 2.5
-[09:27:05] [Server thread/INFO]: Mob Spawn Range: 6
-[09:27:05] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[09:27:05] [Server thread/INFO]: Cane Growth Modifier: 100%
-[09:27:05] [Server thread/INFO]: Melon Growth Modifier: 100%
-[09:27:05] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[09:27:05] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[09:27:05] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[09:27:05] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[09:27:05] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[09:27:05] [Server thread/INFO]: Potato Growth Modifier: 100%
-[09:27:05] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[09:27:05] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[09:27:05] [Server thread/INFO]: Vine Growth Modifier: 100%
-[09:27:05] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[09:27:05] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[09:27:05] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[09:27:05] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[09:27:05] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
-[09:27:05] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
-[09:27:05] [Server thread/INFO]: CaveVines Growth Modifier: 100%
-[09:27:05] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[09:27:05] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[09:27:05] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[09:27:05] [Server thread/INFO]: Max TNT Explosions: 100
-[09:27:05] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[09:27:05] [Server thread/INFO]: Experience Merge Radius: 3.0
-[09:27:05] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[09:27:05] [Server thread/INFO]: [manager] Disabling manager v1.0
-[09:27:05] [Server thread/WARN]: [manager] La connexion à REDIS à été interrompue.
-[09:27:05] [Server thread/INFO]: [manager] Plugin arrêté avec succès !
-[09:27:05] [Server thread/INFO]: Loaded 7 recipes
-[09:27:05] [Server thread/INFO]: [manager] Loading manager v1.0
-[09:27:05] [Server thread/INFO]: [manager] Enabling manager v1.0
-[09:27:05] [Server thread/WARN]: [manager] La connexion à REDIS à été établie.
-[09:27:05] [Server thread/INFO]: [manager] Plugin démarré avec succès !
-[09:27:05] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[09:27:05] [Server thread/INFO]: CONSOLE: [0;32;1mReload complete.[m
-[09:27:14] [User Authenticator #7/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
-[09:27:14] [Server thread/ERROR]: Could not pass event PlayerJoinEvent to manager v1.0
-org.bukkit.event.EventException: null
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:310) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.RegisteredListener.callEvent(RegisteredListener.java:70) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.fireEvent(SimplePluginManager.java:589) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at org.bukkit.plugin.SimplePluginManager.callEvent(SimplePluginManager.java:576) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	at net.minecraft.server.players.PlayerList.a(PlayerList.java:283) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.LoginListener.a(LoginListener.java:202) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.LoginListener.d(LoginListener.java:188) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.LoginListener.c(LoginListener.java:80) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.network.NetworkManager.a(NetworkManager.java:272) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.network.ServerConnection.c(ServerConnection.java:174) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.b(MinecraftServer.java:1312) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.dedicated.DedicatedServer.b(DedicatedServer.java:394) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.a(MinecraftServer.java:1197) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.v(MinecraftServer.java:1013) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at net.minecraft.server.MinecraftServer.lambda$0(MinecraftServer.java:293) ~[spigot-1.19.2-R0.1-SNAPSHOT.jar:3610-Spigot-6198b5a-19df23a]
-	at java.lang.Thread.run(Thread.java:833) [?:?]
-Caused by: java.lang.NullPointerException: Cannot invoke "java.lang.Double.intValue()" because the return value of "redis.clients.jedis.UnifiedJedis.jsonGet(String, redis.clients.jedis.json.Path[])" is null
-	at me.sxyxuse.manager.redis.RedisAccount.getPermissions(RedisAccount.java:67) ~[?:?]
-	at me.sxyxuse.manager.listeners.players.JoinEvent.onJointEvent(JoinEvent.java:21) ~[?:?]
-	at jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104) ~[?:?]
-	at java.lang.reflect.Method.invoke(Method.java:577) ~[?:?]
-	at org.bukkit.plugin.java.JavaPluginLoader$1.execute(JavaPluginLoader.java:306) ~[spigot-api-1.19.2-R0.1-SNAPSHOT.jar:?]
-	... 15 more
-[09:27:14] [Server thread/INFO]: __sx joined the game
-[09:27:14] [Server thread/INFO]: __sx[/127.0.0.1:49891] logged in with entity id 1151 at ([world]-13.971967273921546, 128.0, -177.06245518978128)
-[09:30:43] [Server thread/INFO]: __sx lost connection: Disconnected
-[09:30:43] [Server thread/INFO]: [-] __sx
-[09:30:52] [User Authenticator #8/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
-[09:30:52] [Server thread/INFO]: [+] __sx
-[09:30:52] [Server thread/INFO]: __sx[/127.0.0.1:49925] logged in with entity id 1484 at ([world]-13.971967273921546, 128.0, -177.06245518978128)
-[09:32:44] [Server thread/INFO]: __sx lost connection: Disconnected
-[09:32:44] [Server thread/INFO]: [-] __sx
-[09:33:03] [User Authenticator #9/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
-[09:33:03] [Server thread/INFO]: [+] __sx
-[09:33:03] [Server thread/INFO]: __sx[/127.0.0.1:49952] logged in with entity id 1694 at ([world]-13.971967273921546, 128.0, -177.06245518978128)
-[09:33:39] [Server thread/INFO]: __sx lost connection: Disconnected
-[09:33:39] [Server thread/INFO]: [-] __sx
-[10:30:10] [Server thread/INFO]: CONSOLE: [0;31;1mPlease note that this command is not supported and may cause issues when using some plugins.[m
-[10:30:10] [Server thread/INFO]: CONSOLE: [0;31;1mIf you encounter any issues please use the /stop command to restart your server.[m
-[10:30:10] [Server thread/INFO]: Debug logging is disabled
-[10:30:10] [Server thread/INFO]: Server Ping Player Sample Count: 12
-[10:30:10] [Server thread/INFO]: Using 4 threads for Netty based IO
-[10:30:10] [Server thread/INFO]: -------- World Settings For [world] --------
-[10:30:10] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[10:30:10] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[10:30:10] [Server thread/INFO]: Item Despawn Rate: 6000
-[10:30:10] [Server thread/INFO]: View Distance: 10
-[10:30:10] [Server thread/INFO]: Simulation Distance: 10
-[10:30:10] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[10:30:10] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[10:30:10] [Server thread/INFO]: Item Merge Radius: 2.5
-[10:30:10] [Server thread/INFO]: Mob Spawn Range: 6
-[10:30:10] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[10:30:10] [Server thread/INFO]: Cane Growth Modifier: 100%
-[10:30:10] [Server thread/INFO]: Melon Growth Modifier: 100%
-[10:30:10] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[10:30:10] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[10:30:10] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[10:30:10] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[10:30:10] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[10:30:10] [Server thread/INFO]: Potato Growth Modifier: 100%
-[10:30:10] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[10:30:10] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[10:30:10] [Server thread/INFO]: Vine Growth Modifier: 100%
-[10:30:10] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[10:30:10] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[10:30:10] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[10:30:10] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[10:30:10] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
-[10:30:10] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
-[10:30:10] [Server thread/INFO]: CaveVines Growth Modifier: 100%
-[10:30:10] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[10:30:10] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[10:30:10] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[10:30:10] [Server thread/INFO]: Max TNT Explosions: 100
-[10:30:10] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[10:30:10] [Server thread/INFO]: Experience Merge Radius: 3.0
-[10:30:10] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[10:30:10] [Server thread/INFO]: -------- World Settings For [world_nether] --------
-[10:30:10] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[10:30:10] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[10:30:10] [Server thread/INFO]: Item Despawn Rate: 6000
-[10:30:10] [Server thread/INFO]: View Distance: 10
-[10:30:10] [Server thread/INFO]: Simulation Distance: 10
-[10:30:10] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[10:30:10] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[10:30:10] [Server thread/INFO]: Item Merge Radius: 2.5
-[10:30:10] [Server thread/INFO]: Mob Spawn Range: 6
-[10:30:10] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[10:30:10] [Server thread/INFO]: Cane Growth Modifier: 100%
-[10:30:10] [Server thread/INFO]: Melon Growth Modifier: 100%
-[10:30:10] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[10:30:10] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[10:30:10] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[10:30:10] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[10:30:10] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[10:30:10] [Server thread/INFO]: Potato Growth Modifier: 100%
-[10:30:10] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[10:30:10] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[10:30:10] [Server thread/INFO]: Vine Growth Modifier: 100%
-[10:30:10] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[10:30:10] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[10:30:10] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[10:30:10] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[10:30:10] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
-[10:30:10] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
-[10:30:10] [Server thread/INFO]: CaveVines Growth Modifier: 100%
-[10:30:10] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[10:30:10] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[10:30:10] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[10:30:10] [Server thread/INFO]: Max TNT Explosions: 100
-[10:30:10] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[10:30:10] [Server thread/INFO]: Experience Merge Radius: 3.0
-[10:30:10] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[10:30:10] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
-[10:30:10] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
-[10:30:10] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
-[10:30:10] [Server thread/INFO]: Item Despawn Rate: 6000
-[10:30:10] [Server thread/INFO]: View Distance: 10
-[10:30:10] [Server thread/INFO]: Simulation Distance: 10
-[10:30:10] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
-[10:30:10] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
-[10:30:10] [Server thread/INFO]: Item Merge Radius: 2.5
-[10:30:10] [Server thread/INFO]: Mob Spawn Range: 6
-[10:30:10] [Server thread/INFO]: Cactus Growth Modifier: 100%
-[10:30:10] [Server thread/INFO]: Cane Growth Modifier: 100%
-[10:30:10] [Server thread/INFO]: Melon Growth Modifier: 100%
-[10:30:10] [Server thread/INFO]: Mushroom Growth Modifier: 100%
-[10:30:10] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
-[10:30:10] [Server thread/INFO]: Sapling Growth Modifier: 100%
-[10:30:10] [Server thread/INFO]: Beetroot Growth Modifier: 100%
-[10:30:10] [Server thread/INFO]: Carrot Growth Modifier: 100%
-[10:30:10] [Server thread/INFO]: Potato Growth Modifier: 100%
-[10:30:10] [Server thread/INFO]: Wheat Growth Modifier: 100%
-[10:30:10] [Server thread/INFO]: NetherWart Growth Modifier: 100%
-[10:30:10] [Server thread/INFO]: Vine Growth Modifier: 100%
-[10:30:10] [Server thread/INFO]: Cocoa Growth Modifier: 100%
-[10:30:10] [Server thread/INFO]: Bamboo Growth Modifier: 100%
-[10:30:10] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
-[10:30:10] [Server thread/INFO]: Kelp Growth Modifier: 100%
-[10:30:10] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
-[10:30:10] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
-[10:30:10] [Server thread/INFO]: CaveVines Growth Modifier: 100%
-[10:30:10] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
-[10:30:10] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
-[10:30:10] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
-[10:30:10] [Server thread/INFO]: Max TNT Explosions: 100
-[10:30:10] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
-[10:30:10] [Server thread/INFO]: Experience Merge Radius: 3.0
-[10:30:10] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
-[10:30:10] [Server thread/INFO]: [manager] Disabling manager v1.0
-[10:30:10] [Server thread/WARN]: [manager] La connexion à REDIS à été interrompue.
-[10:30:10] [Server thread/INFO]: [manager] Plugin arrêté avec succès !
-[10:30:10] [Server thread/INFO]: Loaded 7 recipes
-[10:30:10] [Server thread/INFO]: [manager] Loading manager v1.0
-[10:30:10] [Server thread/INFO]: [manager] Enabling manager v1.0
-[10:30:10] [Server thread/WARN]: [manager] La connexion à REDIS à été établie.
-[10:30:10] [Server thread/INFO]: [manager] Plugin démarré avec succès !
-[10:30:10] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[10:30:10] [Server thread/INFO]: CONSOLE: [0;32;1mReload complete.[m
-[10:30:50] [User Authenticator #10/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
-[10:30:50] [Server thread/INFO]: [+] __sx
-[10:30:50] [Server thread/INFO]: __sx[/127.0.0.1:50291] logged in with entity id 1805 at ([world]-13.971967273921546, 128.0, -177.06245518978128)
-[10:31:44] [Server thread/INFO]: __sx lost connection: Disconnected
-[10:31:44] [Server thread/INFO]: [-] __sx
-[10:31:47] [User Authenticator #11/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
-[10:31:47] [Server thread/INFO]: [+] __sx
-[10:31:47] [Server thread/INFO]: __sx[/127.0.0.1:50308] logged in with entity id 1962 at ([world]-13.971967273921546, 128.0, -177.06245518978128)
-[10:31:56] [Server thread/INFO]: __sx lost connection: Disconnected
-[10:31:56] [Server thread/INFO]: [-] __sx
-[10:32:10] [User Authenticator #12/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
-[10:32:10] [Server thread/INFO]: [+] __sx
-[10:32:10] [Server thread/INFO]: __sx[/127.0.0.1:50332] logged in with entity id 2057 at ([world]-13.971967273921546, 128.0, -177.06245518978128)
-[11:17:29] [Server thread/INFO]: __sx lost connection: Disconnected
-[11:17:29] [Server thread/INFO]: [-] __sx
-[11:18:15] [User Authenticator #13/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
-[11:18:15] [Server thread/INFO]: [+] __sx
-[11:18:15] [Server thread/INFO]: __sx[/127.0.0.1:50771] logged in with entity id 4860 at ([world]-13.971967273921546, 128.0, -177.06245518978128)
-[11:18:52] [Server thread/INFO]: __sx lost connection: Disconnected
-[11:18:52] [Server thread/INFO]: [-] __sx
-[11:19:05] [User Authenticator #14/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
-[11:19:05] [Server thread/INFO]: [+] __sx
-[11:19:05] [Server thread/INFO]: __sx[/127.0.0.1:50792] logged in with entity id 4980 at ([world]-13.971967273921546, 128.0, -177.06245518978128)
-[11:19:10] [Server thread/INFO]: __sx lost connection: Disconnected
-[11:19:10] [Server thread/INFO]: [-] __sx
-[11:19:21] [Server thread/INFO]: Stopping the server
-[11:19:21] [Server thread/INFO]: Stopping server
-[11:19:21] [Server thread/INFO]: [manager] Disabling manager v1.0
-[11:19:21] [Server thread/WARN]: [manager] La connexion à REDIS à été interrompue.
-[11:19:21] [Server thread/INFO]: [manager] Plugin arrêté avec succès !
-[11:19:21] [Server thread/INFO]: Saving players
-[11:19:21] [Server thread/INFO]: Saving worlds
-[11:19:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
-[11:19:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_nether]'/minecraft:the_nether
-[11:19:22] [Server thread/INFO]: Saving chunks for level 'ServerLevel[world_the_end]'/minecraft:the_end
-[11:19:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (world): All chunks are saved
-[11:19:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
-[11:19:22] [Server thread/INFO]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
-[11:19:22] [Server thread/INFO]: ThreadedAnvilChunkStorage: All dimensions are saved
+[15:53:09] [ServerMain/INFO]: Building unoptimized datafixer
+[15:53:10] [ServerMain/INFO]: Environment: authHost='https://authserver.mojang.com', accountsHost='https://api.mojang.com', sessionHost='https://sessionserver.mojang.com', servicesHost='https://api.minecraftservices.com', name='PROD'
+[15:53:10] [ServerMain/INFO]: Loaded 7 recipes
+[15:53:12] [Server thread/INFO]: Starting minecraft server version 1.19.2
+[15:53:12] [Server thread/INFO]: Loading properties
+[15:53:12] [Server thread/INFO]: This server is running CraftBukkit version 3610-Spigot-6198b5a-19df23a (MC: 1.19.2) (Implementing API version 1.19.2-R0.1-SNAPSHOT)
+[15:53:12] [Server thread/INFO]: Debug logging is disabled
+[15:53:12] [Server thread/INFO]: Server Ping Player Sample Count: 12
+[15:53:12] [Server thread/INFO]: Using 4 threads for Netty based IO
+[15:53:12] [Server thread/INFO]: Default game type: SURVIVAL
+[15:53:12] [Server thread/INFO]: Generating keypair
+[15:53:12] [Server thread/INFO]: Starting Minecraft server on localhost:25566
+[15:53:12] [Server thread/INFO]: Using default channel type
+[15:53:12] [Server thread/INFO]: [manager] Loading manager v1.0
+[15:53:12] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[15:53:12] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[15:53:12] [Server thread/WARN]: Whilst this makes it possible to use BungeeCord, unless access to your server is properly restricted, it also opens up the ability for hackers to connect with any username they choose.
+[15:53:12] [Server thread/WARN]: Please see http://www.spigotmc.org/wiki/firewall-guide/ for further information.
+[15:53:12] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[15:53:12] [Server thread/INFO]: Preparing level "world"
+[15:53:12] [Server thread/INFO]: -------- World Settings For [world] --------
+[15:53:12] [Server thread/INFO]: Mob Spawn Range: 6
+[15:53:12] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[15:53:12] [Server thread/INFO]: Cane Growth Modifier: 100%
+[15:53:12] [Server thread/INFO]: Melon Growth Modifier: 100%
+[15:53:12] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[15:53:12] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[15:53:12] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[15:53:12] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[15:53:12] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[15:53:12] [Server thread/INFO]: Potato Growth Modifier: 100%
+[15:53:12] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[15:53:12] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[15:53:12] [Server thread/INFO]: Vine Growth Modifier: 100%
+[15:53:12] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[15:53:12] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[15:53:12] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[15:53:12] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[15:53:12] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[15:53:12] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[15:53:12] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[15:53:12] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[15:53:12] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[15:53:12] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[15:53:12] [Server thread/INFO]: Max TNT Explosions: 100
+[15:53:12] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[15:53:12] [Server thread/INFO]: Item Merge Radius: 2.5
+[15:53:12] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[15:53:12] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[15:53:12] [Server thread/INFO]: Item Despawn Rate: 6000
+[15:53:12] [Server thread/INFO]: View Distance: 10
+[15:53:12] [Server thread/INFO]: Simulation Distance: 10
+[15:53:12] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[15:53:12] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[15:53:12] [Server thread/INFO]: Experience Merge Radius: 3.0
+[15:53:12] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[15:53:13] [Server thread/INFO]: -------- World Settings For [world_nether] --------
+[15:53:13] [Server thread/INFO]: Mob Spawn Range: 6
+[15:53:13] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[15:53:13] [Server thread/INFO]: Cane Growth Modifier: 100%
+[15:53:13] [Server thread/INFO]: Melon Growth Modifier: 100%
+[15:53:13] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[15:53:13] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[15:53:13] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[15:53:13] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[15:53:13] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[15:53:13] [Server thread/INFO]: Potato Growth Modifier: 100%
+[15:53:13] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[15:53:13] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[15:53:13] [Server thread/INFO]: Vine Growth Modifier: 100%
+[15:53:13] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[15:53:13] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[15:53:13] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[15:53:13] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[15:53:13] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[15:53:13] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[15:53:13] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[15:53:13] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[15:53:13] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[15:53:13] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[15:53:13] [Server thread/INFO]: Max TNT Explosions: 100
+[15:53:13] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[15:53:13] [Server thread/INFO]: Item Merge Radius: 2.5
+[15:53:13] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[15:53:13] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[15:53:13] [Server thread/INFO]: Item Despawn Rate: 6000
+[15:53:13] [Server thread/INFO]: View Distance: 10
+[15:53:13] [Server thread/INFO]: Simulation Distance: 10
+[15:53:13] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[15:53:13] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[15:53:13] [Server thread/INFO]: Experience Merge Radius: 3.0
+[15:53:13] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[15:53:13] [Server thread/INFO]: -------- World Settings For [world_the_end] --------
+[15:53:13] [Server thread/INFO]: Mob Spawn Range: 6
+[15:53:13] [Server thread/INFO]: Cactus Growth Modifier: 100%
+[15:53:13] [Server thread/INFO]: Cane Growth Modifier: 100%
+[15:53:13] [Server thread/INFO]: Melon Growth Modifier: 100%
+[15:53:13] [Server thread/INFO]: Mushroom Growth Modifier: 100%
+[15:53:13] [Server thread/INFO]: Pumpkin Growth Modifier: 100%
+[15:53:13] [Server thread/INFO]: Sapling Growth Modifier: 100%
+[15:53:13] [Server thread/INFO]: Beetroot Growth Modifier: 100%
+[15:53:13] [Server thread/INFO]: Carrot Growth Modifier: 100%
+[15:53:13] [Server thread/INFO]: Potato Growth Modifier: 100%
+[15:53:13] [Server thread/INFO]: Wheat Growth Modifier: 100%
+[15:53:13] [Server thread/INFO]: NetherWart Growth Modifier: 100%
+[15:53:13] [Server thread/INFO]: Vine Growth Modifier: 100%
+[15:53:13] [Server thread/INFO]: Cocoa Growth Modifier: 100%
+[15:53:13] [Server thread/INFO]: Bamboo Growth Modifier: 100%
+[15:53:13] [Server thread/INFO]: SweetBerry Growth Modifier: 100%
+[15:53:13] [Server thread/INFO]: Kelp Growth Modifier: 100%
+[15:53:13] [Server thread/INFO]: TwistingVines Growth Modifier: 100%
+[15:53:13] [Server thread/INFO]: WeepingVines Growth Modifier: 100%
+[15:53:13] [Server thread/INFO]: CaveVines Growth Modifier: 100%
+[15:53:13] [Server thread/INFO]: Entity Activation Range: An 32 / Mo 32 / Ra 48 / Mi 16 / Tiv true / Isa false
+[15:53:13] [Server thread/INFO]: Entity Tracking Range: Pl 48 / An 48 / Mo 48 / Mi 32 / Other 64
+[15:53:13] [Server thread/INFO]: Custom Map Seeds:  Village: 10387312 Desert: 14357617 Igloo: 14357618 Jungle: 14357619 Swamp: 14357620 Monument: 10387313 Ocean: 14357621 Shipwreck: 165745295 End City: 10387313 Slime: 987234911 Nether: 30084232 Mansion: 10387319 Fossil: 14357921 Portal: 34222645
+[15:53:13] [Server thread/INFO]: Max TNT Explosions: 100
+[15:53:13] [Server thread/INFO]: Tile Max Tick Time: 50ms Entity max Tick Time: 50ms
+[15:53:13] [Server thread/INFO]: Item Merge Radius: 2.5
+[15:53:13] [Server thread/INFO]: Arrow Despawn Rate: 1200 Trident Respawn Rate:1200
+[15:53:13] [Server thread/INFO]: Nerfing mobs spawned from spawners: false
+[15:53:13] [Server thread/INFO]: Item Despawn Rate: 6000
+[15:53:13] [Server thread/INFO]: View Distance: 10
+[15:53:13] [Server thread/INFO]: Simulation Distance: 10
+[15:53:13] [Server thread/INFO]: Allow Zombie Pigmen to spawn from portal blocks: true
+[15:53:13] [Server thread/INFO]: Zombie Aggressive Towards Villager: true
+[15:53:13] [Server thread/INFO]: Experience Merge Radius: 3.0
+[15:53:13] [Server thread/INFO]: Hopper Transfer: 8 Hopper Check: 1 Hopper Amount: 1 Hopper Can Load Chunks: false
+[15:53:13] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[15:53:14] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[15:53:14] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[15:53:14] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[15:53:14] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[15:53:15] [Worker-Main-7/INFO]: Preparing spawn area: 0%
+[15:53:15] [Worker-Main-3/INFO]: Preparing spawn area: 69%
+[15:53:15] [Server thread/INFO]: Time elapsed: 2553 ms
+[15:53:15] [Server thread/INFO]: Preparing start region for dimension minecraft:the_nether
+[15:53:16] [Worker-Main-3/INFO]: Preparing spawn area: 0%
+[15:53:16] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[15:53:16] [Worker-Main-2/INFO]: Preparing spawn area: 7%
+[15:53:16] [Server thread/INFO]: Time elapsed: 1268 ms
+[15:53:16] [Server thread/INFO]: Preparing start region for dimension minecraft:the_end
+[15:53:17] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[15:53:17] [Worker-Main-4/INFO]: Preparing spawn area: 0%
+[15:53:17] [Worker-Main-3/INFO]: Preparing spawn area: 88%
+[15:53:17] [Server thread/INFO]: Time elapsed: 1032 ms
+[15:53:17] [Server thread/INFO]: [manager] Enabling manager v1.0
+[15:53:18] [Server thread/WARN]: [manager] La connexion à REDIS à été établie.
+[15:53:18] [Server thread/INFO]: [manager] Plugin démarré avec succès !
+[15:53:18] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[15:53:18] [Server thread/INFO]: Done (5.270s)! For help, type "help"
+[15:57:28] [User Authenticator #1/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
+[15:57:28] [Server thread/INFO]: [+] __sx
+[15:57:28] [Server thread/INFO]: __sx[/127.0.0.1:49826] logged in with entity id 49 at ([world]-13.971967273921546, 128.0, -177.06245518978128)
+[15:59:15] [Server thread/INFO]: __sx issued server command: /pl
+[16:18:27] [Server thread/INFO]: __sx lost connection: Disconnected
+[16:18:27] [Server thread/INFO]: [-] __sx
+[16:19:18] [User Authenticator #2/INFO]: UUID of player __sx is 22d05056-7940-41f2-b6e4-b1ed165ceaa0
+[16:19:19] [Server thread/INFO]: [+] __sx
+[16:19:19] [Server thread/INFO]: __sx[/127.0.0.1:50012] logged in with entity id 6626 at ([world]1020.9705665416205, 64.0, 1952.815628606484)
+[16:19:22] [Server thread/INFO]: __sx lost connection: Disconnected
+[16:19:22] [Server thread/INFO]: [-] __sx

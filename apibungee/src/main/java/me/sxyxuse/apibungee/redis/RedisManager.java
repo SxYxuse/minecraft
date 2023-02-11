@@ -24,10 +24,6 @@ public class RedisManager {
 
     public void start() {
         if (!IsRunning()) {
-//            JedisPoolConfig jedisPoolConfig = new JedisPoolConfig();
-//            jedisPoolConfig.setMaxTotal(10);
-//
-//            jedis = new JedisPool(jedisPoolConfig, this.host, this.port).getResource();
             HostAndPort config = new HostAndPort(Protocol.DEFAULT_HOST, 6379);
             PooledConnectionProvider provider = new PooledConnectionProvider(config);
 
