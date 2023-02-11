@@ -2,7 +2,16 @@
 <module type="GENERAL_MODULE" version="4">
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
-    <content url="file://$MODULE_DIR$" />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/lobby/world_nether/DIM-1/entities" />
+      <excludeFolder url="file://$MODULE_DIR$/lobby/world_nether/DIM-1/poi" />
+      <excludeFolder url="file://$MODULE_DIR$/lobby/world_the_end/DIM1/entities" />
+      <excludeFolder url="file://$MODULE_DIR$/lobby/world_the_end/DIM1/poi" />
+      <excludeFolder url="file://$MODULE_DIR$/mining/world_nether/DIM-1/entities" />
+      <excludeFolder url="file://$MODULE_DIR$/mining/world_nether/DIM-1/poi" />
+      <excludeFolder url="file://$MODULE_DIR$/mining/world_the_end/DIM1/entities" />
+      <excludeFolder url="file://$MODULE_DIR$/mining/world_the_end/DIM1/poi" />
+    </content>
     <orderEntry type="sourceFolder" forTests="false" />
   </component>
 </module>

@@ -5,3 +5,7 @@
 /manager/.gradle/
 /manager/build/
 /manager/build/classes/java/main/
+.idea
+lobby
+proxy
+mining
