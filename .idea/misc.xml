@@ -17,6 +17,7 @@
     <file type="web" url="file://$PROJECT_DIR$/sxLobby" />
     <file type="web" url="file://$PROJECT_DIR$/sxStaff" />
     <file type="web" url="file://$PROJECT_DIR$/sxWarp" />
+    <file type="web" url="file://$PROJECT_DIR$/waintingqueue" />
   </component>
   <component name="ProjectRootManager" version="2" languageLevel="JDK_17" project-jdk-name="17" project-jdk-type="JavaSDK">
     <output url="file://$PROJECT_DIR$/out" />

@@ -36,6 +36,7 @@ public class ChatEvent implements Listener {
             return;
         }
 
+
         for (Player playerOnline : Bukkit.getOnlinePlayers())
             playerOnline.spigot().sendMessage(chatContent);
 
