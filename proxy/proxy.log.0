@@ -31179,3 +31179,349 @@ java.util.NoSuchElementException
 11:44:37 [INFO] [__sx] -> UpstreamBridge has disconnected
 11:44:37 [INFO] [__sx] <-> DownstreamBridge <-> [lobby] has disconnected
 11:44:37 [INFO] [/127.0.0.1:51263] <-> InitialHandler has pinged
+13:35:31 [INFO] [/127.0.0.1:51965] <-> InitialHandler has pinged
+13:35:31 [INFO] [/127.0.0.1:51970] <-> InitialHandler has pinged
+13:35:32 [INFO] [/127.0.0.1:51973] <-> InitialHandler has connected
+13:35:33 [WARNING] Plugin listener me.sxyxuse.apibungee.listeners.players.ProxyJoin took 122ms to process event PostLoginEvent(player=__sx)!
+13:35:33 [INFO] [__sx] <-> ServerConnector [lobby] has connected
+13:44:40 [INFO] [__sx] -> UpstreamBridge has disconnected
+13:44:40 [INFO] [__sx] <-> DownstreamBridge <-> [lobby] has disconnected
+13:44:40 [INFO] [/127.0.0.1:52062] <-> InitialHandler has pinged
+13:44:42 [INFO] [/127.0.0.1:52068] <-> InitialHandler has pinged
+13:44:42 [INFO] [/127.0.0.1:52070] <-> InitialHandler has connected
+13:44:44 [WARNING] Plugin listener me.sxyxuse.apibungee.listeners.players.ProxyJoin took 72ms to process event PostLoginEvent(player=__sx)!
+13:44:44 [INFO] [__sx] <-> ServerConnector [lobby] has connected
+13:44:51 [INFO] [__sx] -> UpstreamBridge has disconnected
+13:44:51 [INFO] [__sx] <-> DownstreamBridge <-> [lobby] has disconnected
+13:44:52 [INFO] [/127.0.0.1:52082] <-> InitialHandler has pinged
+13:44:53 [INFO] [/127.0.0.1:52086] <-> InitialHandler has connected
+13:44:54 [INFO] [__sx] <-> ServerConnector [lobby] has connected
+13:45:11 [INFO] [__sx] -> UpstreamBridge has disconnected
+13:45:11 [INFO] [__sx] <-> DownstreamBridge <-> [lobby] has disconnected
+13:45:11 [INFO] [/127.0.0.1:52096] <-> InitialHandler has pinged
+13:45:46 [INFO] [/127.0.0.1:52109] <-> InitialHandler has pinged
+13:45:46 [INFO] [/127.0.0.1:52110] <-> InitialHandler has connected
+13:45:48 [INFO] [__sx] <-> ServerConnector [lobby] has connected
+13:45:51 [INFO] [__sx] -> UpstreamBridge has disconnected
+13:45:51 [INFO] [__sx] <-> DownstreamBridge <-> [lobby] has disconnected
+13:45:52 [INFO] [/127.0.0.1:52120] <-> InitialHandler has pinged
+13:46:27 [INFO] [/127.0.0.1:52129] <-> InitialHandler has pinged
+13:46:28 [INFO] [/127.0.0.1:52133] <-> InitialHandler has connected
+13:46:30 [INFO] [__sx] <-> ServerConnector [lobby] has connected
+13:53:59 [INFO] [__sx] -> UpstreamBridge has disconnected
+13:53:59 [INFO] [__sx] <-> DownstreamBridge <-> [lobby] has disconnected
+13:54:00 [INFO] [/127.0.0.1:52160] <-> InitialHandler has pinged
+13:54:01 [INFO] [/127.0.0.1:52164] <-> InitialHandler has connected
+13:54:03 [WARNING] Plugin listener me.sxyxuse.apibungee.listeners.players.ProxyJoin took 61ms to process event PostLoginEvent(player=__sx)!
+13:54:03 [INFO] [__sx] <-> ServerConnector [lobby] has connected
+13:54:47 [INFO] [__sx] -> UpstreamBridge has disconnected
+13:54:47 [INFO] [__sx] <-> DownstreamBridge <-> [lobby] has disconnected
+13:54:47 [INFO] [/127.0.0.1:52197] <-> InitialHandler has pinged
+13:54:48 [INFO] [/127.0.0.1:52204] <-> InitialHandler has pinged
+13:54:50 [INFO] [/127.0.0.1:52206] <-> InitialHandler has connected
+13:54:52 [WARNING] Plugin listener me.sxyxuse.apibungee.listeners.players.ProxyJoin took 57ms to process event PostLoginEvent(player=__sx)!
+13:54:52 [INFO] [__sx] <-> ServerConnector [lobby] has connected
+13:55:56 [INFO] [__sx] -> UpstreamBridge has disconnected
+13:55:56 [INFO] [__sx] <-> DownstreamBridge <-> [lobby] has disconnected
+13:55:56 [INFO] [/127.0.0.1:52221] <-> InitialHandler has pinged
+13:55:57 [INFO] [/127.0.0.1:52228] <-> InitialHandler has pinged
+13:55:58 [INFO] [/127.0.0.1:52231] <-> InitialHandler has connected
+13:56:00 [INFO] [__sx] <-> ServerConnector [lobby] has connected
+13:56:30 [INFO] [__sx] -> UpstreamBridge has disconnected
+13:56:30 [INFO] [__sx] <-> DownstreamBridge <-> [lobby] has disconnected
+13:56:30 [INFO] [/127.0.0.1:52247] <-> InitialHandler has pinged
+13:56:31 [INFO] [/127.0.0.1:52253] <-> InitialHandler has pinged
+13:56:32 [INFO] [/127.0.0.1:52254] <-> InitialHandler has connected
+13:56:35 [INFO] [__sx] <-> ServerConnector [lobby] has connected
+14:10:43 [INFO] [__sx] -> UpstreamBridge has disconnected
+14:10:43 [INFO] [__sx] <-> DownstreamBridge <-> [lobby] has disconnected
+14:10:43 [INFO] [/127.0.0.1:52328] <-> InitialHandler has pinged
+14:10:44 [WARNING] [/127.0.0.1:52328] <-> InitialHandler - SocketException: Connection reset
+14:10:45 [INFO] [/127.0.0.1:52339] <-> InitialHandler has pinged
+14:10:45 [INFO] [/127.0.0.1:52340] <-> InitialHandler has connected
+14:10:47 [WARNING] Plugin listener me.sxyxuse.apibungee.listeners.players.ProxyJoin took 85ms to process event PostLoginEvent(player=__sx)!
+14:10:47 [INFO] [__sx] <-> ServerConnector [lobby] has connected
+14:11:52 [INFO] [__sx] -> UpstreamBridge has disconnected
+14:11:52 [INFO] [__sx] <-> DownstreamBridge <-> [lobby] has disconnected
+14:11:52 [INFO] [/127.0.0.1:52353] <-> InitialHandler has pinged
+14:11:57 [INFO] [/127.0.0.1:52361] <-> InitialHandler has pinged
+14:11:58 [INFO] [/127.0.0.1:52363] <-> InitialHandler has connected
+14:11:59 [INFO] [__sx] <-> ServerConnector [lobby] has connected
+14:22:23 [INFO] [__sx] disconnected with: §f§fServer closed
+14:22:23 [INFO] [__sx] -> UpstreamBridge has disconnected
+14:22:23 [INFO] [__sx] <-> DownstreamBridge <-> [lobby] has disconnected
+14:29:50 [INFO] [/127.0.0.1:52450] <-> InitialHandler has pinged
+14:29:51 [INFO] [/127.0.0.1:52455] <-> InitialHandler has pinged
+14:29:52 [INFO] [/127.0.0.1:52463] <-> InitialHandler has pinged
+14:30:00 [INFO] [/127.0.0.1:52467] <-> InitialHandler has pinged
+14:30:01 [INFO] [/127.0.0.1:52469] <-> InitialHandler has connected
+14:30:04 [INFO] [__sx] <-> ServerConnector [lobby] has connected
+14:31:02 [INFO] [__sx] -> UpstreamBridge has disconnected
+14:31:02 [INFO] [__sx] <-> DownstreamBridge <-> [lobby] has disconnected
+14:31:02 [INFO] [/127.0.0.1:52481] <-> InitialHandler has pinged
+14:31:43 [INFO] [/127.0.0.1:52493] <-> InitialHandler has connected
+14:31:44 [INFO] [__sx] <-> ServerConnector [lobby] has connected
+14:31:57 [INFO] [__sx] disconnected with: §f§fServer closed
+14:31:57 [INFO] [__sx] -> UpstreamBridge has disconnected
+14:31:57 [INFO] [__sx] <-> DownstreamBridge <-> [lobby] has disconnected
+14:37:40 [INFO] [/127.0.0.1:52519] <-> InitialHandler has pinged
+14:37:40 [INFO] [/127.0.0.1:52525] <-> InitialHandler has pinged
+14:37:52 [INFO] [/127.0.0.1:52528] <-> InitialHandler has pinged
+14:37:53 [INFO] [/127.0.0.1:52532] <-> InitialHandler has connected
+14:37:54 [INFO] [__sx] <-> ServerConnector [lobby] has connected
+14:40:37 [INFO] [__sx] disconnected with: §f§fServer closed
+14:40:37 [INFO] [__sx] -> UpstreamBridge has disconnected
+14:40:37 [INFO] [__sx] <-> DownstreamBridge <-> [lobby] has disconnected
+14:40:46 [INFO] [/127.0.0.1:52568] <-> InitialHandler has pinged
+14:40:47 [INFO] [/127.0.0.1:52574] <-> InitialHandler has pinged
+14:40:47 [INFO] [/127.0.0.1:52578] <-> InitialHandler has pinged
+14:40:47 [INFO] [/127.0.0.1:52581] <-> InitialHandler has pinged
+14:40:51 [INFO] [/127.0.0.1:52584] <-> InitialHandler has connected
+14:40:52 [WARNING] Plugin listener me.sxyxuse.apibungee.listeners.players.ProxyJoin took 116ms to process event PostLoginEvent(player=__sx)!
+14:40:52 [INFO] [__sx] <-> ServerConnector [lobby] has connected
+14:41:11 [INFO] [__sx] disconnected with: §f§fServer closed
+14:41:11 [INFO] [__sx] -> UpstreamBridge has disconnected
+14:41:11 [INFO] [__sx] <-> DownstreamBridge <-> [lobby] has disconnected
+14:41:46 [INFO] [/127.0.0.1:52603] <-> InitialHandler has pinged
+14:41:52 [INFO] [/127.0.0.1:52605] <-> InitialHandler has connected
+14:41:53 [INFO] [__sx] <-> ServerConnector [lobby] has connected
+14:43:36 [INFO] [__sx] disconnected with: §f§fServer closed
+14:43:36 [INFO] [__sx] -> UpstreamBridge has disconnected
+14:43:36 [INFO] [__sx] <-> DownstreamBridge <-> [lobby] has disconnected
+14:43:54 [INFO] [/127.0.0.1:52620] <-> InitialHandler has pinged
+14:43:56 [INFO] [/127.0.0.1:52624] <-> InitialHandler has connected
+14:43:58 [INFO] [__sx] <-> ServerConnector [lobby] has connected
+14:44:47 [INFO] Closing listener [id: 0xdd494666, L:/[0:0:0:0:0:0:0:0]:25565]
+14:44:47 [INFO] Listening on /0.0.0.0:25565
+14:45:20 [INFO] Closing listener [id: 0x022221b8, L:/[0:0:0:0:0:0:0:0]:25565]
+14:45:20 [INFO] Listening on /0.0.0.0:25565
+14:47:31 [INFO] [__sx] disconnected with: §f§fServer closed
+14:47:31 [INFO] [__sx] -> UpstreamBridge has disconnected
+14:47:31 [INFO] [__sx] <-> DownstreamBridge <-> [lobby] has disconnected
+14:47:33 [INFO] Closing listener [id: 0x4dee0eec, L:/[0:0:0:0:0:0:0:0]:25565]
+14:47:33 [INFO] Closing pending connections
+14:47:33 [INFO] Disconnecting 0 connections
+14:47:34 [INFO] Disabling plugins
+14:47:34 [WARNING] [apibungee] La connexion à REDIS à été interrompue.
+14:47:34 [INFO] [apibungee] Plugin arrêté avec succès !
+14:47:34 [INFO] Closing IO threads
+14:47:37 [INFO] Using standard Java JCE cipher.
+14:47:37 [INFO] Using standard Java compressor.
+14:47:37 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.19-R0.1-SNAPSHOT:f8e0bcc:1675
+14:47:37 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+14:47:37 [WARNING] Epoll is not working, falling back to NIO: ExceptionInInitializerError : null @ io.netty.channel.epoll.Epoll:40
+14:47:37 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+
+14:47:37 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+
+14:47:37 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+
+14:47:37 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+
+14:47:37 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+
+14:47:37 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+
+14:47:37 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+14:47:37 [INFO] Loaded plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+14:47:37 [INFO] Loaded plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+14:47:37 [INFO] Loaded plugin apibungee version 1.0 by SxYxuse
+14:47:37 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+14:47:37 [INFO] Loaded plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+14:47:37 [INFO] Loaded plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+14:47:37 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+14:47:37 [INFO] Enabled plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+14:47:37 [INFO] Enabled plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+14:47:37 [WARNING] [apibungee] La connexion à REDIS à été établie.
+14:47:37 [INFO] [apibungee] Plugin démarré avec succès !
+14:47:37 [INFO] Enabled plugin apibungee version 1.0 by SxYxuse
+14:47:37 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+14:47:37 [INFO] Enabled plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+14:47:37 [INFO] Enabled plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+14:47:37 [INFO] Listening on /0.0.0.0:25565
+14:47:59 [INFO] [/127.0.0.1:52641] <-> InitialHandler has connected
+14:48:02 [INFO] [__sx] <-> ServerConnector [lobby] has connected
+14:48:02 [INFO] Netty is not using direct IO buffers.
+
+14:49:36 [INFO] [__sx] disconnected with: §f§fServer closed
+14:49:36 [INFO] [__sx] -> UpstreamBridge has disconnected
+14:49:36 [INFO] [__sx] <-> DownstreamBridge <-> [lobby] has disconnected
+14:50:27 [INFO] [/127.0.0.1:52656] <-> InitialHandler has connected
+14:50:30 [INFO] [__sx] <-> ServerConnector [lobby] has connected
+14:51:49 [INFO] [__sx] disconnected with: §f§fServer closed
+14:51:49 [INFO] [__sx] -> UpstreamBridge has disconnected
+14:51:49 [INFO] [__sx] <-> DownstreamBridge <-> [lobby] has disconnected
+14:52:02 [INFO] [/127.0.0.1:52667] <-> InitialHandler has connected
+14:52:06 [INFO] [__sx] <-> ServerConnector [lobby] has connected
+14:54:20 [INFO] [__sx] disconnected with: §f§fServer closed
+14:54:20 [INFO] [__sx] -> UpstreamBridge has disconnected
+14:54:20 [INFO] [__sx] <-> DownstreamBridge <-> [lobby] has disconnected
+14:54:26 [INFO] Closing listener [id: 0x6aa07b54, L:/[0:0:0:0:0:0:0:0]:25565]
+14:54:26 [INFO] Closing pending connections
+14:54:26 [INFO] Disconnecting 0 connections
+14:54:26 [INFO] Disabling plugins
+14:54:26 [WARNING] [apibungee] La connexion à REDIS à été interrompue.
+14:54:26 [INFO] [apibungee] Plugin arrêté avec succès !
+14:54:26 [INFO] Closing IO threads
+14:54:30 [INFO] Using standard Java JCE cipher.
+14:54:30 [INFO] Using standard Java compressor.
+14:54:30 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.19-R0.1-SNAPSHOT:f8e0bcc:1675
+14:54:30 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+14:54:30 [WARNING] Epoll is not working, falling back to NIO: ExceptionInInitializerError : null @ io.netty.channel.epoll.Epoll:40
+14:54:30 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+
+14:54:30 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+
+14:54:30 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+
+14:54:30 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+
+14:54:30 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+
+14:54:30 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+
+14:54:30 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+14:54:30 [INFO] Loaded plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+14:54:30 [INFO] Loaded plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+14:54:30 [INFO] Loaded plugin apibungee version 1.0 by SxYxuse
+14:54:30 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+14:54:30 [INFO] Loaded plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+14:54:30 [INFO] Loaded plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+14:54:30 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+14:54:30 [INFO] Enabled plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+14:54:30 [INFO] Enabled plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+14:54:30 [WARNING] [apibungee] La connexion à REDIS à été établie.
+14:54:30 [INFO] [apibungee] Plugin démarré avec succès !
+14:54:30 [INFO] Enabled plugin apibungee version 1.0 by SxYxuse
+14:54:30 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+14:54:30 [INFO] Enabled plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+14:54:30 [INFO] Enabled plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+14:54:30 [INFO] Listening on /0.0.0.0:25565
+14:54:32 [INFO] [/127.0.0.1:52716] <-> InitialHandler has pinged
+14:54:33 [INFO] [/127.0.0.1:52722] <-> InitialHandler has pinged
+14:54:34 [INFO] [/127.0.0.1:52727] <-> InitialHandler has pinged
+14:54:35 [INFO] [/127.0.0.1:52728] <-> InitialHandler has connected
+14:54:35 [WARNING] Plugin listener me.sxyxuse.apibungee.listeners.players.ProxyJoin took 63ms to process event PostLoginEvent(player=__sx)!
+14:54:35 [INFO] [__sx] <-> ServerConnector [lobby] has connected
+14:54:36 [INFO] Netty is not using direct IO buffers.
+
+15:02:38 [INFO] §cCommand not found
+15:03:58 [INFO] [__sx] -> UpstreamBridge has disconnected
+15:03:58 [INFO] [__sx] <-> DownstreamBridge <-> [lobby] has disconnected
+15:03:58 [INFO] [/127.0.0.1:52794] <-> InitialHandler has pinged
+15:03:59 [INFO] [/127.0.0.1:52798] <-> InitialHandler has connected
+15:04:02 [WARNING] Plugin listener me.sxyxuse.apibungee.listeners.players.ProxyJoin took 60ms to process event PostLoginEvent(player=__sx)!
+15:04:02 [INFO] [__sx] <-> ServerConnector [lobby] has connected
+15:10:43 [INFO] [__sx] disconnected with: §f§fServer closed
+15:10:43 [INFO] [__sx] -> UpstreamBridge has disconnected
+15:10:43 [INFO] [__sx] <-> DownstreamBridge <-> [lobby] has disconnected
+15:10:52 [INFO] [/127.0.0.1:52853] <-> InitialHandler has pinged
+15:10:55 [INFO] [/127.0.0.1:52854] <-> InitialHandler has connected
+15:10:56 [WARNING] Plugin listener me.sxyxuse.apibungee.listeners.players.ProxyJoin took 61ms to process event PostLoginEvent(player=__sx)!
+15:10:56 [INFO] [__sx] <-> ServerConnector [lobby] has connected
+15:11:43 [INFO] [__sx] disconnected with: §f§fServer closed
+15:11:43 [INFO] [__sx] -> UpstreamBridge has disconnected
+15:11:43 [INFO] [__sx] <-> DownstreamBridge <-> [lobby] has disconnected
+15:11:54 [INFO] [/127.0.0.1:52866] <-> InitialHandler has connected
+15:11:57 [INFO] [__sx] <-> ServerConnector [lobby] has connected
+15:14:32 [INFO] Closing listener [id: 0x396e61dd, L:/[0:0:0:0:0:0:0:0]:25565]
+15:14:32 [INFO] Closing pending connections
+15:14:32 [INFO] Disconnecting 1 connections
+15:14:32 [INFO] [__sx] disconnected with: §cThe proxy server is restarting
+15:14:32 [INFO] [__sx] -> UpstreamBridge has disconnected
+15:14:32 [INFO] [__sx] <-> DownstreamBridge <-> [lobby] has disconnected
+15:14:32 [INFO] Disabling plugins
+15:14:33 [WARNING] [apibungee] La connexion à REDIS à été interrompue.
+15:14:33 [INFO] [apibungee] Plugin arrêté avec succès !
+15:14:33 [INFO] Closing IO threads
+15:14:36 [INFO] Using standard Java JCE cipher.
+15:14:36 [INFO] Using standard Java compressor.
+15:14:36 [INFO] Enabled BungeeCord version git:BungeeCord-Bootstrap:1.19-R0.1-SNAPSHOT:f8e0bcc:1675
+15:14:36 [INFO] Not on Windows, attempting to use enhanced EpollEventLoop
+15:14:36 [WARNING] Epoll is not working, falling back to NIO: ExceptionInInitializerError : null @ io.netty.channel.epoll.Epoll:40
+15:14:36 [INFO] Discovered module: ModuleSpec(name=cmd_alert, file=modules/cmd_alert.jar, provider=JenkinsModuleSource())
+
+15:14:36 [INFO] Discovered module: ModuleSpec(name=cmd_find, file=modules/cmd_find.jar, provider=JenkinsModuleSource())
+
+15:14:36 [INFO] Discovered module: ModuleSpec(name=cmd_list, file=modules/cmd_list.jar, provider=JenkinsModuleSource())
+
+15:14:36 [INFO] Discovered module: ModuleSpec(name=cmd_send, file=modules/cmd_send.jar, provider=JenkinsModuleSource())
+
+15:14:36 [INFO] Discovered module: ModuleSpec(name=cmd_server, file=modules/cmd_server.jar, provider=JenkinsModuleSource())
+
+15:14:36 [INFO] Discovered module: ModuleSpec(name=reconnect_yaml, file=modules/reconnect_yaml.jar, provider=JenkinsModuleSource())
+
+15:14:36 [INFO] Loaded plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+15:14:36 [INFO] Loaded plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+15:14:36 [INFO] Loaded plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+15:14:36 [INFO] Loaded plugin apibungee version 1.0 by SxYxuse
+15:14:36 [INFO] Loaded plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+15:14:36 [INFO] Loaded plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+15:14:36 [INFO] Loaded plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+15:14:36 [INFO] Enabled plugin reconnect_yaml version git:reconnect_yaml:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+15:14:36 [INFO] Enabled plugin cmd_find version git:cmd_find:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+15:14:36 [INFO] Enabled plugin cmd_server version git:cmd_server:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+15:14:36 [WARNING] [apibungee] La connexion à REDIS à été établie.
+15:14:36 [INFO] [apibungee] Plugin démarré avec succès !
+15:14:36 [INFO] Enabled plugin apibungee version 1.0 by SxYxuse
+15:14:36 [INFO] Enabled plugin cmd_alert version git:cmd_alert:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+15:14:36 [INFO] Enabled plugin cmd_send version git:cmd_send:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+15:14:36 [INFO] Enabled plugin cmd_list version git:cmd_list:1.19-R0.1-SNAPSHOT:f8e0bcc:1675 by SpigotMC
+15:14:36 [INFO] Listening on /0.0.0.0:25565
+15:16:16 [INFO] [/127.0.0.1:52905] <-> InitialHandler has connected
+15:16:19 [WARNING] Plugin listener me.sxyxuse.apibungee.listeners.players.ProxyJoin took 54ms to process event PostLoginEvent(player=__sx)!
+15:16:19 [INFO] [__sx] <-> ServerConnector [lobby] has connected
+15:16:21 [INFO] Netty is not using direct IO buffers.
+
+15:18:22 [INFO] [__sx] disconnected with: §f§fServer closed
+15:18:22 [INFO] [__sx] -> UpstreamBridge has disconnected
+15:18:22 [INFO] [__sx] <-> DownstreamBridge <-> [lobby] has disconnected
+15:18:33 [INFO] [/127.0.0.1:52934] <-> InitialHandler has connected
+15:18:35 [INFO] [__sx] <-> ServerConnector [lobby] has connected
+15:19:35 [INFO] [__sx] disconnected with: §f§fServer closed
+15:19:35 [INFO] [__sx] -> UpstreamBridge has disconnected
+15:19:35 [INFO] [__sx] <-> DownstreamBridge <-> [lobby] has disconnected
+15:19:59 [INFO] [/127.0.0.1:52955] <-> InitialHandler has connected
+15:19:59 [INFO] [__sx] <-> ServerConnector [lobby] has connected
+15:22:39 [INFO] [__sx] disconnected with: §f§fServer closed
+15:22:39 [INFO] [__sx] -> UpstreamBridge has disconnected
+15:22:39 [INFO] [__sx] <-> DownstreamBridge <-> [lobby] has disconnected
+15:22:46 [INFO] [/127.0.0.1:52976] <-> InitialHandler has connected
+15:22:47 [INFO] [__sx] disconnected with: §cCould not connect to a default or fallback server. Incorrectly configured address/port/firewall? io.netty.channel.AbstractChannel$AnnotatedConnectException
+15:22:47 [INFO] [__sx] -> UpstreamBridge has disconnected
+15:22:50 [INFO] [/127.0.0.1:52985] <-> InitialHandler has connected
+15:22:50 [INFO] [__sx] <-> ServerConnector [lobby] has connected
+15:33:51 [INFO] [__sx] disconnected with: §f§fServer closed
+15:33:51 [INFO] [__sx] -> UpstreamBridge has disconnected
+15:33:51 [INFO] [__sx] <-> DownstreamBridge <-> [lobby] has disconnected
+15:34:04 [INFO] [/127.0.0.1:53012] <-> InitialHandler has connected
+15:34:05 [INFO] [__sx] <-> ServerConnector [lobby] has connected
+15:35:27 [INFO] [__sx] <-> ServerConnector [mining] has connected
+15:35:27 [INFO] [__sx] <-> DownstreamBridge <-> [lobby] has disconnected
+15:36:04 [INFO] [__sx] -> UpstreamBridge has disconnected
+15:36:04 [INFO] [__sx] <-> DownstreamBridge <-> [mining] has disconnected
+15:36:04 [INFO] [/127.0.0.1:53028] <-> InitialHandler has pinged
+15:36:05 [INFO] [/127.0.0.1:53032] <-> InitialHandler has connected
+15:36:08 [INFO] [__sx] <-> ServerConnector [lobby] has connected
+15:46:45 [INFO] [__sx] <-> ServerConnector [mining] has connected
+15:46:45 [INFO] [__sx] <-> DownstreamBridge <-> [lobby] has disconnected
+15:46:49 [INFO] [__sx] -> UpstreamBridge has disconnected
+15:46:49 [INFO] [__sx] <-> DownstreamBridge <-> [mining] has disconnected
+15:46:49 [INFO] [/127.0.0.1:53059] <-> InitialHandler has pinged
+15:47:27 [INFO] [/127.0.0.1:53065] <-> InitialHandler has connected
+15:47:28 [WARNING] Plugin listener me.sxyxuse.apibungee.listeners.players.ProxyJoin took 55ms to process event PostLoginEvent(player=__sx)!
+15:47:28 [INFO] [__sx] <-> ServerConnector [lobby] has connected
+15:50:38 [INFO] [__sx] <-> ServerConnector [mining] has connected
+15:50:38 [INFO] [__sx] <-> DownstreamBridge <-> [lobby] has disconnected
+15:50:49 [INFO] [__sx] -> UpstreamBridge has disconnected
+15:50:49 [INFO] [__sx] <-> DownstreamBridge <-> [mining] has disconnected
+15:50:49 [INFO] [/127.0.0.1:53086] <-> InitialHandler has pinged
+15:50:50 [INFO] [/127.0.0.1:53092] <-> InitialHandler has connected
+15:50:52 [INFO] [__sx] <-> ServerConnector [lobby] has connected
+15:51:13 [INFO] [__sx] <-> ServerConnector [mining] has connected
+15:51:13 [INFO] [__sx] <-> DownstreamBridge <-> [lobby] has disconnected
+15:51:19 [INFO] [__sx] -> UpstreamBridge has disconnected
+15:51:19 [INFO] [__sx] <-> DownstreamBridge <-> [mining] has disconnected
+15:51:19 [INFO] [/127.0.0.1:53101] <-> InitialHandler has pinged
+15:51:20 [INFO] [/127.0.0.1:53105] <-> InitialHandler has connected
+15:51:22 [INFO] [__sx] <-> ServerConnector [lobby] has connected

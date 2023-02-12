@@ -1,7 +1,10 @@
 package me.sxyxuse.hub;
 
-import me.sxyxuse.hub.commands.Queue;
-import me.sxyxuse.manager.Manager;
+import me.sxyxuse.hub.listeners.compass.InteractEvent;
+import me.sxyxuse.hub.listeners.items.CompassItemClick;
+import me.sxyxuse.hub.listeners.players.JoinEvent;
+import org.bukkit.Bukkit;
+import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
 
 import java.util.ArrayList;
@@ -21,7 +24,8 @@ public class Hub extends JavaPlugin {
     public void onEnable() {
         HUB = this;
 
-        Manager.getInstance().getCommand().createCommand("queue", "", new Queue(), "");
+        this.registerListeners();
+        this.getServer().getMessenger().registerOutgoingPluginChannel(this, "BungeeCord");
 
         this.log(Level.INFO, "Plugin démarré avec succès !");
     }
@@ -29,6 +33,13 @@ public class Hub extends JavaPlugin {
     @Override
     public void onDisable() {
         this.log(Level.INFO, "Plugin arrêté avec succès !");
+    }
+
+    private void registerListeners() {
+        final PluginManager pm = Bukkit.getPluginManager();
+        pm.registerEvents(new JoinEvent(), this);
+        pm.registerEvents(new InteractEvent(), this);
+        pm.registerEvents(new CompassItemClick(), this);
     }
 
     public void log(Level level, String message) {

@@ -1,6 +1,7 @@
 package me.sxyxuse.manager;
 
 import me.sxyxuse.manager.commands.Command;
+import me.sxyxuse.manager.listeners.commands.PreprocessEvent;
 import me.sxyxuse.manager.listeners.players.ChatEvent;
 import me.sxyxuse.manager.listeners.players.JoinEvent;
 import me.sxyxuse.manager.listeners.players.QuitEvent;
@@ -35,7 +36,7 @@ public class Manager extends JavaPlugin {
         this.redisManager = new RedisManager("127.0.0.1", 6379);
         this.redisManager.start();
         this.command = new Command();
-        
+
         this.registerListeners();
 
         this.log(Level.INFO, "Plugin démarré avec succès !");
@@ -53,6 +54,7 @@ public class Manager extends JavaPlugin {
         pm.registerEvents(new JoinEvent(), this);
         pm.registerEvents(new QuitEvent(), this);
         pm.registerEvents(new ChatEvent(), this);
+        pm.registerEvents(new PreprocessEvent(), this);
     }
 
     public void log(Level level, String message) {
