@@ -58,7 +58,7 @@ public class Request {
         }
     }
 
-    public void updateWithHeader(JsonObject jsonObject, String header, String value) throws IOException {
+    public JsonElement updateWithHeader(JsonObject jsonObject, String header, String value) throws IOException {
         try {
             this.httpURLConnection.setRequestMethod("POST");
             this.httpURLConnection.setRequestProperty(header, value);
@@ -70,7 +70,7 @@ public class Request {
             }
             int responseCode = this.httpURLConnection.getResponseCode();
             if (responseCode == 200)
-                gson.fromJson(new Scanner(this.httpURLConnection.getInputStream()).useDelimiter("\\A").next(), JsonObject.class);
+                return gson.fromJson(new Scanner(this.httpURLConnection.getInputStream()).useDelimiter("\\A").next(), JsonObject.class);
             else
                 throw new IOException("HttpResponseCode: " + responseCode);
         } finally {

@@ -14,19 +14,19 @@
       </GradleProjectSettings>
       <GradleProjectSettings>
         <option name="distributionType" value="DEFAULT_WRAPPED" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/manager" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/hub" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$/manager" />
+            <option value="$PROJECT_DIR$/hub" />
           </set>
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
         <option name="distributionType" value="DEFAULT_WRAPPED" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/waintingqueue" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/manager" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$/waintingqueue" />
+            <option value="$PROJECT_DIR$/manager" />
           </set>
         </option>
       </GradleProjectSettings>

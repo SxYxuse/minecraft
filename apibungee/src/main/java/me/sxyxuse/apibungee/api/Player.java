@@ -22,9 +22,9 @@ public class Player {
         }
     }
 
-    public static void updateLastLoginPlayer(JsonObject jsonObject, String header, String value) {
+    public static JsonElement updateLastLoginPlayer(JsonObject jsonObject, String header, String value) {
         try {
-            new Request("/uplayerlastlogin").updateWithHeader(jsonObject, header, value);
+            return new Request("/uplayerlastlogin").updateWithHeader(jsonObject, header, value);
         } catch (IOException e) {
             throw new RuntimeException(e);
         }

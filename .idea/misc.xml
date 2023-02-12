@@ -9,6 +9,7 @@
   <component name="ExternalStorageConfigurationManager" enabled="true" />
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/apibungee" />
+    <file type="web" url="file://$PROJECT_DIR$/hub" />
     <file type="web" url="file://$PROJECT_DIR$/manager" />
     <file type="web" url="file://$PROJECT_DIR$/sxApi" />
     <file type="web" url="file://$PROJECT_DIR$/sxApiBungee" />

@@ -5,6 +5,8 @@
       <module name="_sxAuth" target="18" />
       <module name="_sxAuth2.main" target="18" />
       <module name="_sxAuth2.test" target="18" />
+      <module name="hub_main" target="17" />
+      <module name="hub_test" target="17" />
       <module name="sxApi" target="17" />
       <module name="sxApi.main" target="17" />
       <module name="sxApi.test" target="17" />
@@ -33,6 +35,9 @@
       <module name="sxWarp" target="17" />
       <module name="sxWarp.main" target="17" />
       <module name="sxWarp.test" target="17" />
+      <module name="waintingqueue" target="17" />
+      <module name="waintingqueue.main" target="17" />
+      <module name="waintingqueue.test" target="17" />
     </bytecodeTargetLevel>
   </component>
 </project>
