@@ -10,13 +10,10 @@ import org.bukkit.Bukkit;
 import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
 
-import java.util.HashMap;
-import java.util.UUID;
 import java.util.logging.Level;
 
 public class Manager extends JavaPlugin {
     public static Manager MANAGER;
-    public static HashMap<UUID, Integer> accountsPerms = new HashMap<>();
     public RedisManager redisManager;
     public Command command;
 

@@ -1,6 +1,7 @@
 package me.sxyxuse.manager.redis;
 
 import me.sxyxuse.commons.users.Account;
+import org.bukkit.entity.Player;
 import redis.clients.jedis.UnifiedJedis;
 import redis.clients.jedis.exceptions.JedisConnectionException;
 import redis.clients.jedis.json.Path;
@@ -22,7 +23,7 @@ public class RedisAccount {
 
     public static void addAccountToRedis(Account account) {
         try {
-            jedis.jsonSet(_KEY + account.getUuid().toString(), account.getJson());
+            jedis.jsonSet(_KEY + account.getUuid().toString(), account.getJsonAccount());
         } catch (JedisConnectionException e) {
             e.printStackTrace();
         }
@@ -52,9 +53,18 @@ public class RedisAccount {
         }
     }
 
-    public static String getPseudo(String uuid) {
+    public static Account getAccount(Player player) {
+        final String uuid = player.getUniqueId().toString();
+        final String accountKey = _KEY + uuid;
         try {
-            return (String) jedis.jsonGet(_KEY + uuid, new Path(".pseudo"));
+            final Account account = new Account(player);
+            account.setPseudo((String) jedis.jsonGet(accountKey, new Path(".pseudo")));
+            account.setMoney(convertToInt(jedis.jsonGet(accountKey, new Path(".money"))));
+            account.setPermissions(convertToByte(jedis.jsonGet(accountKey, new Path(".permissions"))));
+            account.setGrade(convertToByte(jedis.jsonGet(accountKey, new Path(".grade"))));
+            account.setGrade_time_left(convertToInt(jedis.jsonGet(accountKey, new Path(".grade_time_left"))));
+
+            return account;
         } catch (JedisConnectionException e) {
             e.printStackTrace();
         }
@@ -62,14 +72,11 @@ public class RedisAccount {
         return null;
     }
 
-    public static int getPermissions(String uuid) {
-        try {
-            return ((Double) jedis.jsonGet(_KEY + uuid, new Path(".permissions"))).intValue();
-        } catch (JedisConnectionException e) {
-            e.printStackTrace();
-        }
-
-        return 0;
+    private static int convertToInt(Object value) {
+        return Double.valueOf(value.toString()).intValue();
     }
 
+    private static byte convertToByte(Object value) {
+        return Double.valueOf(value.toString()).byteValue();
+    }
 }

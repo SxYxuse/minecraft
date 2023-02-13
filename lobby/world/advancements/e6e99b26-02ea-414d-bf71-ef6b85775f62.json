@@ -1,4 +1,10 @@
 {
+  "minecraft:recipes/misc/map": {
+    "criteria": {
+      "has_compass": "2023-02-12 17:00:21 +0100"
+    },
+    "done": true
+  },
   "minecraft:adventure/adventuring_time": {
     "criteria": {
       "minecraft:sparse_jungle": "2023-02-06 16:47:23 +0100",

@@ -13,7 +13,7 @@ public class Account {
     private final ProxiedPlayer proxiedPlayer;
     private final UUID uuid;
     private final String pseudo;
-    private final long money;
+    private final int money;
     private final byte permissions;
     private final byte grade;
     private final int grade_time_left;
@@ -24,7 +24,7 @@ public class Account {
         this.jsonAccount = getFromDb();
         this.uuid = proxiedPlayer.getUniqueId();
         this.pseudo = jsonAccount == null ? proxiedPlayer.getName() : String.valueOf(jsonAccount.get("pseudo"));
-        this.money = jsonAccount == null ? 0 : Long.parseLong(String.valueOf(jsonAccount.get("money")));
+        this.money = jsonAccount == null ? 0 : Integer.parseInt(String.valueOf(jsonAccount.get("money")));
         this.permissions = jsonAccount == null ? 0 : Byte.parseByte(String.valueOf(jsonAccount.get("permissions")));
         this.grade = jsonAccount == null ? 0 : Byte.parseByte(String.valueOf(jsonAccount.get("grade")));
         this.grade_time_left = jsonAccount == null ? 0 : Integer.parseInt(String.valueOf(jsonAccount.get("grade_time_left")));

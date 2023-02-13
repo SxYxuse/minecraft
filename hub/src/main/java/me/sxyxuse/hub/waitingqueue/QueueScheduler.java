@@ -5,6 +5,8 @@ import com.google.common.io.ByteStreams;
 import me.sxyxuse.hub.Hub;
 import me.sxyxuse.manager.redis.RedisWaitingQueue;
 import me.sxyxuse.manager.servers.Servers;
+import net.md_5.bungee.api.ChatMessageType;
+import net.md_5.bungee.api.chat.TextComponent;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;
@@ -14,28 +16,29 @@ import java.util.Objects;
 import java.util.UUID;
 
 public class QueueScheduler extends BukkitRunnable {
-    private static boolean inStart = false;
     private final Hub hub;
     private final Servers server;
+    private final String queueName;
+    private boolean inStart = false;
 
-    public QueueScheduler(Hub hub, Servers server) {
+    public QueueScheduler(Hub hub, Servers server, String queueName) {
         this.hub = hub;
         this.server = server;
+        this.queueName = queueName;
     }
 
-    public static boolean isInStart() {
+    public boolean isInStart() {
         return inStart;
     }
 
-    public static void setInStart(boolean inStart) {
-        QueueScheduler.inStart = inStart;
+    public void setInStart(boolean inStart) {
+        this.inStart = inStart;
     }
 
-    public static void sendNewPositionMessage() {
-        for (int i = 0; i < RedisWaitingQueue.getQueueSize(); i++) {
-            final Player player = Bukkit.getPlayer(UUID.fromString(RedisWaitingQueue.getFromIndex(i)));
-            final UUID uuid = Objects.requireNonNull(player).getUniqueId();
-            Objects.requireNonNull(player).sendMessage(ChatColor.YELLOW + "[" + ChatColor.GOLD + "File d'attente" + ChatColor.YELLOW + "]" + ChatColor.GOLD + " Vous êtes à la position " + ChatColor.YELLOW + (RedisWaitingQueue.getPosInQueue(uuid) + 1) + ChatColor.GOLD + "/" + RedisWaitingQueue.getQueueSize() + ".");
+    public void sendNewPositionMessage() {
+        for (int i = 0; i < RedisWaitingQueue.getQueueSize(this.getQueueName()); i++) {
+            final Player player = Bukkit.getPlayer(UUID.fromString(RedisWaitingQueue.getFromIndex(this.getQueueName(), i)));
+            Objects.requireNonNull(player).spigot().sendMessage(ChatMessageType.ACTION_BAR, new TextComponent(ChatColor.GOLD + " Vous êtes à la position " + ChatColor.YELLOW + (RedisWaitingQueue.getPosInQueue("queue_" + this.server.getBungeeServerName(), player.getUniqueId()) + 1) + ChatColor.GOLD + "/" + RedisWaitingQueue.getQueueSize("queue_" + this.server.getBungeeServerName()) + "."));
         }
     }
 
@@ -46,19 +49,19 @@ public class QueueScheduler extends BukkitRunnable {
             return;
         }
 
-        if (RedisWaitingQueue.getQueueSize() > 0) {
+        if (RedisWaitingQueue.getQueueSize(this.getQueueName()) > 0) {
+            System.out.println(this.getQueueName());
             final ByteArrayDataOutput output = ByteStreams.newDataOutput();
             output.writeUTF("Connect");
             output.writeUTF(this.server.getBungeeServerName());
 
-            final Player player = Bukkit.getPlayer(UUID.fromString(RedisWaitingQueue.getFromIndex(0)));
-            //Objects.requireNonNull(player).sendMessage(ChatColor.YELLOW + "[" + ChatColor.GOLD + "File d'attente" + ChatColor.YELLOW + "]" + ChatColor.GOLD + " Vous avez été retiré de la file d'attente.");
+            final Player player = Bukkit.getPlayer(UUID.fromString(RedisWaitingQueue.getFromIndex(this.getQueueName(), 0)));
             Objects.requireNonNull(player).sendPluginMessage(Hub.getInstance(), "BungeeCord", output.toByteArray());
-            RedisWaitingQueue.removeUuidFromQueue(player.getUniqueId());
+            RedisWaitingQueue.removeUuidFromQueue(this.getQueueName(), player.getUniqueId());
             sendNewPositionMessage();
         } else {
-            inStart = false;
-            RedisWaitingQueue.delQueue("queue");
+            this.setInStart(false);
+            RedisWaitingQueue.delQueue(this.getQueueName());
             cancel();
         }
     }
@@ -69,5 +72,9 @@ public class QueueScheduler extends BukkitRunnable {
 
     public Servers getServers() {
         return server;
+    }
+
+    public String getQueueName() {
+        return queueName;
     }
 }

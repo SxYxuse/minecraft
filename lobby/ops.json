@@ -1,5 +1,11 @@
 [
   {
+    "uuid": "22d05056-7940-41f2-b6e4-b1ed165ceaa0",
+    "name": "__sx",
+    "level": 4,
+    "bypassesPlayerLimit": false
+  },
+  {
     "uuid": "e6e99b26-02ea-414d-bf71-ef6b85775f62",
     "name": "WaggoLeDogo",
     "level": 4,
