@@ -1,5 +1,6 @@
 package me.sxyxuse.manager.scoreboards;
 
+import me.sxyxuse.manager.Manager;
 import org.bukkit.Bukkit;
 import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;
@@ -29,7 +30,7 @@ public class ScoreboardBuilder {
     public static void update(Player player) {
         Scoreboard scoreboard1 = player.getScoreboard();
         Team x = scoreboard1.getTeam("connected");
-        Objects.requireNonNull(x).setPrefix(" §8  En ligne(s) : " + Bukkit.getOnlinePlayers().size() + "/" + Bukkit.getServer().getMaxPlayers());
+        Objects.requireNonNull(x).setPrefix(" §8  En ligne(s) : " + Manager.getNumberOfConnected() + "/" + Bukkit.getServer().getMaxPlayers());
     }
 
     public void addScore(String entry) {
@@ -45,7 +46,7 @@ public class ScoreboardBuilder {
         this.objective.getScore("   ").setScore(this.entries.size() - (this.entries.size() - 1));
         Team connected = this.scoreboard.registerNewTeam("connected");
         connected.addEntry("   ");
-        connected.setPrefix(" §8  En ligne(s) : " + Bukkit.getOnlinePlayers().size() + "/" + Bukkit.getServer().getMaxPlayers());
+        connected.setPrefix(" §8  En ligne(s) : " + Manager.getNumberOfConnected() + "/" + Bukkit.getServer().getMaxPlayers());
 
         return this.scoreboard;
     }

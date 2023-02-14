@@ -14,6 +14,7 @@ import java.util.logging.Level;
 
 public class Manager extends JavaPlugin {
     public static Manager MANAGER;
+    public static int numberOfConnected = 0;
     public RedisManager redisManager;
     public Command command;
 
@@ -21,6 +22,17 @@ public class Manager extends JavaPlugin {
         return MANAGER;
     }
 
+    public static int getNumberOfConnected() {
+        return numberOfConnected;
+    }
+
+    public static void addNumberOfConnected() {
+        Manager.numberOfConnected++;
+    }
+
+    public static void remNumberOfConnected() {
+        Manager.numberOfConnected--;
+    }
 
     public Command getCommand() {
         return command;

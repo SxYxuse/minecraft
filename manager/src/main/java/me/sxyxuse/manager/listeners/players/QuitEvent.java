@@ -1,6 +1,7 @@
 package me.sxyxuse.manager.listeners.players;
 
-import me.sxyxuse.manager.Manager;
+import me.sxyxuse.commons.users.Account;
+import me.sxyxuse.manager.redis.RedisAccount;
 import org.bukkit.ChatColor;
 import org.bukkit.entity.Player;
 import org.bukkit.event.EventHandler;
@@ -11,8 +12,7 @@ public class QuitEvent implements Listener {
     @EventHandler
     public void onQuitEvent(PlayerQuitEvent event) {
         final Player player = event.getPlayer();
-        Manager.accountsPerms.remove(player.getUniqueId());
-
-        event.setQuitMessage(ChatColor.GRAY + "[" + ChatColor.RED + "-" + ChatColor.GRAY + "] " + ChatColor.GOLD + player.getName());
+        Account account = RedisAccount.getAccount(player);
+        event.setQuitMessage(ChatColor.GRAY + "[" + ChatColor.RED + "-" + ChatColor.GRAY + "] " + ChatColor.GOLD + account.getPseudo());
     }
 }

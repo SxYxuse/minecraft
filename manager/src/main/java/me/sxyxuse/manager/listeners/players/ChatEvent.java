@@ -1,7 +1,9 @@
 package me.sxyxuse.manager.listeners.players;
 
+import me.sxyxuse.commons.users.Account;
 import me.sxyxuse.manager.Manager;
 import me.sxyxuse.manager.permissions.Permissions;
+import me.sxyxuse.manager.redis.RedisAccount;
 import net.md_5.bungee.api.chat.ClickEvent;
 import net.md_5.bungee.api.chat.TextComponent;
 import org.bukkit.Bukkit;
@@ -12,6 +14,7 @@ import org.bukkit.event.Listener;
 import org.bukkit.event.player.AsyncPlayerChatEvent;
 
 import java.util.ArrayList;
+import java.util.Objects;
 
 public class ChatEvent implements Listener {
     protected final String ERROR_SPAM = "Merci de patienter une seconde avant de renvoyer un message !";
@@ -20,12 +23,13 @@ public class ChatEvent implements Listener {
     @EventHandler
     public void onChatEvent(AsyncPlayerChatEvent event) {
         final Player player = event.getPlayer();
-        final Permissions perms = Permissions.getByPower(Manager.accountsPerms.get(player.getUniqueId()));
+        final Account account = RedisAccount.getAccount(player);
+        final Permissions perms = Permissions.getByPower(Objects.requireNonNull(account).getPermissions());
         final String prefix = perms.getPrefix();
         final String messageColor = perms.getMessageColor();
         final TextComponent chatContent = new TextComponent();
 
-        chatContent.setClickEvent(new ClickEvent(ClickEvent.Action.SUGGEST_COMMAND, "/test"));
+        chatContent.setClickEvent(new ClickEvent(ClickEvent.Action.RUN_COMMAND, "/test"));
         chatContent.addExtra(prefix + " " + player.getName() + " §7» " + messageColor + event.getMessage());
 
         event.setFormat(perms.getPrefix() + " %1$s §7» %2$s");

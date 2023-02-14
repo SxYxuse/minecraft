@@ -3,6 +3,7 @@ package me.sxyxuse.hub;
 import me.sxyxuse.hub.listeners.compass.InteractEvent;
 import me.sxyxuse.hub.listeners.items.CompassItemClick;
 import me.sxyxuse.hub.listeners.players.JoinEvent;
+import me.sxyxuse.hub.listeners.players.QuitEvent;
 import org.bukkit.Bukkit;
 import org.bukkit.plugin.PluginManager;
 import org.bukkit.plugin.java.JavaPlugin;
@@ -38,6 +39,7 @@ public class Hub extends JavaPlugin {
     private void registerListeners() {
         final PluginManager pm = Bukkit.getPluginManager();
         pm.registerEvents(new JoinEvent(), this);
+        pm.registerEvents(new QuitEvent(), this);
         pm.registerEvents(new InteractEvent(), this);
         pm.registerEvents(new CompassItemClick(), this);
     }

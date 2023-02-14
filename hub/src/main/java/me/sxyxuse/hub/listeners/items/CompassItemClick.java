@@ -20,9 +20,8 @@ import java.util.Objects;
 import java.util.UUID;
 
 public class CompassItemClick implements Listener {
+    public static HashMap<String, Boolean> queueMap = new HashMap<>();
     private final Hub hub = Hub.getInstance();
-    private final String key = "queue_";
-    private final HashMap<String, QueueScheduler> queueMap = new HashMap<>();
 
     @EventHandler
     public void onCompassItemClick(InventoryClickEvent event) {
@@ -42,36 +41,36 @@ public class CompassItemClick implements Listener {
             if (itemStack.getType() == InteractEvent.MINING.getType() || itemStack.getType() == InteractEvent.BUILD.getType())
                 for (Servers server : Servers.values())
                     if (server.getDisplayName().equals(Objects.requireNonNull(itemStack.getItemMeta()).getDisplayName())) {
-                        final String keyName = key + server.getBungeeServerName();
+                        final String keyName = "queue_" + server.getBungeeServerName();
                         final String serverQueueName = server.getQueueName();
                         final String prefix = ChatColor.GOLD + "[" + serverQueueName + "]";
 
-                        if (!this.checkIfUidInQueue(uuid)) {
+                        if (!this.checkIfUidInQueue(keyName, uuid))
                             this.addInQueue(player, prefix, keyName, uuid, server);
-                        } else
+                        else
                             player.sendMessage(ChatColor.RED + "Vous êtes déjà dans une file d'attente !");
                     }
             player.closeInventory();
         }
     }
 
-    private boolean checkIfUidInQueue(UUID uuid) {
-        return RedisWaitingQueue.getPosInQueue(this.getKey() + "mining", uuid) != -1 ||
-                RedisWaitingQueue.getPosInQueue(this.getKey() + "build", uuid) != -1;
+    private boolean checkIfUidInQueue(String keyName, UUID uuid) {
+        return RedisWaitingQueue.getPosInQueue(keyName, uuid) != -1 ||
+                RedisWaitingQueue.getPosInQueue(keyName, uuid) != -1;
     }
 
     private void addInQueue(Player player, String prefix, String keyName, UUID uuid, Servers server) {
         RedisWaitingQueue.addUuidInQueue(keyName, uuid);
         player.sendMessage(prefix + " Vous avez été ajouté à la file d'attente.");
         player.spigot().sendMessage(ChatMessageType.ACTION_BAR, new TextComponent(ChatColor.GOLD + " Vous êtes à la position " + (RedisWaitingQueue.getPosInQueue(keyName, uuid) + 1) + "/" + RedisWaitingQueue.getQueueSize(keyName) + "."));
-        final QueueScheduler queue = new QueueScheduler(hub, server, keyName);
-        if (!queue.isInStart()) {
-            queue.setInStart(true);
-            queue.runTaskTimer(hub, 4 * 20L, 4 * 20L);
-        }
-    }
 
-    private String getKey() {
-        return key;
+        if (!queueMap.containsKey(keyName))
+            queueMap.put(keyName, false);
+
+        if (!queueMap.get(keyName)) {
+            final QueueScheduler queue = new QueueScheduler(hub, server, keyName);
+            queueMap.put(keyName, true);
+            queue.runTaskTimer(hub, 2 * 20L, 2 * 20L);
+        }
     }
 }

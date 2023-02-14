@@ -3,6 +3,7 @@ package me.sxyxuse.hub.waitingqueue;
 import com.google.common.io.ByteArrayDataOutput;
 import com.google.common.io.ByteStreams;
 import me.sxyxuse.hub.Hub;
+import me.sxyxuse.hub.listeners.items.CompassItemClick;
 import me.sxyxuse.manager.redis.RedisWaitingQueue;
 import me.sxyxuse.manager.servers.Servers;
 import net.md_5.bungee.api.ChatMessageType;
@@ -19,20 +20,11 @@ public class QueueScheduler extends BukkitRunnable {
     private final Hub hub;
     private final Servers server;
     private final String queueName;
-    private boolean inStart = false;
 
     public QueueScheduler(Hub hub, Servers server, String queueName) {
         this.hub = hub;
         this.server = server;
         this.queueName = queueName;
-    }
-
-    public boolean isInStart() {
-        return inStart;
-    }
-
-    public void setInStart(boolean inStart) {
-        this.inStart = inStart;
     }
 
     public void sendNewPositionMessage() {
@@ -44,13 +36,7 @@ public class QueueScheduler extends BukkitRunnable {
 
     @Override
     public void run() {
-        if (!isInStart()) {
-            cancel();
-            return;
-        }
-
         if (RedisWaitingQueue.getQueueSize(this.getQueueName()) > 0) {
-            System.out.println(this.getQueueName());
             final ByteArrayDataOutput output = ByteStreams.newDataOutput();
             output.writeUTF("Connect");
             output.writeUTF(this.server.getBungeeServerName());
@@ -60,7 +46,7 @@ public class QueueScheduler extends BukkitRunnable {
             RedisWaitingQueue.removeUuidFromQueue(this.getQueueName(), player.getUniqueId());
             sendNewPositionMessage();
         } else {
-            this.setInStart(false);
+            CompassItemClick.queueMap.replace(queueName, false);
             RedisWaitingQueue.delQueue(this.getQueueName());
             cancel();
         }
