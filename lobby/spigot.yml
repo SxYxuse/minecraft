@@ -52,11 +52,11 @@ players:
   disable-saving: false
 messages:
   whitelist: You are not whitelisted on this server!
-  unknown-command: Commande inconnue. Type "/help" for help.
+  unknown-command: Cette commande n'existe pas.
   server-full: The server is full!
   outdated-client: Outdated client! Please use {0}
   outdated-server: Outdated server! I'm still on {0}
-  restart: Le serveur rédémarre !
+  restart: Le serveur redémarre !
 world-settings:
   default:
     verbose: true

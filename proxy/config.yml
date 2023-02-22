@@ -31,20 +31,21 @@ log_pings: true
 connection_throttle_limit: 3
 server_connect_timeout: 5000
 timeout: 30000
-stats: 37d60d6d-e5cb-4651-9a61-f434dfb089bb
 player_limit: 100
+prevent_proxy_connections: false
 ip_forward: true
 groups:
-  __sx2:
+  ___sx__sx:
   - admin
 remote_ping_timeout: 5000
 connection_throttle: 4000
 log_commands: false
-prevent_proxy_connections: false
+stats: 37d60d6d-e5cb-4651-9a61-f434dfb089bb
 online_mode: true
 forge_support: false
 disabled_commands:
-- null
+- bungee
+- perms
 servers:
   lobby:
     motd: sx Lobby

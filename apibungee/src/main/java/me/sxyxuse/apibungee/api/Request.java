@@ -17,6 +17,7 @@ public class Request {
 
     public Request(String context) throws IOException {
         this.context = context;
+//        URL url = new URL("http://193.70.1.201:8080" + context);
         URL url = new URL("http://127.0.0.1:8080" + context);
         this.httpURLConnection = (HttpURLConnection) url.openConnection();
         this.httpURLConnection.setConnectTimeout(100);

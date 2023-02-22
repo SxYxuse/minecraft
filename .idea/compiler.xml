@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="CompilerConfiguration">
+    <option name="DEFAULT_COMPILER" value="Eclipse" />
     <bytecodeTargetLevel>
       <module name="_sxAuth" target="18" />
       <module name="_sxAuth2.main" target="18" />
       <module name="_sxAuth2.test" target="18" />
       <module name="hub_main" target="17" />
       <module name="hub_test" target="17" />
+      <module name="spigot" target="17" />
+      <module name="spigot-api" target="1.8" />
+      <module name="spigot-parent" target="1.5" />
       <module name="sxApi" target="17" />
       <module name="sxApi.main" target="17" />
       <module name="sxApi.test" target="17" />
